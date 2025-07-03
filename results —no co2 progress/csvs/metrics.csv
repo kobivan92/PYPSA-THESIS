@@ -1,0 +1,12 @@
+cluster,25
+opt,
+planning_horizon,2050
+co2_shadow,0.0
+co2_storage_shadow,0.0
+electricity_price_mean,0.1934251101745043
+electricity_price_std,0.9990811230481408
+electricity_price_zero_hours,0.7680547945205479
+line_volume,3690816.742394323
+line_volume_AC,3690816.742394323
+line_volume_DC,0.0
+total costs,5922672865.782661

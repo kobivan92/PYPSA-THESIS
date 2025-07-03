@@ -1,0 +1,19 @@
+cluster,25
+opt,
+planning_horizon,2050
+carrier,
+AC,0.068190414004949
+H2 Electrolysis,-inf
+H2 Fuel Cell,0.0
+H2 pipeline,-inf
+OCGT,0.0
+PHS,0.0862627504622605
+battery charger,-inf
+battery discharger,0.1818181818181818
+electricity distribution grid,-3.23771729576577
+hydro,0.1575919884237503
+methanolisation,-inf
+onwind,2.270319759122449
+ror,0.3249665172025284
+solar,0.6759090826106801
+solar-hsat,0.0

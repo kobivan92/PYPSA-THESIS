@@ -1,0 +1,4 @@
+INFO:__main__:Dropping technology with costs below 0 EUR billion per year
+INFO:__main__:Total system cost of 6 EUR billion per year
+INFO:__main__:Dropping all technology with energy consumption or production below 50.0 TWh/a
+INFO:__main__:Total energy of 132 TWh/a

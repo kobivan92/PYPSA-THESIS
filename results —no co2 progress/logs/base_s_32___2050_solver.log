@@ -1,0 +1,59 @@
+
+Gurobi 12.0.2 (win64) logging started Wed Jul  2 01:23:38 2025
+
+Set parameter LogFile to value "C:\Users\kobia\Documents\git\pypsa-eur2\results\logs\base_s_32___2050_solver.log"
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 8 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  1e-06
+Crossover  0
+AggFill  0
+PreDual  0
+Seed  123
+Threads  8
+GURO_PAR_BARDENSETHRESH  200
+
+Optimize a model with 43285557 rows, 20446932 columns and 100967199 nonzeros
+Model fingerprint: 0x185c6b06
+Coefficient statistics:
+  Matrix range     [1e-04, 2e+02]
+  Objective range  [9e-03, 2e+06]
+  Bounds range     [1e+00, 6e+08]
+  RHS range        [8e-02, 2e+08]
+Presolve removed 20800838 rows and 1387784 columns (presolve time = 5s)...
+Presolve removed 20818358 rows and 1387784 columns (presolve time = 16s)...
+Presolve removed 20818358 rows and 1387784 columns (presolve time = 20s)...
+Presolve removed 20818358 rows and 1387784 columns (presolve time = 28s)...
+Presolve removed 20820574 rows and 1390000 columns (presolve time = 31s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 38s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 42s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 45s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 52s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 58s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 62s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 65s)...
+Presolve removed 23033514 rows and 3602940 columns (presolve time = 80s)...
+Presolve removed 23033514 rows and 3611699 columns (presolve time = 86s)...
+Presolve removed 23033515 rows and 3611700 columns (presolve time = 100s)...
+Presolve removed 23033515 rows and 3611700 columns (presolve time = 100s)...
+Presolve removed 23033515 rows and 3611700 columns
+Presolve time: 106.52s
+Presolved: 20252042 rows, 16835232 columns, 73323446 nonzeros
+Elapsed ordering time = 47s
+Elapsed ordering time = 51s
+Elapsed ordering time = 55s
+Elapsed ordering time = 60s
+Elapsed ordering time = 65s
+Elapsed ordering time = 70s
+Elapsed ordering time = 75s
+Elapsed ordering time = 80s
+Elapsed ordering time = 85s
+Ordering time: 397.30s
+
+Barrier performed 0 iterations in 510.85 seconds (101.11 work units)
+Optimization exhausted available memory
+

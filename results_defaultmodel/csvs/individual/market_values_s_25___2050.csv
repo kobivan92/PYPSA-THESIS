@@ -1,0 +1,21 @@
+carrier,0
+DAC,-inf
+H2 Electrolysis,-inf
+methanolisation,-inf
+H2 pipeline,-inf
+battery charger,-inf
+electricity distribution grid,-8.49869982041498
+AC,0.11498580912492674
+solar-hsat,0.4285714285714286
+battery discharger,0.8241758241758242
+hydro,0.8542515700290382
+ror,0.8576366214717545
+OCGT,1.0
+urban central solid biomass CHP,1.0
+H2 Fuel Cell,1.0
+urban central gas CHP,1.0
+urban central gas CHP CC,1.0
+urban central solid biomass CHP CC,1.0
+PHS,1.438281831250704
+onwind,1.5661445508025285
+solar,1.856229567824841

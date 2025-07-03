@@ -364,6 +364,7 @@ rule plot_summary:
     output:
         costs=RESULTS + "graphs/costs.svg",
         energy=RESULTS + "graphs/energy.svg",
+        energy_html=RESULTS + "graphs/energy.html",
         balances=RESULTS + "graphs/balances-energy.svg",
     threads: 2
     resources:
@@ -457,6 +458,11 @@ rule plot_base_statistics:
         **{
             f"{plot}_bar": RESULTS
             + f"figures/statistics_{plot}_bar_base_s_{{clusters}}_elec_{{opts}}.pdf"
+            for plot in STATISTICS_BARPLOTS
+        },
+        **{
+            f"{plot}_bar_html": RESULTS
+            + f"figures/statistics_{plot}_bar_base_s_{{clusters}}_elec_{{opts}}.html"
             for plot in STATISTICS_BARPLOTS
         },
         barplots_touch=RESULTS

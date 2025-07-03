@@ -12,6 +12,8 @@ import pypsa
 from packaging.version import Version, parse
 from pypsa.plot import add_legend_lines, add_legend_patches, add_legend_semicircles
 from pypsa.statistics import get_transmission_carriers
+import plotly.graph_objects as go
+import plotly.express as px
 
 from scripts._helpers import (
     PYPSA_V1,
@@ -23,6 +25,64 @@ from scripts.add_electricity import sanitize_carriers
 from scripts.plot_power_network import load_projection
 
 SEMICIRCLE_CORRECTION_FACTOR = 2 if parse(pypsa.__version__) <= Version("0.33.2") else 1
+
+def save_plotly_map_placeholder(filename):
+    with open(filename, 'w') as f:
+        f.write("<html><body><h2>Interactive map not yet supported in Plotly for this plot. Please use the static PDF/SVG.</h2></body></html>")
+
+def plot_balance_map_plotly(n, regions, price, html_out, title="Balance Map"):
+    bus_trace = go.Scattergeo(
+        lon=n.buses['x'],
+        lat=n.buses['y'],
+        text=n.buses.index,
+        mode='markers',
+        marker=dict(size=8, color='blue'),
+        name='Buses'
+    )
+    line_traces = []
+    for _, line in n.lines.iterrows():
+        bus0 = n.buses.loc[line['bus0']]
+        bus1 = n.buses.loc[line['bus1']]
+        line_traces.append(go.Scattergeo(
+            lon=[bus0['x'], bus1['x']],
+            lat=[bus0['y'], bus1['y']],
+            mode='lines',
+            line=dict(width=2, color='gray'),
+            opacity=0.5,
+            showlegend=False
+        ))
+    # Plot regions as choropleth if price is available
+    if price is not None:
+        regions = regions.copy()
+        regions['price'] = price
+        fig = px.choropleth(
+            regions,
+            geojson=regions.geometry,
+            locations=regions.index,
+            color='price',
+            projection='mercator',
+            hover_name=regions.index
+        )
+        for trace in [bus_trace] + line_traces:
+            fig.add_trace(trace)
+        fig.update_geos(fitbounds="locations", visible=False)
+        fig.update_layout(title=title)
+        fig.write_html(html_out)
+        return
+    # If no price, just plot buses and lines
+    fig = go.Figure([bus_trace] + line_traces)
+    fig.update_layout(
+        title=title,
+        geo=dict(
+            scope='europe',
+            projection_type='mercator',
+            showland=True,
+            landcolor='rgb(243, 243, 243)',
+            countrycolor='rgb(204, 204, 204)',
+        ),
+        margin=dict(l=0, r=0, t=40, b=0)
+    )
+    fig.write_html(html_out)
 
 if __name__ == "__main__":
     if "snakemake" not in globals():
@@ -283,4 +343,17 @@ if __name__ == "__main__":
         snakemake.output[0],
         dpi=400,
         bbox_inches="tight",
+    )
+
+    # After saving the Matplotlib map
+    html_fn = list(snakemake.output)[0]
+    html_fn = html_fn.replace('.pdf', '.html').replace('.svg', '.html')
+    save_plotly_map_placeholder(html_fn)
+
+    plot_balance_map_plotly(
+        n,
+        regions,
+        price if 'price' in locals() else None,
+        snakemake.output[0].replace('.pdf', '.html'),
+        title=f"Balance Map: {snakemake.wildcards.carrier}"
     )

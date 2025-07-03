@@ -10,9 +10,49 @@ import matplotlib.pyplot as plt
 import pypsa
 from matplotlib.lines import Line2D
 from pypsa.plot import add_legend_lines
+import plotly.graph_objects as go
 
 from scripts._helpers import set_scenario_config
 from scripts.plot_power_network import load_projection
+
+def save_plotly_map_placeholder(filename):
+    with open(filename, 'w') as f:
+        f.write("<html><body><h2>Interactive map not yet supported in Plotly for this plot. Please use the static PDF/SVG.</h2></body></html>")
+
+def plot_power_network_clustered_plotly(n, html_out, title="Clustered Power Network"):
+    bus_trace = go.Scattergeo(
+        lon=n.buses['x'],
+        lat=n.buses['y'],
+        text=n.buses.index,
+        mode='markers',
+        marker=dict(size=8, color='blue'),
+        name='Buses'
+    )
+    line_traces = []
+    for _, line in n.lines.iterrows():
+        bus0 = n.buses.loc[line['bus0']]
+        bus1 = n.buses.loc[line['bus1']]
+        line_traces.append(go.Scattergeo(
+            lon=[bus0['x'], bus1['x']],
+            lat=[bus0['y'], bus1['y']],
+            mode='lines',
+            line=dict(width=2, color='gray'),
+            opacity=0.5,
+            showlegend=False
+        ))
+    fig = go.Figure([bus_trace] + line_traces)
+    fig.update_layout(
+        title=title,
+        geo=dict(
+            scope='europe',
+            projection_type='mercator',
+            showland=True,
+            landcolor='rgb(243, 243, 243)',
+            countrycolor='rgb(204, 204, 204)',
+        ),
+        margin=dict(l=0, r=0, t=40, b=0)
+    )
+    fig.write_html(html_out)
 
 if __name__ == "__main__":
     if "snakemake" not in globals():
@@ -78,3 +118,14 @@ if __name__ == "__main__":
 
     plt.savefig(snakemake.output.map, bbox_inches="tight")
     plt.close()
+
+    # After saving the Matplotlib map
+    html_fn = list(snakemake.output)[0]
+    html_fn = html_fn.replace('.pdf', '.html').replace('.svg', '.html')
+    save_plotly_map_placeholder(html_fn)
+
+    plot_power_network_clustered_plotly(
+        n,
+        snakemake.output[0].replace('.pdf', '.html'),
+        title="Clustered Power Network"
+    )

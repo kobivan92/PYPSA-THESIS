@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pypsa
 import seaborn as sns
+import plotly.graph_objects as go
 
 from scripts._helpers import configure_logging, get_snapshots, set_scenario_config
 
@@ -83,6 +84,27 @@ def plot_heatmap(
     if fn is not None:
         plt.savefig(fn)
         plt.close()
+        # --- Plotly Output ---
+        html_fn = fn.replace('.pdf', '.html').replace('.png', '.html').replace('.svg', '.html')
+        if df.empty:
+            with open(html_fn, 'w') as f:
+                f.write("<html><body><h2>No data to plot</h2></body></html>")
+            return
+        fig_plotly = go.Figure(data=go.Heatmap(
+            z=df.values,
+            x=[str(i) for i in df.columns],
+            y=[str(i) for i in df.index],
+            colorscale=cmap,
+            colorbar=dict(title=label)
+        ))
+        fig_plotly.update_layout(
+            title=title,
+            xaxis_title="Day of the year",
+            yaxis_title="Hour of the day",
+            height=500,
+            width=1000,
+        )
+        fig_plotly.write_html(html_fn)
 
 
 if __name__ == "__main__":

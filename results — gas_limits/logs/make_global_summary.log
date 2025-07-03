@@ -1,0 +1,14 @@
+INFO:__main__:Creating global summary for costs
+INFO:__main__:Creating global summary for capacities
+INFO:__main__:Creating global summary for energy
+INFO:__main__:Creating global summary for energy_balance
+INFO:__main__:Creating global summary for capacity_factors
+INFO:__main__:Creating global summary for metrics
+INFO:__main__:Creating global summary for curtailment
+INFO:__main__:Creating global summary for prices
+INFO:__main__:Creating global summary for weighted_prices
+INFO:__main__:Creating global summary for market_values
+INFO:__main__:Creating global summary for nodal_costs
+INFO:__main__:Creating global summary for nodal_capacities
+INFO:__main__:Creating global summary for nodal_energy_balance
+INFO:__main__:Creating global summary for nodal_capacity_factors

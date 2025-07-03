@@ -1,0 +1,11 @@
+cluster,25
+opt,
+planning_horizon,2050
+carrier,
+PHS,
+hydro,
+onwind,20.93876675021928
+ror,28.080363913671786
+solar,10.628084744401496
+solar rooftop,7.385844748858447
+solar-hsat,7.487062404870624

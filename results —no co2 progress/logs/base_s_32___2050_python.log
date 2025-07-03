@@ -1,0 +1,37 @@
+WARNING:pypsa.network.io:Importing network from PyPSA version v0.0.0 while current version is v0.35.0. Read the release notes at https://pypsa.readthedocs.io/en/latest/release_notes.html to prepare your network for import.
+INFO:pypsa.network.io:Imported network 'Unnamed Network' has buses, carriers, generators, global_constraints, lines, links, loads, storage_units, stores
+WARNING:pypsa.consistency:The following buses have no attached components, which can break the lopf: {'EU'}
+INFO:__main__:Adding solar potential constraint.
+INFO:linopy.model: Solve problem using Gurobi solver
+INFO:linopy.model:Solver logs written to `results/logs/base_s_32___2050_solver.log`.
+INFO:linopy.model:Solver options:
+ - threads: 8
+ - method: 2
+ - crossover: 0
+ - BarConvTol: 1e-06
+ - Seed: 123
+ - AggFill: 0
+ - PreDual: 0
+ - GURO_PAR_BARDENSETHRESH: 200
+INFO:linopy.io:Writing objective.
+INFO:linopy.io: Writing time: 324.35s
+ERROR:root:Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\kobia\Documents\git\pypsa-eur2\.snakemake\scripts\tmpjovj5g2g.solve_network.py", line 1423, in <module>
+    solve_network(
+  File "C:\Users\kobia\Documents\git\pypsa-eur2\.snakemake\scripts\tmpjovj5g2g.solve_network.py", line 1356, in solve_network
+    status, condition = n.optimize(**kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kobia\miniconda3\envs\pypsa-eur\Lib\site-packages\pypsa\optimization\optimize.py", line 383, in __call__
+    status, condition = m.solve(solver_name=solver_name, **solver_options, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kobia\miniconda3\envs\pypsa-eur\Lib\site-packages\linopy\model.py", line 1206, in solve
+    result = solver.solve_problem_from_file(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kobia\miniconda3\envs\pypsa-eur\Lib\site-packages\linopy\solvers.py", line 1039, in solve_problem_from_file
+    return self._solve(
+           ^^^^^^^^^^^^
+  File "C:\Users\kobia\miniconda3\envs\pypsa-eur\Lib\site-packages\linopy\solvers.py", line 1113, in _solve
+    m.optimize()
+  File "src\\gurobipy\\_model.pyx", line 903, in gurobipy._model.Model.optimize
+gurobipy._exception.GurobiError: Out of memory

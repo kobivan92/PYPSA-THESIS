@@ -17,6 +17,19 @@ from scripts.prepare_sector_network import co2_emissions_year
 logger = logging.getLogger(__name__)
 plt.style.use("bmh")
 
+# Add this mapping at the top of the file
+MPL_TO_HEX = {
+    'k': '#000000', 'b': '#1f77b4', 'g': '#2ca02c', 'r': '#d62728', 'c': '#17becf',
+    'm': '#e377c2', 'y': '#ff7f0e', 'w': '#ffffff'
+}
+
+def mpl_to_plotly_color(color):
+    if color in MPL_TO_HEX:
+        return MPL_TO_HEX[color]
+    if color and color.startswith('#'):
+        return color
+    # fallback to default
+    return '#888888'
 
 # consolidate and rename
 
@@ -88,8 +101,6 @@ def plot_costs():
         df.index.difference(preferred_order)
     )
 
-    # new_columns = df.sum().sort_values().index
-
     fig, ax = plt.subplots(figsize=(12, 8))
 
     df.loc[new_index].T.plot(
@@ -118,6 +129,31 @@ def plot_costs():
 
     fig.savefig(snakemake.output.costs, bbox_inches="tight")
     plt.close(fig)
+
+    # --- Plotly Output ---
+    import plotly.graph_objects as go
+    plotly_df = df.loc[new_index].T
+    fig_plotly = go.Figure()
+    for col in plotly_df.columns:
+        fig_plotly.add_trace(
+            go.Bar(
+                name=col,
+                x=[str(i) for i in plotly_df.index],
+                y=plotly_df[col],
+                marker_color=mpl_to_plotly_color(snakemake.params.plotting["tech_colors"].get(col, None))
+            )
+        )
+    fig_plotly.update_layout(
+        barmode='stack',
+        title="System Cost [EUR billion per year]",
+        xaxis_title="",
+        yaxis_title="System Cost [EUR billion per year]",
+        legend_title="Technology",
+        height=700,
+        width=1100,
+    )
+    html_out = snakemake.output.costs.replace('.svg', '.html')
+    fig_plotly.write_html(html_out)
 
 
 def plot_energy():
@@ -149,6 +185,9 @@ def plot_energy():
         fig, ax = plt.subplots(figsize=(12, 8))
         fig.savefig(snakemake.output.energy, bbox_inches="tight")
         plt.close(fig)
+        # Also create an empty HTML file for Plotly
+        with open(snakemake.output.energy.replace('.svg', '.html'), 'w') as f:
+            f.write("<html><body><h2>No data to plot</h2></body></html>")
         return
 
     new_index = preferred_order.intersection(df.index).append(
@@ -192,6 +231,31 @@ def plot_energy():
 
     fig.savefig(snakemake.output.energy, bbox_inches="tight")
     plt.close(fig)
+
+    # --- Plotly Output ---
+    import plotly.graph_objects as go
+    plotly_df = df.loc[new_index].T
+    fig_plotly = go.Figure()
+    for col in plotly_df.columns:
+        fig_plotly.add_trace(
+            go.Bar(
+                name=col,
+                x=[str(i) for i in plotly_df.index],
+                y=plotly_df[col],
+                marker_color=mpl_to_plotly_color(snakemake.params.plotting["tech_colors"].get(col, None))
+            )
+        )
+    fig_plotly.update_layout(
+        barmode='stack',
+        title="Energy [TWh/a]",
+        xaxis_title="",
+        yaxis_title="Energy [TWh/a]",
+        legend_title="Technology",
+        height=700,
+        width=1100,
+    )
+    html_out = snakemake.output.energy.replace('.svg', '.html')
+    fig_plotly.write_html(html_out)
 
 
 def plot_balances():
@@ -273,6 +337,31 @@ def plot_balances():
             snakemake.output.balances[:-10] + bus_carrier + ".svg", bbox_inches="tight"
         )
         plt.close(fig)
+
+        # --- Plotly Output ---
+        import plotly.graph_objects as go
+        plotly_df = df.loc[new_index].T
+        fig_plotly = go.Figure()
+        for col in plotly_df.columns:
+            fig_plotly.add_trace(
+                go.Bar(
+                    name=col,
+                    x=[str(i) for i in plotly_df.index],
+                    y=plotly_df[col],
+                    marker_color=mpl_to_plotly_color(snakemake.params.plotting["tech_colors"].get(col, None))
+                )
+            )
+        fig_plotly.update_layout(
+            barmode='stack',
+            title="Energy Balance [TWh/a]",
+            xaxis_title="",
+            yaxis_title="Energy Balance [TWh/a]",
+            legend_title="Technology",
+            height=700,
+            width=1100,
+        )
+        html_out = snakemake.output.balances[:-10] + bus_carrier + ".svg".replace('.svg', '.html')
+        fig_plotly.write_html(html_out)
 
 
 def historical_emissions(countries):

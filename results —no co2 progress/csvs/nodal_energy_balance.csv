@@ -1,0 +1,2628 @@
+cluster,,,,25
+opt,,,,
+planning_horizon,,,,2050
+component,carrier,location,bus_carrier,
+Generator,biogas,EU,biogas,0.00159
+Generator,gas,EU,gas,5287007.5064
+Generator,oil primary,EU,oil primary,18507612.6688
+Generator,onwind,AT0 0,AC,63.91612
+Generator,onwind,AT0 1,AC,1e-05
+Generator,onwind,AT0 10,AC,1508.9133
+Generator,onwind,AT0 11,AC,3e-05
+Generator,onwind,AT0 12,AC,5304.06029
+Generator,onwind,AT0 13,AC,0.02524
+Generator,onwind,AT0 14,AC,2348.6718
+Generator,onwind,AT0 15,AC,0.00829
+Generator,onwind,AT0 16,AC,1e-05
+Generator,onwind,AT0 17,AC,119.72291
+Generator,onwind,AT0 18,AC,2e-05
+Generator,onwind,AT0 19,AC,0.00013
+Generator,onwind,AT0 2,AC,25921.8163
+Generator,onwind,AT0 20,AC,1079.69487
+Generator,onwind,AT0 21,AC,1e-05
+Generator,onwind,AT0 22,AC,0.01267
+Generator,onwind,AT0 23,AC,59074.29512
+Generator,onwind,AT0 24,AC,0.00064
+Generator,onwind,AT0 3,AC,0.00042
+Generator,onwind,AT0 4,AC,0.00091
+Generator,onwind,AT0 5,AC,2e-05
+Generator,onwind,AT0 6,AC,4e-05
+Generator,onwind,AT0 7,AC,1e-05
+Generator,onwind,AT0 8,AC,6803.87618
+Generator,onwind,AT0 9,AC,9.95755
+Generator,ror,AT0 0,AC,17926.0218
+Generator,ror,AT0 1,AC,296637.99506
+Generator,ror,AT0 10,AC,320167.84316
+Generator,ror,AT0 11,AC,127344.16144
+Generator,ror,AT0 12,AC,168437.47353
+Generator,ror,AT0 13,AC,57783.32
+Generator,ror,AT0 14,AC,427112.39087
+Generator,ror,AT0 15,AC,574940.12602
+Generator,ror,AT0 16,AC,89340.16989
+Generator,ror,AT0 18,AC,1237837.01186
+Generator,ror,AT0 19,AC,155260.64219
+Generator,ror,AT0 20,AC,1123792.81633
+Generator,ror,AT0 23,AC,1159612.10035
+Generator,ror,AT0 24,AC,860279.03485
+Generator,ror,AT0 3,AC,13747.23511
+Generator,ror,AT0 4,AC,1185913.89626
+Generator,ror,AT0 5,AC,46344.51658
+Generator,ror,AT0 6,AC,296573.68215
+Generator,ror,AT0 7,AC,17859.36352
+Generator,ror,AT0 8,AC,369001.57129
+Generator,rural heat vent,AT0 0,rural heat,-2948585.38125
+Generator,rural heat vent,AT0 1,rural heat,-893689.89735
+Generator,rural heat vent,AT0 10,rural heat,-522385.55668
+Generator,rural heat vent,AT0 11,rural heat,-1393967.38447
+Generator,rural heat vent,AT0 12,rural heat,-235032.49163
+Generator,rural heat vent,AT0 13,rural heat,-1408588.1552
+Generator,rural heat vent,AT0 14,rural heat,-3145817.57612
+Generator,rural heat vent,AT0 15,rural heat,-2303096.70119
+Generator,rural heat vent,AT0 16,rural heat,-7094479.10729
+Generator,rural heat vent,AT0 17,rural heat,-6694574.66151
+Generator,rural heat vent,AT0 18,rural heat,-717692.78731
+Generator,rural heat vent,AT0 19,rural heat,-569251.10023
+Generator,rural heat vent,AT0 2,rural heat,-551804.04895
+Generator,rural heat vent,AT0 20,rural heat,-943412.2804
+Generator,rural heat vent,AT0 21,rural heat,-597675.44052
+Generator,rural heat vent,AT0 22,rural heat,-1135892.94743
+Generator,rural heat vent,AT0 23,rural heat,-2.94988
+Generator,rural heat vent,AT0 24,rural heat,-92464.53519
+Generator,rural heat vent,AT0 3,rural heat,-221722.35609
+Generator,rural heat vent,AT0 4,rural heat,-9.51613
+Generator,rural heat vent,AT0 5,rural heat,-205435.66883
+Generator,rural heat vent,AT0 6,rural heat,-1663383.60131
+Generator,rural heat vent,AT0 7,rural heat,-605763.61442
+Generator,rural heat vent,AT0 8,rural heat,-2078438.18444
+Generator,rural heat vent,AT0 9,rural heat,-1463677.08438
+Generator,rural solar thermal,AT0 0,rural heat,0.00081
+Generator,rural solar thermal,AT0 1,rural heat,0.00092
+Generator,rural solar thermal,AT0 10,rural heat,0.00078
+Generator,rural solar thermal,AT0 11,rural heat,0.00082
+Generator,rural solar thermal,AT0 12,rural heat,0.00084
+Generator,rural solar thermal,AT0 13,rural heat,0.0008
+Generator,rural solar thermal,AT0 14,rural heat,0.00069
+Generator,rural solar thermal,AT0 15,rural heat,0.00079
+Generator,rural solar thermal,AT0 16,rural heat,0.00087
+Generator,rural solar thermal,AT0 17,rural heat,0.0008
+Generator,rural solar thermal,AT0 18,rural heat,0.00081
+Generator,rural solar thermal,AT0 19,rural heat,0.0008
+Generator,rural solar thermal,AT0 2,rural heat,0.00085
+Generator,rural solar thermal,AT0 20,rural heat,0.00073
+Generator,rural solar thermal,AT0 21,rural heat,0.00087
+Generator,rural solar thermal,AT0 22,rural heat,0.00075
+Generator,rural solar thermal,AT0 23,rural heat,0.00075
+Generator,rural solar thermal,AT0 24,rural heat,0.00074
+Generator,rural solar thermal,AT0 3,rural heat,0.00074
+Generator,rural solar thermal,AT0 4,rural heat,0.00074
+Generator,rural solar thermal,AT0 5,rural heat,0.00082
+Generator,rural solar thermal,AT0 6,rural heat,0.00084
+Generator,rural solar thermal,AT0 7,rural heat,0.00079
+Generator,rural solar thermal,AT0 8,rural heat,0.00072
+Generator,rural solar thermal,AT0 9,rural heat,0.00083
+Generator,solar,AT0 0,AC,25491.20031
+Generator,solar,AT0 1,AC,9.48976
+Generator,solar,AT0 10,AC,18769.35897
+Generator,solar,AT0 11,AC,9.75807
+Generator,solar,AT0 12,AC,7655.10489
+Generator,solar,AT0 13,AC,14115.3952
+Generator,solar,AT0 14,AC,14332.44827
+Generator,solar,AT0 15,AC,9605.7049
+Generator,solar,AT0 16,AC,34116.52159
+Generator,solar,AT0 17,AC,15709.11527
+Generator,solar,AT0 18,AC,18737.61104
+Generator,solar,AT0 19,AC,16204.6527
+Generator,solar,AT0 2,AC,35286.8579
+Generator,solar,AT0 20,AC,9594.99186
+Generator,solar,AT0 21,AC,10.70674
+Generator,solar,AT0 22,AC,12652.90361
+Generator,solar,AT0 23,AC,29112.10519
+Generator,solar,AT0 24,AC,10740.46681
+Generator,solar,AT0 3,AC,10384.5398
+Generator,solar,AT0 4,AC,18978.68656
+Generator,solar,AT0 5,AC,9.01871
+Generator,solar,AT0 6,AC,17895.26097
+Generator,solar,AT0 7,AC,8.72885
+Generator,solar,AT0 8,AC,28841.39444
+Generator,solar,AT0 9,AC,11599.75289
+Generator,solar rooftop,AT0 0,low voltage,0.00379
+Generator,solar rooftop,AT0 1,low voltage,0.00315
+Generator,solar rooftop,AT0 10,low voltage,0.00356
+Generator,solar rooftop,AT0 11,low voltage,0.00327
+Generator,solar rooftop,AT0 12,low voltage,0.00357
+Generator,solar rooftop,AT0 13,low voltage,0.00316
+Generator,solar rooftop,AT0 14,low voltage,0.00293
+Generator,solar rooftop,AT0 15,low voltage,0.00235
+Generator,solar rooftop,AT0 16,low voltage,0.0028
+Generator,solar rooftop,AT0 17,low voltage,0.0028
+Generator,solar rooftop,AT0 18,low voltage,0.00317
+Generator,solar rooftop,AT0 19,low voltage,0.00355
+Generator,solar rooftop,AT0 2,low voltage,0.00339
+Generator,solar rooftop,AT0 20,low voltage,0.0022
+Generator,solar rooftop,AT0 21,low voltage,0.00315
+Generator,solar rooftop,AT0 22,low voltage,0.00252
+Generator,solar rooftop,AT0 23,low voltage,0.00395
+Generator,solar rooftop,AT0 24,low voltage,0.00302
+Generator,solar rooftop,AT0 3,low voltage,0.00289
+Generator,solar rooftop,AT0 4,low voltage,0.00343
+Generator,solar rooftop,AT0 5,low voltage,0.00337
+Generator,solar rooftop,AT0 6,low voltage,0.00307
+Generator,solar rooftop,AT0 7,low voltage,0.00263
+Generator,solar rooftop,AT0 8,low voltage,0.00335
+Generator,solar rooftop,AT0 9,low voltage,0.00317
+Generator,solar-hsat,AT0 0,AC,0.00379
+Generator,solar-hsat,AT0 1,AC,0.00438
+Generator,solar-hsat,AT0 10,AC,0.0036
+Generator,solar-hsat,AT0 11,AC,0.00424
+Generator,solar-hsat,AT0 12,AC,0.00374
+Generator,solar-hsat,AT0 13,AC,0.00384
+Generator,solar-hsat,AT0 14,AC,0.00356
+Generator,solar-hsat,AT0 15,AC,0.00393
+Generator,solar-hsat,AT0 16,AC,0.0044
+Generator,solar-hsat,AT0 17,AC,0.00384
+Generator,solar-hsat,AT0 18,AC,0.00396
+Generator,solar-hsat,AT0 19,AC,0.00383
+Generator,solar-hsat,AT0 2,AC,0.00378
+Generator,solar-hsat,AT0 20,AC,0.00356
+Generator,solar-hsat,AT0 21,AC,0.00453
+Generator,solar-hsat,AT0 22,AC,0.00387
+Generator,solar-hsat,AT0 23,AC,0.00369
+Generator,solar-hsat,AT0 24,AC,0.00349
+Generator,solar-hsat,AT0 3,AC,0.00353
+Generator,solar-hsat,AT0 4,AC,0.00372
+Generator,solar-hsat,AT0 5,AC,0.00421
+Generator,solar-hsat,AT0 6,AC,0.00403
+Generator,solar-hsat,AT0 7,AC,0.00415
+Generator,solar-hsat,AT0 8,AC,0.00361
+Generator,solar-hsat,AT0 9,AC,0.00382
+Generator,solid biomass,EU,solid biomass,27990000.4156
+Generator,urban central heat vent,AT0 0,urban central heat,-48376.26014
+Generator,urban central heat vent,AT0 1,urban central heat,-11341335.08604
+Generator,urban central heat vent,AT0 10,urban central heat,-315254.61316
+Generator,urban central heat vent,AT0 11,urban central heat,-4026729.68006
+Generator,urban central heat vent,AT0 12,urban central heat,-14362853.94058
+Generator,urban central heat vent,AT0 13,urban central heat,-5863991.06188
+Generator,urban central heat vent,AT0 18,urban central heat,-4823323.32868
+Generator,urban central heat vent,AT0 19,urban central heat,-2260081.81016
+Generator,urban central heat vent,AT0 2,urban central heat,-498286.15523
+Generator,urban central heat vent,AT0 20,urban central heat,-774979.67341
+Generator,urban central heat vent,AT0 21,urban central heat,-3195445.46526
+Generator,urban central heat vent,AT0 23,urban central heat,-2.38924
+Generator,urban central heat vent,AT0 24,urban central heat,-149532.27181
+Generator,urban central heat vent,AT0 3,urban central heat,-4749601.81053
+Generator,urban central heat vent,AT0 4,urban central heat,-7.06306
+Generator,urban central heat vent,AT0 5,urban central heat,-13974508.0692
+Generator,urban central heat vent,AT0 8,urban central heat,-3915681.02204
+Generator,urban central heat vent,AT0 9,urban central heat,-812143.99324
+Generator,urban central solar thermal,AT0 0,urban central heat,0.00124
+Generator,urban central solar thermal,AT0 1,urban central heat,0.00142
+Generator,urban central solar thermal,AT0 10,urban central heat,0.00125
+Generator,urban central solar thermal,AT0 11,urban central heat,0.00129
+Generator,urban central solar thermal,AT0 12,urban central heat,0.00131
+Generator,urban central solar thermal,AT0 13,urban central heat,0.00125
+Generator,urban central solar thermal,AT0 18,urban central heat,0.00125
+Generator,urban central solar thermal,AT0 19,urban central heat,0.00127
+Generator,urban central solar thermal,AT0 2,urban central heat,0.00132
+Generator,urban central solar thermal,AT0 20,urban central heat,0.00115
+Generator,urban central solar thermal,AT0 21,urban central heat,0.00136
+Generator,urban central solar thermal,AT0 23,urban central heat,0.00122
+Generator,urban central solar thermal,AT0 24,urban central heat,0.00117
+Generator,urban central solar thermal,AT0 3,urban central heat,0.00117
+Generator,urban central solar thermal,AT0 4,urban central heat,0.00115
+Generator,urban central solar thermal,AT0 5,urban central heat,0.00126
+Generator,urban central solar thermal,AT0 8,urban central heat,0.00113
+Generator,urban central solar thermal,AT0 9,urban central heat,0.00131
+Generator,urban decentral heat vent,AT0 0,urban decentral heat,-796213.334
+Generator,urban decentral heat vent,AT0 1,urban decentral heat,-249199.91463
+Generator,urban decentral heat vent,AT0 10,urban decentral heat,-1370990.11237
+Generator,urban decentral heat vent,AT0 11,urban decentral heat,-1393.26585
+Generator,urban decentral heat vent,AT0 12,urban decentral heat,-3640979.5795
+Generator,urban decentral heat vent,AT0 13,urban decentral heat,-220437.69257
+Generator,urban decentral heat vent,AT0 14,urban decentral heat,-619728.77371
+Generator,urban decentral heat vent,AT0 15,urban decentral heat,-38.91954
+Generator,urban decentral heat vent,AT0 16,urban decentral heat,-137.91705
+Generator,urban decentral heat vent,AT0 17,urban decentral heat,-38.9609
+Generator,urban decentral heat vent,AT0 18,urban decentral heat,-293342.72434
+Generator,urban decentral heat vent,AT0 19,urban decentral heat,-1704045.70666
+Generator,urban decentral heat vent,AT0 2,urban decentral heat,-1581182.06147
+Generator,urban decentral heat vent,AT0 20,urban decentral heat,-194351.05269
+Generator,urban decentral heat vent,AT0 21,urban decentral heat,-197915.33045
+Generator,urban decentral heat vent,AT0 22,urban decentral heat,-1633204.03871
+Generator,urban decentral heat vent,AT0 23,urban decentral heat,-2.81266
+Generator,urban decentral heat vent,AT0 24,urban decentral heat,-897296.62305
+Generator,urban decentral heat vent,AT0 3,urban decentral heat,-1107767.43215
+Generator,urban decentral heat vent,AT0 4,urban decentral heat,-25946.27205
+Generator,urban decentral heat vent,AT0 5,urban decentral heat,-565166.55573
+Generator,urban decentral heat vent,AT0 6,urban decentral heat,-5253249.59876
+Generator,urban decentral heat vent,AT0 7,urban decentral heat,-3783987.47682
+Generator,urban decentral heat vent,AT0 8,urban decentral heat,-1979784.32956
+Generator,urban decentral heat vent,AT0 9,urban decentral heat,-735498.91088
+Generator,urban decentral solar thermal,AT0 0,urban decentral heat,0.00079
+Generator,urban decentral solar thermal,AT0 1,urban decentral heat,0.0009
+Generator,urban decentral solar thermal,AT0 10,urban decentral heat,0.00076
+Generator,urban decentral solar thermal,AT0 11,urban decentral heat,0.0008
+Generator,urban decentral solar thermal,AT0 12,urban decentral heat,0.00081
+Generator,urban decentral solar thermal,AT0 13,urban decentral heat,0.00078
+Generator,urban decentral solar thermal,AT0 14,urban decentral heat,0.00067
+Generator,urban decentral solar thermal,AT0 15,urban decentral heat,0.00077
+Generator,urban decentral solar thermal,AT0 16,urban decentral heat,0.00085
+Generator,urban decentral solar thermal,AT0 17,urban decentral heat,0.00078
+Generator,urban decentral solar thermal,AT0 18,urban decentral heat,0.00079
+Generator,urban decentral solar thermal,AT0 19,urban decentral heat,0.00077
+Generator,urban decentral solar thermal,AT0 2,urban decentral heat,0.00082
+Generator,urban decentral solar thermal,AT0 20,urban decentral heat,0.00071
+Generator,urban decentral solar thermal,AT0 21,urban decentral heat,0.00085
+Generator,urban decentral solar thermal,AT0 22,urban decentral heat,0.00074
+Generator,urban decentral solar thermal,AT0 23,urban decentral heat,0.00073
+Generator,urban decentral solar thermal,AT0 24,urban decentral heat,0.00072
+Generator,urban decentral solar thermal,AT0 3,urban decentral heat,0.00072
+Generator,urban decentral solar thermal,AT0 4,urban decentral heat,0.00072
+Generator,urban decentral solar thermal,AT0 5,urban decentral heat,0.0008
+Generator,urban decentral solar thermal,AT0 6,urban decentral heat,0.00082
+Generator,urban decentral solar thermal,AT0 7,urban decentral heat,0.00077
+Generator,urban decentral solar thermal,AT0 8,urban decentral heat,0.0007
+Generator,urban decentral solar thermal,AT0 9,urban decentral heat,0.0008
+Line,AC,AT0 0,AC,1385180.07208
+Line,AC,AT0 1,AC,-4326568.24329
+Line,AC,AT0 10,AC,-340426.53124
+Line,AC,AT0 11,AC,-345591.95726
+Line,AC,AT0 12,AC,-191469.13852
+Line,AC,AT0 13,AC,-100237.9234
+Line,AC,AT0 14,AC,-443793.04327
+Line,AC,AT0 15,AC,-705613.46657
+Line,AC,AT0 16,AC,-1497091.78503
+Line,AC,AT0 17,AC,-15828.3318
+Line,AC,AT0 18,AC,-1475395.89019
+Line,AC,AT0 19,AC,-620588.53703
+Line,AC,AT0 2,AC,-61208.06772
+Line,AC,AT0 20,AC,-1134467.1774
+Line,AC,AT0 21,AC,-24364.7519
+Line,AC,AT0 22,AC,-138224.76511
+Line,AC,AT0 23,AC,4316566.25288
+Line,AC,AT0 24,AC,6082134.93429
+Line,AC,AT0 3,AC,-285086.29675
+Line,AC,AT0 4,AC,1695042.03155
+Line,AC,AT0 5,AC,-46635.4448
+Line,AC,AT0 6,AC,-794773.65736
+Line,AC,AT0 7,AC,-515574.30836
+Line,AC,AT0 8,AC,-404646.4551
+Line,AC,AT0 9,AC,-11608.83688
+Link,BEV charger,AT0 0,EV battery,1641306.36157
+Link,BEV charger,AT0 0,low voltage,-1823673.73508
+Link,BEV charger,AT0 1,EV battery,592978.54755
+Link,BEV charger,AT0 1,low voltage,-658865.05284
+Link,BEV charger,AT0 10,EV battery,1069259.11461
+Link,BEV charger,AT0 10,low voltage,-1188065.6829
+Link,BEV charger,AT0 11,EV battery,1375041.11425
+Link,BEV charger,AT0 11,low voltage,-1527823.46028
+Link,BEV charger,AT0 12,EV battery,3277881.1756
+Link,BEV charger,AT0 12,low voltage,-3642090.19511
+Link,BEV charger,AT0 13,EV battery,1562542.37683
+Link,BEV charger,AT0 13,low voltage,-1736158.19648
+Link,BEV charger,AT0 14,EV battery,2836566.70667
+Link,BEV charger,AT0 14,low voltage,-3151740.78519
+Link,BEV charger,AT0 15,EV battery,724896.27976
+Link,BEV charger,AT0 15,low voltage,-805440.31085
+Link,BEV charger,AT0 16,EV battery,647861.93721
+Link,BEV charger,AT0 16,low voltage,-719846.5969
+Link,BEV charger,AT0 17,EV battery,970289.85575
+Link,BEV charger,AT0 17,low voltage,-1078099.83973
+Link,BEV charger,AT0 18,EV battery,1255567.65021
+Link,BEV charger,AT0 18,low voltage,-1395075.16691
+Link,BEV charger,AT0 19,EV battery,1556034.48928
+Link,BEV charger,AT0 19,low voltage,-1728927.21031
+Link,BEV charger,AT0 2,EV battery,723044.8631
+Link,BEV charger,AT0 2,low voltage,-803383.18122
+Link,BEV charger,AT0 20,EV battery,1103335.03106
+Link,BEV charger,AT0 20,low voltage,-1225927.81228
+Link,BEV charger,AT0 21,EV battery,1159499.3847
+Link,BEV charger,AT0 21,low voltage,-1288332.64967
+Link,BEV charger,AT0 22,EV battery,868930.88221
+Link,BEV charger,AT0 22,low voltage,-965478.75801
+Link,BEV charger,AT0 23,EV battery,3222032.60936
+Link,BEV charger,AT0 23,low voltage,-3580036.23262
+Link,BEV charger,AT0 24,EV battery,590904.81673
+Link,BEV charger,AT0 24,low voltage,-656560.90748
+Link,BEV charger,AT0 3,EV battery,1951078.95385
+Link,BEV charger,AT0 3,low voltage,-2167865.50427
+Link,BEV charger,AT0 4,EV battery,879225.86433
+Link,BEV charger,AT0 4,low voltage,-976917.62703
+Link,BEV charger,AT0 5,EV battery,1061069.06044
+Link,BEV charger,AT0 5,low voltage,-1178965.62271
+Link,BEV charger,AT0 6,EV battery,1186098.77467
+Link,BEV charger,AT0 6,low voltage,-1317887.52742
+Link,BEV charger,AT0 7,EV battery,658168.46234
+Link,BEV charger,AT0 7,low voltage,-731298.29148
+Link,BEV charger,AT0 8,EV battery,5947044.54199
+Link,BEV charger,AT0 8,low voltage,-6607827.26888
+Link,BEV charger,AT0 9,EV battery,981304.47702
+Link,BEV charger,AT0 9,low voltage,-1090338.3078
+Link,DAC,AT0 0,AC,-0.00294
+Link,DAC,AT0 0,urban central heat,-0.00372
+Link,DAC,AT0 0,urban decentral heat,-0.00376
+Link,DAC,AT0 1,AC,-0.00298
+Link,DAC,AT0 1,urban central heat,-0.00381
+Link,DAC,AT0 1,urban decentral heat,-0.00378
+Link,DAC,AT0 10,AC,-0.00268
+Link,DAC,AT0 10,urban central heat,-0.0034
+Link,DAC,AT0 10,urban decentral heat,-0.00341
+Link,DAC,AT0 11,AC,-0.003
+Link,DAC,AT0 11,urban central heat,-0.00384
+Link,DAC,AT0 11,urban decentral heat,-0.00381
+Link,DAC,AT0 12,AC,-0.00297
+Link,DAC,AT0 12,urban central heat,-0.0038
+Link,DAC,AT0 12,urban decentral heat,-0.00377
+Link,DAC,AT0 13,AC,-0.00301
+Link,DAC,AT0 13,urban central heat,-0.00384
+Link,DAC,AT0 13,urban decentral heat,-0.00382
+Link,DAC,AT0 14,AC,-0.00149
+Link,DAC,AT0 14,urban decentral heat,-0.00379
+Link,DAC,AT0 15,AC,-0.0015
+Link,DAC,AT0 15,urban decentral heat,-0.00382
+Link,DAC,AT0 16,AC,-0.00151
+Link,DAC,AT0 16,urban decentral heat,-0.00383
+Link,DAC,AT0 17,AC,-0.0015
+Link,DAC,AT0 17,urban decentral heat,-0.00382
+Link,DAC,AT0 18,AC,-0.00301
+Link,DAC,AT0 18,urban central heat,-0.00384
+Link,DAC,AT0 18,urban decentral heat,-0.00382
+Link,DAC,AT0 19,AC,-0.003
+Link,DAC,AT0 19,urban central heat,-0.00382
+Link,DAC,AT0 19,urban decentral heat,-0.00382
+Link,DAC,AT0 2,AC,-0.00291
+Link,DAC,AT0 2,urban central heat,-0.00369
+Link,DAC,AT0 2,urban decentral heat,-0.00372
+Link,DAC,AT0 20,AC,-0.003
+Link,DAC,AT0 20,urban central heat,-0.00383
+Link,DAC,AT0 20,urban decentral heat,-0.00382
+Link,DAC,AT0 21,AC,-0.00302
+Link,DAC,AT0 21,urban central heat,-0.00385
+Link,DAC,AT0 21,urban decentral heat,-0.00382
+Link,DAC,AT0 22,AC,-0.00151
+Link,DAC,AT0 22,urban decentral heat,-0.00385
+Link,DAC,AT0 23,AC,-0.00275
+Link,DAC,AT0 23,urban central heat,-0.00349
+Link,DAC,AT0 23,urban decentral heat,-0.00349
+Link,DAC,AT0 24,AC,-0.00273
+Link,DAC,AT0 24,urban central heat,-0.00346
+Link,DAC,AT0 24,urban decentral heat,-0.00348
+Link,DAC,AT0 3,AC,-0.00301
+Link,DAC,AT0 3,urban central heat,-0.00383
+Link,DAC,AT0 3,urban decentral heat,-0.00382
+Link,DAC,AT0 4,AC,-0.0029
+Link,DAC,AT0 4,urban central heat,-0.00368
+Link,DAC,AT0 4,urban decentral heat,-0.0037
+Link,DAC,AT0 5,AC,-0.00299
+Link,DAC,AT0 5,urban central heat,-0.00382
+Link,DAC,AT0 5,urban decentral heat,-0.00379
+Link,DAC,AT0 6,AC,-0.00151
+Link,DAC,AT0 6,urban decentral heat,-0.00384
+Link,DAC,AT0 7,AC,-0.00151
+Link,DAC,AT0 7,urban decentral heat,-0.00383
+Link,DAC,AT0 8,AC,-0.00299
+Link,DAC,AT0 8,urban central heat,-0.00382
+Link,DAC,AT0 8,urban decentral heat,-0.00379
+Link,DAC,AT0 9,AC,-0.00301
+Link,DAC,AT0 9,urban central heat,-0.00383
+Link,DAC,AT0 9,urban decentral heat,-0.00383
+Link,DAC,EU,co2,-0.11529
+Link,DAC,EU,co2 stored,0.11529
+Link,Fischer-Tropsch,AT0 0,H2,-0.01937
+Link,Fischer-Tropsch,AT0 0,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 1,H2,-0.01919
+Link,Fischer-Tropsch,AT0 1,urban central heat,0.00072
+Link,Fischer-Tropsch,AT0 10,H2,-0.0195
+Link,Fischer-Tropsch,AT0 10,urban central heat,0.00074
+Link,Fischer-Tropsch,AT0 11,H2,-0.01921
+Link,Fischer-Tropsch,AT0 11,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 12,H2,-0.01927
+Link,Fischer-Tropsch,AT0 12,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 13,H2,-0.01916
+Link,Fischer-Tropsch,AT0 13,urban central heat,0.00072
+Link,Fischer-Tropsch,AT0 14,H2,-0.02103
+Link,Fischer-Tropsch,AT0 15,H2,-0.02135
+Link,Fischer-Tropsch,AT0 16,H2,-0.0214
+Link,Fischer-Tropsch,AT0 17,H2,-0.02131
+Link,Fischer-Tropsch,AT0 18,H2,-0.01925
+Link,Fischer-Tropsch,AT0 18,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 19,H2,-0.01923
+Link,Fischer-Tropsch,AT0 19,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 2,H2,-0.01937
+Link,Fischer-Tropsch,AT0 2,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 20,H2,-0.01916
+Link,Fischer-Tropsch,AT0 20,urban central heat,0.00072
+Link,Fischer-Tropsch,AT0 21,H2,-0.01922
+Link,Fischer-Tropsch,AT0 21,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 22,H2,-0.02141
+Link,Fischer-Tropsch,AT0 23,H2,-0.01947
+Link,Fischer-Tropsch,AT0 23,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 24,H2,-0.01926
+Link,Fischer-Tropsch,AT0 24,urban central heat,0.00073
+Link,Fischer-Tropsch,AT0 3,H2,-0.01918
+Link,Fischer-Tropsch,AT0 3,urban central heat,0.00072
+Link,Fischer-Tropsch,AT0 4,H2,-0.01888
+Link,Fischer-Tropsch,AT0 4,urban central heat,0.00071
+Link,Fischer-Tropsch,AT0 5,H2,-0.01917
+Link,Fischer-Tropsch,AT0 5,urban central heat,0.00072
+Link,Fischer-Tropsch,AT0 6,H2,-0.02135
+Link,Fischer-Tropsch,AT0 7,H2,-0.02141
+Link,Fischer-Tropsch,AT0 8,H2,-0.01919
+Link,Fischer-Tropsch,AT0 8,urban central heat,0.00072
+Link,Fischer-Tropsch,AT0 9,H2,-0.01923
+Link,Fischer-Tropsch,AT0 9,urban central heat,0.00073
+Link,Fischer-Tropsch,EU,co2 stored,-0.1018
+Link,Fischer-Tropsch,EU,oil,0.39596
+Link,H2 Electrolysis,AT0 0,AC,-2100199.10434
+Link,H2 Electrolysis,AT0 0,H2,1305693.78317
+Link,H2 Electrolysis,AT0 0,urban central heat,114618.36612
+Link,H2 Electrolysis,AT0 1,AC,-11.95551
+Link,H2 Electrolysis,AT0 1,H2,7.43274
+Link,H2 Electrolysis,AT0 1,urban central heat,0.65247
+Link,H2 Electrolysis,AT0 10,AC,-3.28983
+Link,H2 Electrolysis,AT0 10,H2,2.04529
+Link,H2 Electrolysis,AT0 10,urban central heat,0.17954
+Link,H2 Electrolysis,AT0 11,AC,-10.43889
+Link,H2 Electrolysis,AT0 11,H2,6.48985
+Link,H2 Electrolysis,AT0 11,urban central heat,0.5697
+Link,H2 Electrolysis,AT0 12,AC,-0.25186
+Link,H2 Electrolysis,AT0 12,H2,0.15658
+Link,H2 Electrolysis,AT0 12,urban central heat,0.01375
+Link,H2 Electrolysis,AT0 13,AC,-151629.33061
+Link,H2 Electrolysis,AT0 13,H2,94267.95484
+Link,H2 Electrolysis,AT0 13,urban central heat,8275.17072
+Link,H2 Electrolysis,AT0 14,AC,-0.42251
+Link,H2 Electrolysis,AT0 14,H2,0.26267
+Link,H2 Electrolysis,AT0 15,AC,-0.54945
+Link,H2 Electrolysis,AT0 15,H2,0.34159
+Link,H2 Electrolysis,AT0 16,AC,-4.57101
+Link,H2 Electrolysis,AT0 16,H2,2.8418
+Link,H2 Electrolysis,AT0 17,AC,-0.39746
+Link,H2 Electrolysis,AT0 17,H2,0.2471
+Link,H2 Electrolysis,AT0 18,AC,-3.15084
+Link,H2 Electrolysis,AT0 18,H2,1.95888
+Link,H2 Electrolysis,AT0 18,urban central heat,0.17196
+Link,H2 Electrolysis,AT0 19,AC,-0.85318
+Link,H2 Electrolysis,AT0 19,H2,0.53042
+Link,H2 Electrolysis,AT0 19,urban central heat,0.04656
+Link,H2 Electrolysis,AT0 2,AC,-0.38558
+Link,H2 Electrolysis,AT0 2,H2,0.23972
+Link,H2 Electrolysis,AT0 2,urban central heat,0.02104
+Link,H2 Electrolysis,AT0 20,AC,-0.23843
+Link,H2 Electrolysis,AT0 20,H2,0.14823
+Link,H2 Electrolysis,AT0 20,urban central heat,0.01301
+Link,H2 Electrolysis,AT0 21,AC,-11.31731
+Link,H2 Electrolysis,AT0 21,H2,7.03597
+Link,H2 Electrolysis,AT0 21,urban central heat,0.61764
+Link,H2 Electrolysis,AT0 22,AC,-0.6562
+Link,H2 Electrolysis,AT0 22,H2,0.40796
+Link,H2 Electrolysis,AT0 23,AC,-1.10362
+Link,H2 Electrolysis,AT0 23,H2,0.68612
+Link,H2 Electrolysis,AT0 23,urban central heat,0.06023
+Link,H2 Electrolysis,AT0 24,AC,-6976371.82755
+Link,H2 Electrolysis,AT0 24,H2,4337210.36519
+Link,H2 Electrolysis,AT0 24,urban central heat,380735.49249
+Link,H2 Electrolysis,AT0 3,AC,-0.22583
+Link,H2 Electrolysis,AT0 3,H2,0.1404
+Link,H2 Electrolysis,AT0 3,urban central heat,0.01232
+Link,H2 Electrolysis,AT0 4,AC,-3037665.35184
+Link,H2 Electrolysis,AT0 4,H2,1888516.54924
+Link,H2 Electrolysis,AT0 4,urban central heat,165780.58658
+Link,H2 Electrolysis,AT0 5,AC,-9.82135
+Link,H2 Electrolysis,AT0 5,H2,6.10593
+Link,H2 Electrolysis,AT0 5,urban central heat,0.536
+Link,H2 Electrolysis,AT0 6,AC,-0.97439
+Link,H2 Electrolysis,AT0 6,H2,0.60578
+Link,H2 Electrolysis,AT0 7,AC,-12.60119
+Link,H2 Electrolysis,AT0 7,H2,7.83416
+Link,H2 Electrolysis,AT0 8,AC,-0.31075
+Link,H2 Electrolysis,AT0 8,H2,0.19319
+Link,H2 Electrolysis,AT0 8,urban central heat,0.01696
+Link,H2 Electrolysis,AT0 9,AC,-0.72853
+Link,H2 Electrolysis,AT0 9,H2,0.45293
+Link,H2 Electrolysis,AT0 9,urban central heat,0.03976
+Link,H2 Fuel Cell,AT0 0,AC,0.00181
+Link,H2 Fuel Cell,AT0 0,H2,-0.00362
+Link,H2 Fuel Cell,AT0 0,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 1,AC,0.00182
+Link,H2 Fuel Cell,AT0 1,H2,-0.00364
+Link,H2 Fuel Cell,AT0 1,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 10,AC,0.00183
+Link,H2 Fuel Cell,AT0 10,H2,-0.00366
+Link,H2 Fuel Cell,AT0 10,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 11,AC,0.00181
+Link,H2 Fuel Cell,AT0 11,H2,-0.00361
+Link,H2 Fuel Cell,AT0 11,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 12,AC,0.00182
+Link,H2 Fuel Cell,AT0 12,H2,-0.00363
+Link,H2 Fuel Cell,AT0 12,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 13,AC,0.00182
+Link,H2 Fuel Cell,AT0 13,H2,-0.00364
+Link,H2 Fuel Cell,AT0 13,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 14,AC,0.00181
+Link,H2 Fuel Cell,AT0 14,H2,-0.00361
+Link,H2 Fuel Cell,AT0 15,AC,0.00179
+Link,H2 Fuel Cell,AT0 15,H2,-0.00359
+Link,H2 Fuel Cell,AT0 16,AC,0.0018
+Link,H2 Fuel Cell,AT0 16,H2,-0.00359
+Link,H2 Fuel Cell,AT0 17,AC,0.0018
+Link,H2 Fuel Cell,AT0 17,H2,-0.0036
+Link,H2 Fuel Cell,AT0 18,AC,0.0018
+Link,H2 Fuel Cell,AT0 18,H2,-0.0036
+Link,H2 Fuel Cell,AT0 18,urban central heat,0.0004
+Link,H2 Fuel Cell,AT0 19,AC,0.0018
+Link,H2 Fuel Cell,AT0 19,H2,-0.00359
+Link,H2 Fuel Cell,AT0 19,urban central heat,0.0004
+Link,H2 Fuel Cell,AT0 2,AC,0.00182
+Link,H2 Fuel Cell,AT0 2,H2,-0.00365
+Link,H2 Fuel Cell,AT0 2,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 20,AC,0.00182
+Link,H2 Fuel Cell,AT0 20,H2,-0.00365
+Link,H2 Fuel Cell,AT0 20,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 21,AC,0.0018
+Link,H2 Fuel Cell,AT0 21,H2,-0.0036
+Link,H2 Fuel Cell,AT0 21,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 22,AC,0.00179
+Link,H2 Fuel Cell,AT0 22,H2,-0.00357
+Link,H2 Fuel Cell,AT0 23,AC,0.00184
+Link,H2 Fuel Cell,AT0 23,H2,-0.00368
+Link,H2 Fuel Cell,AT0 23,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 24,AC,0.00182
+Link,H2 Fuel Cell,AT0 24,H2,-0.00365
+Link,H2 Fuel Cell,AT0 24,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 3,AC,0.00182
+Link,H2 Fuel Cell,AT0 3,H2,-0.00364
+Link,H2 Fuel Cell,AT0 3,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 4,AC,0.00181
+Link,H2 Fuel Cell,AT0 4,H2,-0.00362
+Link,H2 Fuel Cell,AT0 4,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 5,AC,0.00183
+Link,H2 Fuel Cell,AT0 5,H2,-0.00367
+Link,H2 Fuel Cell,AT0 5,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 6,AC,0.00179
+Link,H2 Fuel Cell,AT0 6,H2,-0.00358
+Link,H2 Fuel Cell,AT0 7,AC,0.00179
+Link,H2 Fuel Cell,AT0 7,H2,-0.00359
+Link,H2 Fuel Cell,AT0 8,AC,0.00183
+Link,H2 Fuel Cell,AT0 8,H2,-0.00366
+Link,H2 Fuel Cell,AT0 8,urban central heat,0.00041
+Link,H2 Fuel Cell,AT0 9,AC,0.0018
+Link,H2 Fuel Cell,AT0 9,H2,-0.00359
+Link,H2 Fuel Cell,AT0 9,urban central heat,0.0004
+Link,H2 pipeline,AT0 0,AC,-0.00405
+Link,H2 pipeline,AT0 0,H2,-1.69407
+Link,H2 pipeline,AT0 1,AC,-0.00454
+Link,H2 pipeline,AT0 1,H2,0.05159
+Link,H2 pipeline,AT0 10,AC,-15.93151
+Link,H2 pipeline,AT0 10,H2,-40000.8433
+Link,H2 pipeline,AT0 11,AC,-0.00446
+Link,H2 pipeline,AT0 11,H2,-0.02562
+Link,H2 pipeline,AT0 12,AC,-0.00433
+Link,H2 pipeline,AT0 12,H2,0.3714
+Link,H2 pipeline,AT0 13,AC,-94.00405
+Link,H2 pipeline,AT0 13,H2,-94267.59453
+Link,H2 pipeline,AT0 14,AC,-0.00313
+Link,H2 pipeline,AT0 14,H2,-0.12211
+Link,H2 pipeline,AT0 15,AC,-0.00447
+Link,H2 pipeline,AT0 15,H2,0.21195
+Link,H2 pipeline,AT0 16,AC,-0.00314
+Link,H2 pipeline,AT0 16,H2,-0.02629
+Link,H2 pipeline,AT0 17,AC,-0.00286
+Link,H2 pipeline,AT0 17,H2,0.19056
+Link,H2 pipeline,AT0 18,AC,-0.00342
+Link,H2 pipeline,AT0 18,H2,-0.30464
+Link,H2 pipeline,AT0 19,AC,-0.00286
+Link,H2 pipeline,AT0 19,H2,0.03805
+Link,H2 pipeline,AT0 2,AC,-0.00258
+Link,H2 pipeline,AT0 2,H2,0.60845
+Link,H2 pipeline,AT0 20,AC,-0.00542
+Link,H2 pipeline,AT0 20,H2,0.12931
+Link,H2 pipeline,AT0 21,AC,-0.00282
+Link,H2 pipeline,AT0 21,H2,0.04445
+Link,H2 pipeline,AT0 22,AC,-0.00292
+Link,H2 pipeline,AT0 22,H2,0.33934
+Link,H2 pipeline,AT0 23,AC,-0.00969
+Link,H2 pipeline,AT0 23,H2,-4.61847
+Link,H2 pipeline,AT0 24,AC,-3653.41915
+Link,H2 pipeline,AT0 24,H2,-4377209.99304
+Link,H2 pipeline,AT0 3,AC,-0.00285
+Link,H2 pipeline,AT0 3,H2,0.15968
+Link,H2 pipeline,AT0 4,AC,-0.00468
+Link,H2 pipeline,AT0 4,H2,4511483.58369
+Link,H2 pipeline,AT0 5,AC,-0.00153
+Link,H2 pipeline,AT0 5,H2,0.05736
+Link,H2 pipeline,AT0 6,AC,-0.003
+Link,H2 pipeline,AT0 6,H2,0.10455
+Link,H2 pipeline,AT0 7,AC,-0.00658
+Link,H2 pipeline,AT0 7,H2,-0.87399
+Link,H2 pipeline,AT0 8,AC,-0.00486
+Link,H2 pipeline,AT0 8,H2,0.12018
+Link,H2 pipeline,AT0 9,AC,-0.0028
+Link,H2 pipeline,AT0 9,H2,0.08551
+Link,HVC to air,EU,co2,971524.0
+Link,HVC to air,EU,non-sequestered HVC,-3778778.68534
+Link,OCGT,AT0 0,AC,0.00246
+Link,OCGT,AT0 1,AC,0.00249
+Link,OCGT,AT0 10,AC,0.00246
+Link,OCGT,AT0 11,AC,0.00248
+Link,OCGT,AT0 12,AC,0.00247
+Link,OCGT,AT0 13,AC,0.00247
+Link,OCGT,AT0 14,AC,0.00246
+Link,OCGT,AT0 15,AC,0.00244
+Link,OCGT,AT0 16,AC,0.00247
+Link,OCGT,AT0 17,AC,0.00244
+Link,OCGT,AT0 18,AC,0.00247
+Link,OCGT,AT0 19,AC,0.00247
+Link,OCGT,AT0 2,AC,0.00248
+Link,OCGT,AT0 20,AC,0.00249
+Link,OCGT,AT0 21,AC,0.00247
+Link,OCGT,AT0 22,AC,0.00243
+Link,OCGT,AT0 23,AC,0.00247
+Link,OCGT,AT0 24,AC,0.00246
+Link,OCGT,AT0 3,AC,0.00248
+Link,OCGT,AT0 4,AC,0.00248
+Link,OCGT,AT0 5,AC,0.00249
+Link,OCGT,AT0 6,AC,0.00243
+Link,OCGT,AT0 7,AC,0.00243
+Link,OCGT,AT0 8,AC,0.00249
+Link,OCGT,AT0 9,AC,0.00247
+Link,OCGT,EU,co2,0.02977
+Link,OCGT,EU,gas,-0.15035
+Link,SMR,AT0 0,H2,0.02043
+Link,SMR,AT0 1,H2,0.02047
+Link,SMR,AT0 10,H2,0.02057
+Link,SMR,AT0 11,H2,0.02045
+Link,SMR,AT0 12,H2,0.02044
+Link,SMR,AT0 13,H2,0.02072
+Link,SMR,AT0 14,H2,0.02113
+Link,SMR,AT0 15,H2,0.02055
+Link,SMR,AT0 16,H2,0.02046
+Link,SMR,AT0 17,H2,0.02059
+Link,SMR,AT0 18,H2,0.02046
+Link,SMR,AT0 19,H2,0.02057
+Link,SMR,AT0 2,H2,0.02045
+Link,SMR,AT0 20,H2,0.02067
+Link,SMR,AT0 21,H2,0.02046
+Link,SMR,AT0 22,H2,0.02049
+Link,SMR,AT0 23,H2,0.02041
+Link,SMR,AT0 24,H2,0.0208
+Link,SMR,AT0 3,H2,0.02063
+Link,SMR,AT0 4,H2,0.02126
+Link,SMR,AT0 5,H2,0.02049
+Link,SMR,AT0 6,H2,0.02054
+Link,SMR,AT0 7,H2,0.02044
+Link,SMR,AT0 8,H2,0.02064
+Link,SMR,AT0 9,H2,0.02057
+Link,SMR,EU,co2,0.13409
+Link,SMR,EU,gas,-0.67724
+Link,SMR CC,AT0 0,H2,0.03964
+Link,SMR CC,AT0 1,H2,0.03959
+Link,SMR CC,AT0 10,H2,0.04021
+Link,SMR CC,AT0 11,H2,0.03958
+Link,SMR CC,AT0 12,H2,0.03974
+Link,SMR CC,AT0 13,H2,0.04078
+Link,SMR CC,AT0 14,H2,0.04238
+Link,SMR CC,AT0 15,H2,0.04003
+Link,SMR CC,AT0 16,H2,0.03965
+Link,SMR CC,AT0 17,H2,0.04017
+Link,SMR CC,AT0 18,H2,0.03972
+Link,SMR CC,AT0 19,H2,0.04014
+Link,SMR CC,AT0 2,H2,0.03977
+Link,SMR CC,AT0 20,H2,0.04058
+Link,SMR CC,AT0 21,H2,0.03958
+Link,SMR CC,AT0 22,H2,0.03985
+Link,SMR CC,AT0 23,H2,0.03962
+Link,SMR CC,AT0 24,H2,0.0411
+Link,SMR CC,AT0 3,H2,0.04036
+Link,SMR CC,AT0 4,H2,0.04296
+Link,SMR CC,AT0 5,H2,0.03962
+Link,SMR CC,AT0 6,H2,0.03998
+Link,SMR CC,AT0 7,H2,0.03957
+Link,SMR CC,AT0 8,H2,0.04052
+Link,SMR CC,AT0 9,H2,0.04017
+Link,SMR CC,EU,co2,0.02885
+Link,SMR CC,EU,co2 stored,0.25963
+Link,SMR CC,EU,gas,-1.45698
+Link,Sabatier,AT0 0,H2,-0.00984
+Link,Sabatier,AT0 0,urban central heat,0.00037
+Link,Sabatier,AT0 1,H2,-0.00982
+Link,Sabatier,AT0 1,urban central heat,0.00037
+Link,Sabatier,AT0 10,H2,-0.00986
+Link,Sabatier,AT0 10,urban central heat,0.00037
+Link,Sabatier,AT0 11,H2,-0.00982
+Link,Sabatier,AT0 11,urban central heat,0.00037
+Link,Sabatier,AT0 12,H2,-0.00981
+Link,Sabatier,AT0 12,urban central heat,0.00037
+Link,Sabatier,AT0 13,H2,-0.00978
+Link,Sabatier,AT0 13,urban central heat,0.00037
+Link,Sabatier,AT0 14,H2,-0.00973
+Link,Sabatier,AT0 15,H2,-0.0098
+Link,Sabatier,AT0 16,H2,-0.00981
+Link,Sabatier,AT0 17,H2,-0.00979
+Link,Sabatier,AT0 18,H2,-0.00981
+Link,Sabatier,AT0 18,urban central heat,0.00037
+Link,Sabatier,AT0 19,H2,-0.00981
+Link,Sabatier,AT0 19,urban central heat,0.00037
+Link,Sabatier,AT0 2,H2,-0.00983
+Link,Sabatier,AT0 2,urban central heat,0.00037
+Link,Sabatier,AT0 20,H2,-0.00979
+Link,Sabatier,AT0 20,urban central heat,0.00037
+Link,Sabatier,AT0 21,H2,-0.00982
+Link,Sabatier,AT0 21,urban central heat,0.00037
+Link,Sabatier,AT0 22,H2,-0.0098
+Link,Sabatier,AT0 23,H2,-0.00987
+Link,Sabatier,AT0 23,urban central heat,0.00037
+Link,Sabatier,AT0 24,H2,-0.00982
+Link,Sabatier,AT0 24,urban central heat,0.00037
+Link,Sabatier,AT0 3,H2,-0.00979
+Link,Sabatier,AT0 3,urban central heat,0.00037
+Link,Sabatier,AT0 4,H2,-0.00975
+Link,Sabatier,AT0 4,urban central heat,0.00037
+Link,Sabatier,AT0 5,H2,-0.00981
+Link,Sabatier,AT0 5,urban central heat,0.00037
+Link,Sabatier,AT0 6,H2,-0.0098
+Link,Sabatier,AT0 7,H2,-0.00981
+Link,Sabatier,AT0 8,H2,-0.00979
+Link,Sabatier,AT0 8,urban central heat,0.00037
+Link,Sabatier,AT0 9,H2,-0.00981
+Link,Sabatier,AT0 9,urban central heat,0.00037
+Link,Sabatier,EU,co2 stored,-0.03883
+Link,Sabatier,EU,gas,0.19613
+Link,V2G,AT0 0,EV battery,-21105.54938
+Link,V2G,AT0 0,low voltage,18994.99444
+Link,V2G,AT0 1,EV battery,-180551.67924
+Link,V2G,AT0 1,low voltage,162496.51132
+Link,V2G,AT0 10,EV battery,-11387.23239
+Link,V2G,AT0 10,low voltage,10248.50915
+Link,V2G,AT0 11,EV battery,-894328.73043
+Link,V2G,AT0 11,low voltage,804895.85739
+Link,V2G,AT0 12,EV battery,-1923012.35401
+Link,V2G,AT0 12,low voltage,1730711.11861
+Link,V2G,AT0 13,EV battery,-956549.78067
+Link,V2G,AT0 13,low voltage,860894.80261
+Link,V2G,AT0 14,EV battery,-2230158.43156
+Link,V2G,AT0 14,low voltage,2007142.5884
+Link,V2G,AT0 15,EV battery,-473692.67461
+Link,V2G,AT0 15,low voltage,426323.40715
+Link,V2G,AT0 16,EV battery,-300639.75901
+Link,V2G,AT0 16,low voltage,270575.78311
+Link,V2G,AT0 17,EV battery,-505944.69977
+Link,V2G,AT0 17,low voltage,455350.22979
+Link,V2G,AT0 18,EV battery,-787475.10643
+Link,V2G,AT0 18,low voltage,708727.59579
+Link,V2G,AT0 19,EV battery,-697557.74132
+Link,V2G,AT0 19,low voltage,627801.96719
+Link,V2G,AT0 2,EV battery,-3292.78656
+Link,V2G,AT0 2,low voltage,2963.50791
+Link,V2G,AT0 20,EV battery,-800092.19224
+Link,V2G,AT0 20,low voltage,720082.97302
+Link,V2G,AT0 21,EV battery,-774804.81984
+Link,V2G,AT0 21,low voltage,697324.33786
+Link,V2G,AT0 22,EV battery,-565388.22774
+Link,V2G,AT0 22,low voltage,508849.40497
+Link,V2G,AT0 23,EV battery,-15339.12122
+Link,V2G,AT0 23,low voltage,13805.20909
+Link,V2G,AT0 24,EV battery,-7884.13784
+Link,V2G,AT0 24,low voltage,7095.72406
+Link,V2G,AT0 3,EV battery,-1371206.27015
+Link,V2G,AT0 3,low voltage,1234085.64313
+Link,V2G,AT0 4,EV battery,-10906.41992
+Link,V2G,AT0 4,low voltage,9815.77793
+Link,V2G,AT0 5,EV battery,-436286.13556
+Link,V2G,AT0 5,low voltage,392657.52201
+Link,V2G,AT0 6,EV battery,-647292.92698
+Link,V2G,AT0 6,low voltage,582563.63428
+Link,V2G,AT0 7,EV battery,-364552.13692
+Link,V2G,AT0 7,low voltage,328096.92323
+Link,V2G,AT0 8,EV battery,-4733345.78248
+Link,V2G,AT0 8,low voltage,4260011.20423
+Link,V2G,AT0 9,EV battery,-401233.92742
+Link,V2G,AT0 9,low voltage,361110.53468
+Link,agriculture machinery oil,EU,agriculture machinery oil,1667960.06183
+Link,agriculture machinery oil,EU,co2,428832.5319
+Link,agriculture machinery oil,EU,oil,-1667960.06183
+Link,battery charger,AT0 0,AC,-0.12061
+Link,battery charger,AT0 0,battery,0.11817
+Link,battery charger,AT0 1,AC,-0.12077
+Link,battery charger,AT0 1,battery,0.11833
+Link,battery charger,AT0 10,AC,-0.11998
+Link,battery charger,AT0 10,battery,0.11756
+Link,battery charger,AT0 11,AC,-0.12085
+Link,battery charger,AT0 11,battery,0.11841
+Link,battery charger,AT0 12,AC,-0.12032
+Link,battery charger,AT0 12,battery,0.11789
+Link,battery charger,AT0 13,AC,-0.12051
+Link,battery charger,AT0 13,battery,0.11807
+Link,battery charger,AT0 14,AC,-0.12005
+Link,battery charger,AT0 14,battery,0.11762
+Link,battery charger,AT0 15,AC,-0.12054
+Link,battery charger,AT0 15,battery,0.1181
+Link,battery charger,AT0 16,AC,-0.12088
+Link,battery charger,AT0 16,battery,0.11844
+Link,battery charger,AT0 17,AC,-0.12047
+Link,battery charger,AT0 17,battery,0.11804
+Link,battery charger,AT0 18,AC,-0.12073
+Link,battery charger,AT0 18,battery,0.11829
+Link,battery charger,AT0 19,AC,-0.12063
+Link,battery charger,AT0 19,battery,0.11819
+Link,battery charger,AT0 2,AC,-0.12021
+Link,battery charger,AT0 2,battery,0.11778
+Link,battery charger,AT0 20,AC,-0.12006
+Link,battery charger,AT0 20,battery,0.11763
+Link,battery charger,AT0 21,AC,-0.12084
+Link,battery charger,AT0 21,battery,0.1184
+Link,battery charger,AT0 22,AC,-0.12064
+Link,battery charger,AT0 22,battery,0.11821
+Link,battery charger,AT0 23,AC,-0.1201
+Link,battery charger,AT0 23,battery,0.11767
+Link,battery charger,AT0 24,AC,-0.11996
+Link,battery charger,AT0 24,battery,0.11753
+Link,battery charger,AT0 3,AC,-0.12008
+Link,battery charger,AT0 3,battery,0.11765
+Link,battery charger,AT0 4,AC,-0.11986
+Link,battery charger,AT0 4,battery,0.11744
+Link,battery charger,AT0 5,AC,-0.12086
+Link,battery charger,AT0 5,battery,0.11842
+Link,battery charger,AT0 6,AC,-0.1207
+Link,battery charger,AT0 6,battery,0.11826
+Link,battery charger,AT0 7,AC,-0.12069
+Link,battery charger,AT0 7,battery,0.11825
+Link,battery charger,AT0 8,AC,-0.12022
+Link,battery charger,AT0 8,battery,0.11779
+Link,battery charger,AT0 9,AC,-0.12062
+Link,battery charger,AT0 9,battery,0.11819
+Link,battery discharger,AT0 0,AC,0.11578
+Link,battery discharger,AT0 0,battery,-0.11817
+Link,battery discharger,AT0 1,AC,0.11594
+Link,battery discharger,AT0 1,battery,-0.11833
+Link,battery discharger,AT0 10,AC,0.11518
+Link,battery discharger,AT0 10,battery,-0.11756
+Link,battery discharger,AT0 11,AC,0.11602
+Link,battery discharger,AT0 11,battery,-0.11841
+Link,battery discharger,AT0 12,AC,0.11551
+Link,battery discharger,AT0 12,battery,-0.11789
+Link,battery discharger,AT0 13,AC,0.11569
+Link,battery discharger,AT0 13,battery,-0.11807
+Link,battery discharger,AT0 14,AC,0.11525
+Link,battery discharger,AT0 14,battery,-0.11762
+Link,battery discharger,AT0 15,AC,0.11572
+Link,battery discharger,AT0 15,battery,-0.1181
+Link,battery discharger,AT0 16,AC,0.11604
+Link,battery discharger,AT0 16,battery,-0.11844
+Link,battery discharger,AT0 17,AC,0.11565
+Link,battery discharger,AT0 17,battery,-0.11804
+Link,battery discharger,AT0 18,AC,0.1159
+Link,battery discharger,AT0 18,battery,-0.11829
+Link,battery discharger,AT0 19,AC,0.1158
+Link,battery discharger,AT0 19,battery,-0.11819
+Link,battery discharger,AT0 2,AC,0.1154
+Link,battery discharger,AT0 2,battery,-0.11778
+Link,battery discharger,AT0 20,AC,0.11526
+Link,battery discharger,AT0 20,battery,-0.11763
+Link,battery discharger,AT0 21,AC,0.11601
+Link,battery discharger,AT0 21,battery,-0.1184
+Link,battery discharger,AT0 22,AC,0.11582
+Link,battery discharger,AT0 22,battery,-0.11821
+Link,battery discharger,AT0 23,AC,0.11529
+Link,battery discharger,AT0 23,battery,-0.11767
+Link,battery discharger,AT0 24,AC,0.11516
+Link,battery discharger,AT0 24,battery,-0.11753
+Link,battery discharger,AT0 3,AC,0.11528
+Link,battery discharger,AT0 3,battery,-0.11765
+Link,battery discharger,AT0 4,AC,0.11506
+Link,battery discharger,AT0 4,battery,-0.11744
+Link,battery discharger,AT0 5,AC,0.11603
+Link,battery discharger,AT0 5,battery,-0.11842
+Link,battery discharger,AT0 6,AC,0.11587
+Link,battery discharger,AT0 6,battery,-0.11826
+Link,battery discharger,AT0 7,AC,0.11586
+Link,battery discharger,AT0 7,battery,-0.11825
+Link,battery discharger,AT0 8,AC,0.11541
+Link,battery discharger,AT0 8,battery,-0.11779
+Link,battery discharger,AT0 9,AC,0.1158
+Link,battery discharger,AT0 9,battery,-0.11819
+Link,biogas to gas,EU,biogas,-0.00159
+Link,biogas to gas,EU,co2,-0.00031
+Link,biogas to gas,EU,gas,0.00159
+Link,co2 sequestered,EU,co2 sequestered,0.00529
+Link,co2 sequestered,EU,co2 stored,-0.00529
+Link,electricity distribution grid,AT0 0,AC,-0.01072
+Link,electricity distribution grid,AT0 0,low voltage,0.00623
+Link,electricity distribution grid,AT0 1,AC,0.00627
+Link,electricity distribution grid,AT0 1,low voltage,-0.01029
+Link,electricity distribution grid,AT0 10,AC,-0.07778
+Link,electricity distribution grid,AT0 10,low voltage,0.06592
+Link,electricity distribution grid,AT0 11,AC,-0.01081
+Link,electricity distribution grid,AT0 11,low voltage,0.00681
+Link,electricity distribution grid,AT0 12,AC,0.02649
+Link,electricity distribution grid,AT0 12,low voltage,-0.03073
+Link,electricity distribution grid,AT0 13,AC,-0.0044
+Link,electricity distribution grid,AT0 13,low voltage,0.00038
+Link,electricity distribution grid,AT0 14,AC,-0.00315
+Link,electricity distribution grid,AT0 14,low voltage,-0.00117
+Link,electricity distribution grid,AT0 15,AC,-0.01253
+Link,electricity distribution grid,AT0 15,low voltage,0.00823
+Link,electricity distribution grid,AT0 16,AC,0.00149
+Link,electricity distribution grid,AT0 16,low voltage,-0.00577
+Link,electricity distribution grid,AT0 17,AC,0.00258
+Link,electricity distribution grid,AT0 17,low voltage,-0.00688
+Link,electricity distribution grid,AT0 18,AC,-0.0101
+Link,electricity distribution grid,AT0 18,low voltage,0.00611
+Link,electricity distribution grid,AT0 19,AC,-0.00956
+Link,electricity distribution grid,AT0 19,low voltage,0.00594
+Link,electricity distribution grid,AT0 2,AC,-0.017
+Link,electricity distribution grid,AT0 2,low voltage,0.01225
+Link,electricity distribution grid,AT0 20,AC,-0.0155
+Link,electricity distribution grid,AT0 20,low voltage,0.01133
+Link,electricity distribution grid,AT0 21,AC,-0.01449
+Link,electricity distribution grid,AT0 21,low voltage,0.01051
+Link,electricity distribution grid,AT0 22,AC,-0.01122
+Link,electricity distribution grid,AT0 22,low voltage,0.00698
+Link,electricity distribution grid,AT0 23,AC,-5561983.72844
+Link,electricity distribution grid,AT0 23,low voltage,5333874.36093
+Link,electricity distribution grid,AT0 24,AC,-0.06031
+Link,electricity distribution grid,AT0 24,low voltage,0.05217
+Link,electricity distribution grid,AT0 3,AC,-0.0045
+Link,electricity distribution grid,AT0 3,low voltage,0.0004
+Link,electricity distribution grid,AT0 4,AC,137730.7735
+Link,electricity distribution grid,AT0 4,low voltage,-176671.01887
+Link,electricity distribution grid,AT0 5,AC,0.00986
+Link,electricity distribution grid,AT0 5,low voltage,-0.01394
+Link,electricity distribution grid,AT0 6,AC,0.00451
+Link,electricity distribution grid,AT0 6,low voltage,-0.0088
+Link,electricity distribution grid,AT0 7,AC,-0.00836
+Link,electricity distribution grid,AT0 7,low voltage,0.00412
+Link,electricity distribution grid,AT0 8,AC,0.00352
+Link,electricity distribution grid,AT0 8,low voltage,-0.0076
+Link,electricity distribution grid,AT0 9,AC,-0.01411
+Link,electricity distribution grid,AT0 9,low voltage,0.01049
+Link,gas for industry,EU,co2,974159.98785
+Link,gas for industry,EU,gas,-4919999.93863
+Link,gas for industry,EU,gas for industry,4919999.93863
+Link,gas for industry CC,EU,co2,0.00135
+Link,gas for industry CC,EU,co2 stored,0.01215
+Link,gas for industry CC,EU,gas,-0.06818
+Link,gas for industry CC,EU,gas for industry,0.06137
+Link,home battery charger,AT0 0,home battery,0.08258
+Link,home battery charger,AT0 0,low voltage,-0.08428
+Link,home battery charger,AT0 1,home battery,0.08395
+Link,home battery charger,AT0 1,low voltage,-0.08568
+Link,home battery charger,AT0 10,home battery,0.07952
+Link,home battery charger,AT0 10,low voltage,-0.08116
+Link,home battery charger,AT0 11,home battery,0.08383
+Link,home battery charger,AT0 11,low voltage,-0.08556
+Link,home battery charger,AT0 12,home battery,0.08412
+Link,home battery charger,AT0 12,low voltage,-0.08586
+Link,home battery charger,AT0 13,home battery,0.08385
+Link,home battery charger,AT0 13,low voltage,-0.08558
+Link,home battery charger,AT0 14,home battery,0.08398
+Link,home battery charger,AT0 14,low voltage,-0.08571
+Link,home battery charger,AT0 15,home battery,0.0841
+Link,home battery charger,AT0 15,low voltage,-0.08583
+Link,home battery charger,AT0 16,home battery,0.08429
+Link,home battery charger,AT0 16,low voltage,-0.08603
+Link,home battery charger,AT0 17,home battery,0.08426
+Link,home battery charger,AT0 17,low voltage,-0.086
+Link,home battery charger,AT0 18,home battery,0.08384
+Link,home battery charger,AT0 18,low voltage,-0.08557
+Link,home battery charger,AT0 19,home battery,0.08317
+Link,home battery charger,AT0 19,low voltage,-0.08489
+Link,home battery charger,AT0 2,home battery,0.08237
+Link,home battery charger,AT0 2,low voltage,-0.08407
+Link,home battery charger,AT0 20,home battery,0.08377
+Link,home battery charger,AT0 20,low voltage,-0.08549
+Link,home battery charger,AT0 21,home battery,0.08385
+Link,home battery charger,AT0 21,low voltage,-0.08558
+Link,home battery charger,AT0 22,home battery,0.08415
+Link,home battery charger,AT0 22,low voltage,-0.08589
+Link,home battery charger,AT0 23,home battery,0.08033
+Link,home battery charger,AT0 23,low voltage,-0.08198
+Link,home battery charger,AT0 24,home battery,0.07994
+Link,home battery charger,AT0 24,low voltage,-0.08159
+Link,home battery charger,AT0 3,home battery,0.08388
+Link,home battery charger,AT0 3,low voltage,-0.08561
+Link,home battery charger,AT0 4,home battery,0.08165
+Link,home battery charger,AT0 4,low voltage,-0.08334
+Link,home battery charger,AT0 5,home battery,0.0841
+Link,home battery charger,AT0 5,low voltage,-0.08583
+Link,home battery charger,AT0 6,home battery,0.08428
+Link,home battery charger,AT0 6,low voltage,-0.08602
+Link,home battery charger,AT0 7,home battery,0.08409
+Link,home battery charger,AT0 7,low voltage,-0.08582
+Link,home battery charger,AT0 8,home battery,0.08395
+Link,home battery charger,AT0 8,low voltage,-0.08568
+Link,home battery charger,AT0 9,home battery,0.08318
+Link,home battery charger,AT0 9,low voltage,-0.08489
+Link,home battery discharger,AT0 0,home battery,-0.08258
+Link,home battery discharger,AT0 0,low voltage,0.08091
+Link,home battery discharger,AT0 1,home battery,-0.08395
+Link,home battery discharger,AT0 1,low voltage,0.08225
+Link,home battery discharger,AT0 10,home battery,-0.07952
+Link,home battery discharger,AT0 10,low voltage,0.07791
+Link,home battery discharger,AT0 11,home battery,-0.08383
+Link,home battery discharger,AT0 11,low voltage,0.08213
+Link,home battery discharger,AT0 12,home battery,-0.08412
+Link,home battery discharger,AT0 12,low voltage,0.08242
+Link,home battery discharger,AT0 13,home battery,-0.08385
+Link,home battery discharger,AT0 13,low voltage,0.08215
+Link,home battery discharger,AT0 14,home battery,-0.08398
+Link,home battery discharger,AT0 14,low voltage,0.08228
+Link,home battery discharger,AT0 15,home battery,-0.0841
+Link,home battery discharger,AT0 15,low voltage,0.0824
+Link,home battery discharger,AT0 16,home battery,-0.08429
+Link,home battery discharger,AT0 16,low voltage,0.08259
+Link,home battery discharger,AT0 17,home battery,-0.08426
+Link,home battery discharger,AT0 17,low voltage,0.08256
+Link,home battery discharger,AT0 18,home battery,-0.08384
+Link,home battery discharger,AT0 18,low voltage,0.08214
+Link,home battery discharger,AT0 19,home battery,-0.08317
+Link,home battery discharger,AT0 19,low voltage,0.08149
+Link,home battery discharger,AT0 2,home battery,-0.08237
+Link,home battery discharger,AT0 2,low voltage,0.08071
+Link,home battery discharger,AT0 20,home battery,-0.08377
+Link,home battery discharger,AT0 20,low voltage,0.08207
+Link,home battery discharger,AT0 21,home battery,-0.08385
+Link,home battery discharger,AT0 21,low voltage,0.08215
+Link,home battery discharger,AT0 22,home battery,-0.08415
+Link,home battery discharger,AT0 22,low voltage,0.08245
+Link,home battery discharger,AT0 23,home battery,-0.08033
+Link,home battery discharger,AT0 23,low voltage,0.0787
+Link,home battery discharger,AT0 24,home battery,-0.07994
+Link,home battery discharger,AT0 24,low voltage,0.07832
+Link,home battery discharger,AT0 3,home battery,-0.08388
+Link,home battery discharger,AT0 3,low voltage,0.08219
+Link,home battery discharger,AT0 4,home battery,-0.08165
+Link,home battery discharger,AT0 4,low voltage,0.08
+Link,home battery discharger,AT0 5,home battery,-0.0841
+Link,home battery discharger,AT0 5,low voltage,0.0824
+Link,home battery discharger,AT0 6,home battery,-0.08428
+Link,home battery discharger,AT0 6,low voltage,0.08258
+Link,home battery discharger,AT0 7,home battery,-0.08409
+Link,home battery discharger,AT0 7,low voltage,0.08239
+Link,home battery discharger,AT0 8,home battery,-0.08395
+Link,home battery discharger,AT0 8,low voltage,0.08226
+Link,home battery discharger,AT0 9,home battery,-0.08318
+Link,home battery discharger,AT0 9,low voltage,0.08149
+Link,industry methanol,EU,co2,34721.36108
+Link,industry methanol,EU,industry methanol,140000.0
+Link,industry methanol,EU,methanol,-140000.0
+Link,kerosene for aviation,EU,co2,2947351.82233
+Link,kerosene for aviation,EU,kerosene for aviation,11463834.39258
+Link,kerosene for aviation,EU,oil,-11463834.39258
+Link,methanolisation,AT0 0,AC,-153729.55337
+Link,methanolisation,AT0 0,H2,-645692.11634
+Link,methanolisation,AT0 0,urban central heat,14184.80045
+Link,methanolisation,AT0 1,AC,-1.78844
+Link,methanolisation,AT0 1,H2,-7.51175
+Link,methanolisation,AT0 1,urban central heat,0.16502
+Link,methanolisation,AT0 10,AC,-0.29278
+Link,methanolisation,AT0 10,H2,-1.22974
+Link,methanolisation,AT0 10,urban central heat,0.02702
+Link,methanolisation,AT0 11,AC,-1.54556
+Link,methanolisation,AT0 11,H2,-6.49162
+Link,methanolisation,AT0 11,urban central heat,0.14261
+Link,methanolisation,AT0 12,AC,-0.13225
+Link,methanolisation,AT0 12,H2,-0.55547
+Link,methanolisation,AT0 12,urban central heat,0.0122
+Link,methanolisation,AT0 13,AC,-0.09267
+Link,methanolisation,AT0 13,H2,-0.38923
+Link,methanolisation,AT0 13,urban central heat,0.00855
+Link,methanolisation,AT0 14,AC,-0.04041
+Link,methanolisation,AT0 14,H2,-0.16971
+Link,methanolisation,AT0 15,AC,-0.13794
+Link,methanolisation,AT0 15,H2,-0.57938
+Link,methanolisation,AT0 16,AC,-0.67636
+Link,methanolisation,AT0 16,H2,-2.84083
+Link,methanolisation,AT0 17,AC,-0.11041
+Link,methanolisation,AT0 17,H2,-0.46373
+Link,methanolisation,AT0 18,AC,-0.4004
+Link,methanolisation,AT0 18,H2,-1.68177
+Link,methanolisation,AT0 18,urban central heat,0.03695
+Link,methanolisation,AT0 19,AC,-0.14203
+Link,methanolisation,AT0 19,H2,-0.59655
+Link,methanolisation,AT0 19,urban central heat,0.01311
+Link,methanolisation,AT0 2,AC,-0.20845
+Link,methanolisation,AT0 2,H2,-0.87554
+Link,methanolisation,AT0 2,urban central heat,0.01923
+Link,methanolisation,AT0 20,AC,-0.0729
+Link,methanolisation,AT0 20,H2,-0.30619
+Link,methanolisation,AT0 20,urban central heat,0.00673
+Link,methanolisation,AT0 21,AC,-1.69227
+Link,methanolisation,AT0 21,H2,-7.10784
+Link,methanolisation,AT0 21,urban central heat,0.15615
+Link,methanolisation,AT0 22,AC,-0.18401
+Link,methanolisation,AT0 22,H2,-0.77286
+Link,methanolisation,AT0 23,AC,-2379.91936
+Link,methanolisation,AT0 23,H2,-9996.09467
+Link,methanolisation,AT0 23,urban central heat,219.59786
+Link,methanolisation,AT0 24,AC,-0.09555
+Link,methanolisation,AT0 24,H2,-0.40131
+Link,methanolisation,AT0 24,urban central heat,0.00882
+Link,methanolisation,AT0 3,AC,-0.0782
+Link,methanolisation,AT0 3,H2,-0.32847
+Link,methanolisation,AT0 3,urban central heat,0.00722
+Link,methanolisation,AT0 4,AC,-0.03925
+Link,methanolisation,AT0 4,H2,-0.16488
+Link,methanolisation,AT0 4,urban central heat,0.00362
+Link,methanolisation,AT0 5,AC,-1.47393
+Link,methanolisation,AT0 5,H2,-6.19076
+Link,methanolisation,AT0 5,urban central heat,0.136
+Link,methanolisation,AT0 6,AC,-0.17526
+Link,methanolisation,AT0 6,H2,-0.73612
+Link,methanolisation,AT0 7,AC,-1.66311
+Link,methanolisation,AT0 7,H2,-6.98538
+Link,methanolisation,AT0 8,AC,-0.0814
+Link,methanolisation,AT0 8,H2,-0.3419
+Link,methanolisation,AT0 8,urban central heat,0.00751
+Link,methanolisation,AT0 9,AC,-0.13489
+Link,methanolisation,AT0 9,H2,-0.56656
+Link,methanolisation,AT0 9,urban central heat,0.01245
+Link,methanolisation,EU,co2 stored,-142901.90785
+Link,methanolisation,EU,methanol,576194.78263
+Link,naphtha for industry,EU,naphtha for industry,4440000.0
+Link,naphtha for industry,EU,oil,-4440000.0
+Link,naphtha for industry,EU,process emissions,170000.0
+Link,oil refining,EU,co2,240598.96469
+Link,oil refining,EU,oil,17571794.05855
+Link,oil refining,EU,oil primary,-18507612.6688
+Link,process emissions,EU,co2,3111220.44688
+Link,process emissions,EU,process emissions,-3111220.44688
+Link,process emissions CC,EU,co2,15877.95531
+Link,process emissions CC,EU,co2 stored,142901.59781
+Link,process emissions CC,EU,process emissions,-158779.55312
+Link,rural air heat pump,AT0 0,low voltage,-0.0043
+Link,rural air heat pump,AT0 0,rural heat,0.01111
+Link,rural air heat pump,AT0 1,low voltage,-0.00406
+Link,rural air heat pump,AT0 1,rural heat,0.00918
+Link,rural air heat pump,AT0 10,low voltage,-0.00481
+Link,rural air heat pump,AT0 10,rural heat,0.01262
+Link,rural air heat pump,AT0 11,low voltage,-0.00407
+Link,rural air heat pump,AT0 11,rural heat,0.00961
+Link,rural air heat pump,AT0 12,low voltage,-0.00407
+Link,rural air heat pump,AT0 12,rural heat,0.01129
+Link,rural air heat pump,AT0 13,low voltage,-0.00407
+Link,rural air heat pump,AT0 13,rural heat,0.01003
+Link,rural air heat pump,AT0 14,low voltage,-0.00405
+Link,rural air heat pump,AT0 14,rural heat,0.01057
+Link,rural air heat pump,AT0 15,low voltage,-0.00404
+Link,rural air heat pump,AT0 15,rural heat,0.0106
+Link,rural air heat pump,AT0 16,low voltage,-0.00405
+Link,rural air heat pump,AT0 16,rural heat,0.00955
+Link,rural air heat pump,AT0 17,low voltage,-0.00405
+Link,rural air heat pump,AT0 17,rural heat,0.01096
+Link,rural air heat pump,AT0 18,low voltage,-0.00407
+Link,rural air heat pump,AT0 18,rural heat,0.00976
+Link,rural air heat pump,AT0 19,low voltage,-0.00417
+Link,rural air heat pump,AT0 19,rural heat,0.01117
+Link,rural air heat pump,AT0 2,low voltage,-0.00428
+Link,rural air heat pump,AT0 2,rural heat,0.01195
+Link,rural air heat pump,AT0 20,low voltage,-0.00406
+Link,rural air heat pump,AT0 20,rural heat,0.01086
+Link,rural air heat pump,AT0 21,low voltage,-0.00406
+Link,rural air heat pump,AT0 21,rural heat,0.00943
+Link,rural air heat pump,AT0 22,low voltage,-0.00404
+Link,rural air heat pump,AT0 22,rural heat,0.0101
+Link,rural air heat pump,AT0 23,low voltage,-0.00486
+Link,rural air heat pump,AT0 23,rural heat,0.01327
+Link,rural air heat pump,AT0 24,low voltage,-0.00472
+Link,rural air heat pump,AT0 24,rural heat,0.01241
+Link,rural air heat pump,AT0 3,low voltage,-0.00407
+Link,rural air heat pump,AT0 3,rural heat,0.01057
+Link,rural air heat pump,AT0 4,low voltage,-0.00483
+Link,rural air heat pump,AT0 4,rural heat,0.01276
+Link,rural air heat pump,AT0 5,low voltage,-0.00407
+Link,rural air heat pump,AT0 5,rural heat,0.00965
+Link,rural air heat pump,AT0 6,low voltage,-0.00405
+Link,rural air heat pump,AT0 6,rural heat,0.0103
+Link,rural air heat pump,AT0 7,low voltage,-0.00404
+Link,rural air heat pump,AT0 7,rural heat,0.0094
+Link,rural air heat pump,AT0 8,low voltage,-0.00408
+Link,rural air heat pump,AT0 8,rural heat,0.01083
+Link,rural air heat pump,AT0 9,low voltage,-0.00416
+Link,rural air heat pump,AT0 9,rural heat,0.01119
+Link,rural biomass boiler,AT0 0,rural heat,0.00431
+Link,rural biomass boiler,AT0 1,rural heat,0.00402
+Link,rural biomass boiler,AT0 10,rural heat,0.005
+Link,rural biomass boiler,AT0 11,rural heat,0.00403
+Link,rural biomass boiler,AT0 12,rural heat,0.00402
+Link,rural biomass boiler,AT0 13,rural heat,0.00403
+Link,rural biomass boiler,AT0 14,rural heat,0.00399
+Link,rural biomass boiler,AT0 15,rural heat,0.00399
+Link,rural biomass boiler,AT0 16,rural heat,0.00399
+Link,rural biomass boiler,AT0 17,rural heat,0.00399
+Link,rural biomass boiler,AT0 18,rural heat,0.00403
+Link,rural biomass boiler,AT0 19,rural heat,0.00414
+Link,rural biomass boiler,AT0 2,rural heat,0.00432
+Link,rural biomass boiler,AT0 20,rural heat,0.00403
+Link,rural biomass boiler,AT0 21,rural heat,0.00403
+Link,rural biomass boiler,AT0 22,rural heat,0.00399
+Link,rural biomass boiler,AT0 23,rural heat,0.00517
+Link,rural biomass boiler,AT0 24,rural heat,0.0048
+Link,rural biomass boiler,AT0 3,rural heat,0.00402
+Link,rural biomass boiler,AT0 4,rural heat,0.00498
+Link,rural biomass boiler,AT0 5,rural heat,0.00402
+Link,rural biomass boiler,AT0 6,rural heat,0.00399
+Link,rural biomass boiler,AT0 7,rural heat,0.00399
+Link,rural biomass boiler,AT0 8,rural heat,0.00403
+Link,rural biomass boiler,AT0 9,rural heat,0.00413
+Link,rural biomass boiler,EU,solid biomass,-0.12212
+Link,rural gas boiler,AT0 0,rural heat,0.00534
+Link,rural gas boiler,AT0 1,rural heat,0.00492
+Link,rural gas boiler,AT0 10,rural heat,0.00646
+Link,rural gas boiler,AT0 11,rural heat,0.00493
+Link,rural gas boiler,AT0 12,rural heat,0.00491
+Link,rural gas boiler,AT0 13,rural heat,0.00493
+Link,rural gas boiler,AT0 14,rural heat,0.00488
+Link,rural gas boiler,AT0 15,rural heat,0.00488
+Link,rural gas boiler,AT0 16,rural heat,0.00487
+Link,rural gas boiler,AT0 17,rural heat,0.00487
+Link,rural gas boiler,AT0 18,rural heat,0.00493
+Link,rural gas boiler,AT0 19,rural heat,0.00508
+Link,rural gas boiler,AT0 2,rural heat,0.00535
+Link,rural gas boiler,AT0 20,rural heat,0.00493
+Link,rural gas boiler,AT0 21,rural heat,0.00493
+Link,rural gas boiler,AT0 22,rural heat,0.00488
+Link,rural gas boiler,AT0 23,rural heat,0.00672
+Link,rural gas boiler,AT0 24,rural heat,0.00614
+Link,rural gas boiler,AT0 3,rural heat,0.00492
+Link,rural gas boiler,AT0 4,rural heat,0.00642
+Link,rural gas boiler,AT0 5,rural heat,0.00492
+Link,rural gas boiler,AT0 6,rural heat,0.00487
+Link,rural gas boiler,AT0 7,rural heat,0.00487
+Link,rural gas boiler,AT0 8,rural heat,0.00492
+Link,rural gas boiler,AT0 9,rural heat,0.00508
+Link,rural gas boiler,EU,co2,0.02625
+Link,rural gas boiler,EU,gas,-0.13259
+Link,rural ground heat pump,AT0 0,low voltage,-0.00295
+Link,rural ground heat pump,AT0 0,rural heat,0.00989
+Link,rural ground heat pump,AT0 1,low voltage,-0.00269
+Link,rural ground heat pump,AT0 1,rural heat,0.0082
+Link,rural ground heat pump,AT0 10,low voltage,-0.00341
+Link,rural ground heat pump,AT0 10,rural heat,0.01162
+Link,rural ground heat pump,AT0 11,low voltage,-0.0027
+Link,rural ground heat pump,AT0 11,rural heat,0.00842
+Link,rural ground heat pump,AT0 12,low voltage,-0.0027
+Link,rural ground heat pump,AT0 12,rural heat,0.00971
+Link,rural ground heat pump,AT0 13,low voltage,-0.00269
+Link,rural ground heat pump,AT0 13,rural heat,0.00861
+Link,rural ground heat pump,AT0 14,low voltage,-0.00267
+Link,rural ground heat pump,AT0 14,rural heat,0.00904
+Link,rural ground heat pump,AT0 15,low voltage,-0.00267
+Link,rural ground heat pump,AT0 15,rural heat,0.00898
+Link,rural ground heat pump,AT0 16,low voltage,-0.00267
+Link,rural ground heat pump,AT0 16,rural heat,0.00827
+Link,rural ground heat pump,AT0 17,low voltage,-0.00267
+Link,rural ground heat pump,AT0 17,rural heat,0.00938
+Link,rural ground heat pump,AT0 18,low voltage,-0.00269
+Link,rural ground heat pump,AT0 18,rural heat,0.00845
+Link,rural ground heat pump,AT0 19,low voltage,-0.0028
+Link,rural ground heat pump,AT0 19,rural heat,0.0096
+Link,rural ground heat pump,AT0 2,low voltage,-0.00297
+Link,rural ground heat pump,AT0 2,rural heat,0.01077
+Link,rural ground heat pump,AT0 20,low voltage,-0.0027
+Link,rural ground heat pump,AT0 20,rural heat,0.0093
+Link,rural ground heat pump,AT0 21,low voltage,-0.00269
+Link,rural ground heat pump,AT0 21,rural heat,0.00833
+Link,rural ground heat pump,AT0 22,low voltage,-0.00267
+Link,rural ground heat pump,AT0 22,rural heat,0.00857
+Link,rural ground heat pump,AT0 23,low voltage,-0.0037
+Link,rural ground heat pump,AT0 23,rural heat,0.01316
+Link,rural ground heat pump,AT0 24,low voltage,-0.00329
+Link,rural ground heat pump,AT0 24,rural heat,0.01119
+Link,rural ground heat pump,AT0 3,low voltage,-0.0027
+Link,rural ground heat pump,AT0 3,rural heat,0.00898
+Link,rural ground heat pump,AT0 4,low voltage,-0.00361
+Link,rural ground heat pump,AT0 4,rural heat,0.01228
+Link,rural ground heat pump,AT0 5,low voltage,-0.0027
+Link,rural ground heat pump,AT0 5,rural heat,0.00847
+Link,rural ground heat pump,AT0 6,low voltage,-0.00267
+Link,rural ground heat pump,AT0 6,rural heat,0.0087
+Link,rural ground heat pump,AT0 7,low voltage,-0.00267
+Link,rural ground heat pump,AT0 7,rural heat,0.00824
+Link,rural ground heat pump,AT0 8,low voltage,-0.0027
+Link,rural ground heat pump,AT0 8,rural heat,0.00932
+Link,rural ground heat pump,AT0 9,low voltage,-0.00279
+Link,rural ground heat pump,AT0 9,rural heat,0.00967
+Link,rural resistive heater,AT0 0,low voltage,-5595541.99387
+Link,rural resistive heater,AT0 0,rural heat,5035987.79449
+Link,rural resistive heater,AT0 1,low voltage,-1732809.7804
+Link,rural resistive heater,AT0 1,rural heat,1559528.80236
+Link,rural resistive heater,AT0 10,low voltage,-1131804.75753
+Link,rural resistive heater,AT0 10,rural heat,1018624.28177
+Link,rural resistive heater,AT0 11,low voltage,-2942368.77949
+Link,rural resistive heater,AT0 11,rural heat,2648131.90154
+Link,rural resistive heater,AT0 12,low voltage,-654307.76488
+Link,rural resistive heater,AT0 12,rural heat,588876.98839
+Link,rural resistive heater,AT0 13,low voltage,-2994440.18368
+Link,rural resistive heater,AT0 13,rural heat,2694996.16531
+Link,rural resistive heater,AT0 14,low voltage,-5288901.7146
+Link,rural resistive heater,AT0 14,rural heat,4760011.54314
+Link,rural resistive heater,AT0 15,low voltage,-3303567.6001
+Link,rural resistive heater,AT0 15,rural heat,2973210.84009
+Link,rural resistive heater,AT0 16,low voltage,-8894347.9787
+Link,rural resistive heater,AT0 16,rural heat,8004913.18083
+Link,rural resistive heater,AT0 17,low voltage,-8822137.39423
+Link,rural resistive heater,AT0 17,rural heat,7939923.65481
+Link,rural resistive heater,AT0 18,low voltage,-1656778.61418
+Link,rural resistive heater,AT0 18,rural heat,1491100.75276
+Link,rural resistive heater,AT0 19,low voltage,-1214197.4324
+Link,rural resistive heater,AT0 19,rural heat,1092777.68916
+Link,rural resistive heater,AT0 2,low voltage,-1054155.93493
+Link,rural resistive heater,AT0 2,rural heat,948740.34143
+Link,rural resistive heater,AT0 20,low voltage,-1598413.57723
+Link,rural resistive heater,AT0 20,rural heat,1438572.21951
+Link,rural resistive heater,AT0 21,low voltage,-1174777.77246
+Link,rural resistive heater,AT0 21,rural heat,1057299.99522
+Link,rural resistive heater,AT0 22,low voltage,-2155484.58612
+Link,rural resistive heater,AT0 22,rural heat,1939936.1275
+Link,rural resistive heater,AT0 23,low voltage,-1553904.05185
+Link,rural resistive heater,AT0 23,rural heat,1398513.64667
+Link,rural resistive heater,AT0 24,low voltage,-324149.70452
+Link,rural resistive heater,AT0 24,rural heat,291734.73407
+Link,rural resistive heater,AT0 3,low voltage,-490694.89958
+Link,rural resistive heater,AT0 3,rural heat,441625.40962
+Link,rural resistive heater,AT0 4,low voltage,-1180315.95329
+Link,rural resistive heater,AT0 4,rural heat,1062284.35796
+Link,rural resistive heater,AT0 5,low voltage,-1125712.75283
+Link,rural resistive heater,AT0 5,rural heat,1013141.47755
+Link,rural resistive heater,AT0 6,low voltage,-3438287.29202
+Link,rural resistive heater,AT0 6,rural heat,3094458.56282
+Link,rural resistive heater,AT0 7,low voltage,-1526679.84945
+Link,rural resistive heater,AT0 7,rural heat,1374011.86451
+Link,rural resistive heater,AT0 8,low voltage,-3561426.27445
+Link,rural resistive heater,AT0 8,rural heat,3205283.647
+Link,rural resistive heater,AT0 9,low voltage,-2513051.9962
+Link,rural resistive heater,AT0 9,rural heat,2261746.79658
+Link,rural water tanks charger,AT0 0,rural heat,-0.51404
+Link,rural water tanks charger,AT0 0,rural water tanks,0.51404
+Link,rural water tanks charger,AT0 1,rural heat,-0.50104
+Link,rural water tanks charger,AT0 1,rural water tanks,0.50104
+Link,rural water tanks charger,AT0 10,rural heat,-0.51058
+Link,rural water tanks charger,AT0 10,rural water tanks,0.51058
+Link,rural water tanks charger,AT0 11,rural heat,-0.49907
+Link,rural water tanks charger,AT0 11,rural water tanks,0.49907
+Link,rural water tanks charger,AT0 12,rural heat,-0.5073
+Link,rural water tanks charger,AT0 12,rural water tanks,0.5073
+Link,rural water tanks charger,AT0 13,rural heat,-0.50261
+Link,rural water tanks charger,AT0 13,rural water tanks,0.50261
+Link,rural water tanks charger,AT0 14,rural heat,-0.50201
+Link,rural water tanks charger,AT0 14,rural water tanks,0.50201
+Link,rural water tanks charger,AT0 15,rural heat,-0.49872
+Link,rural water tanks charger,AT0 15,rural water tanks,0.49872
+Link,rural water tanks charger,AT0 16,rural heat,-0.49801
+Link,rural water tanks charger,AT0 16,rural water tanks,0.49801
+Link,rural water tanks charger,AT0 17,rural heat,-0.50183
+Link,rural water tanks charger,AT0 17,rural water tanks,0.50183
+Link,rural water tanks charger,AT0 18,rural heat,-0.50157
+Link,rural water tanks charger,AT0 18,rural water tanks,0.50157
+Link,rural water tanks charger,AT0 19,rural heat,-0.51158
+Link,rural water tanks charger,AT0 19,rural water tanks,0.51158
+Link,rural water tanks charger,AT0 2,rural heat,-0.51794
+Link,rural water tanks charger,AT0 2,rural water tanks,0.51794
+Link,rural water tanks charger,AT0 20,rural heat,-0.5071
+Link,rural water tanks charger,AT0 20,rural water tanks,0.5071
+Link,rural water tanks charger,AT0 21,rural heat,-0.50042
+Link,rural water tanks charger,AT0 21,rural water tanks,0.50042
+Link,rural water tanks charger,AT0 22,rural heat,-0.49985
+Link,rural water tanks charger,AT0 22,rural water tanks,0.49985
+Link,rural water tanks charger,AT0 23,rural heat,-0.51383
+Link,rural water tanks charger,AT0 23,rural water tanks,0.51383
+Link,rural water tanks charger,AT0 24,rural heat,-0.51366
+Link,rural water tanks charger,AT0 24,rural water tanks,0.51366
+Link,rural water tanks charger,AT0 3,rural heat,-0.50496
+Link,rural water tanks charger,AT0 3,rural water tanks,0.50496
+Link,rural water tanks charger,AT0 4,rural heat,-0.53281
+Link,rural water tanks charger,AT0 4,rural water tanks,0.53281
+Link,rural water tanks charger,AT0 5,rural heat,-0.50465
+Link,rural water tanks charger,AT0 5,rural water tanks,0.50465
+Link,rural water tanks charger,AT0 6,rural heat,-0.49962
+Link,rural water tanks charger,AT0 6,rural water tanks,0.49962
+Link,rural water tanks charger,AT0 7,rural heat,-0.50007
+Link,rural water tanks charger,AT0 7,rural water tanks,0.50007
+Link,rural water tanks charger,AT0 8,rural heat,-0.50782
+Link,rural water tanks charger,AT0 8,rural water tanks,0.50782
+Link,rural water tanks charger,AT0 9,rural heat,-0.51211
+Link,rural water tanks charger,AT0 9,rural water tanks,0.51211
+Link,rural water tanks discharger,AT0 0,rural heat,0.51297
+Link,rural water tanks discharger,AT0 0,rural water tanks,-0.51297
+Link,rural water tanks discharger,AT0 1,rural heat,0.50001
+Link,rural water tanks discharger,AT0 1,rural water tanks,-0.50001
+Link,rural water tanks discharger,AT0 10,rural heat,0.50953
+Link,rural water tanks discharger,AT0 10,rural water tanks,-0.50953
+Link,rural water tanks discharger,AT0 11,rural heat,0.49804
+Link,rural water tanks discharger,AT0 11,rural water tanks,-0.49804
+Link,rural water tanks discharger,AT0 12,rural heat,0.50624
+Link,rural water tanks discharger,AT0 12,rural water tanks,-0.50624
+Link,rural water tanks discharger,AT0 13,rural heat,0.50157
+Link,rural water tanks discharger,AT0 13,rural water tanks,-0.50157
+Link,rural water tanks discharger,AT0 14,rural heat,0.50094
+Link,rural water tanks discharger,AT0 14,rural water tanks,-0.50094
+Link,rural water tanks discharger,AT0 15,rural heat,0.49768
+Link,rural water tanks discharger,AT0 15,rural water tanks,-0.49768
+Link,rural water tanks discharger,AT0 16,rural heat,0.49699
+Link,rural water tanks discharger,AT0 16,rural water tanks,-0.49699
+Link,rural water tanks discharger,AT0 17,rural heat,0.50078
+Link,rural water tanks discharger,AT0 17,rural water tanks,-0.50078
+Link,rural water tanks discharger,AT0 18,rural heat,0.50053
+Link,rural water tanks discharger,AT0 18,rural water tanks,-0.50053
+Link,rural water tanks discharger,AT0 19,rural heat,0.51051
+Link,rural water tanks discharger,AT0 19,rural water tanks,-0.51051
+Link,rural water tanks discharger,AT0 2,rural heat,0.51685
+Link,rural water tanks discharger,AT0 2,rural water tanks,-0.51685
+Link,rural water tanks discharger,AT0 20,rural heat,0.50603
+Link,rural water tanks discharger,AT0 20,rural water tanks,-0.50603
+Link,rural water tanks discharger,AT0 21,rural heat,0.49939
+Link,rural water tanks discharger,AT0 21,rural water tanks,-0.49939
+Link,rural water tanks discharger,AT0 22,rural heat,0.49881
+Link,rural water tanks discharger,AT0 22,rural water tanks,-0.49881
+Link,rural water tanks discharger,AT0 23,rural heat,0.51276
+Link,rural water tanks discharger,AT0 23,rural water tanks,-0.51276
+Link,rural water tanks discharger,AT0 24,rural heat,0.51259
+Link,rural water tanks discharger,AT0 24,rural water tanks,-0.51259
+Link,rural water tanks discharger,AT0 3,rural heat,0.5039
+Link,rural water tanks discharger,AT0 3,rural water tanks,-0.5039
+Link,rural water tanks discharger,AT0 4,rural heat,0.53169
+Link,rural water tanks discharger,AT0 4,rural water tanks,-0.53169
+Link,rural water tanks discharger,AT0 5,rural heat,0.50359
+Link,rural water tanks discharger,AT0 5,rural water tanks,-0.50359
+Link,rural water tanks discharger,AT0 6,rural heat,0.49859
+Link,rural water tanks discharger,AT0 6,rural water tanks,-0.49859
+Link,rural water tanks discharger,AT0 7,rural heat,0.49903
+Link,rural water tanks discharger,AT0 7,rural water tanks,-0.49903
+Link,rural water tanks discharger,AT0 8,rural heat,0.50674
+Link,rural water tanks discharger,AT0 8,rural water tanks,-0.50674
+Link,rural water tanks discharger,AT0 9,rural heat,0.51104
+Link,rural water tanks discharger,AT0 9,rural water tanks,-0.51104
+Link,shipping methanol,EU,co2,108180.54676
+Link,shipping methanol,EU,methanol,-436194.78261
+Link,shipping methanol,EU,shipping methanol,436194.78261
+Link,solid biomass for industry,EU,solid biomass,-27989999.92536
+Link,solid biomass for industry,EU,solid biomass for industry,27989999.92536
+Link,solid biomass for industry CC,EU,co2,-0.02736
+Link,solid biomass for industry CC,EU,co2 stored,0.02736
+Link,solid biomass for industry CC,EU,solid biomass,-0.08292
+Link,solid biomass for industry CC,EU,solid biomass for industry,0.07462
+Link,urban central air heat pump,AT0 0,low voltage,-0.00678
+Link,urban central air heat pump,AT0 0,urban central heat,0.02313
+Link,urban central air heat pump,AT0 1,low voltage,-0.00605
+Link,urban central air heat pump,AT0 1,urban central heat,0.01841
+Link,urban central air heat pump,AT0 10,low voltage,-0.0092
+Link,urban central air heat pump,AT0 10,urban central heat,0.03162
+Link,urban central air heat pump,AT0 11,low voltage,-0.00603
+Link,urban central air heat pump,AT0 11,urban central heat,0.01906
+Link,urban central air heat pump,AT0 12,low voltage,-0.00608
+Link,urban central air heat pump,AT0 12,urban central heat,0.0221
+Link,urban central air heat pump,AT0 13,low voltage,-0.00606
+Link,urban central air heat pump,AT0 13,urban central heat,0.01984
+Link,urban central air heat pump,AT0 18,low voltage,-0.00604
+Link,urban central air heat pump,AT0 18,urban central heat,0.01935
+Link,urban central air heat pump,AT0 19,low voltage,-0.00638
+Link,urban central air heat pump,AT0 19,urban central heat,0.02247
+Link,urban central air heat pump,AT0 2,low voltage,-0.00681
+Link,urban central air heat pump,AT0 2,urban central heat,0.02486
+Link,urban central air heat pump,AT0 20,low voltage,-0.00601
+Link,urban central air heat pump,AT0 20,urban central heat,0.02112
+Link,urban central air heat pump,AT0 21,low voltage,-0.00603
+Link,urban central air heat pump,AT0 21,urban central heat,0.01877
+Link,urban central air heat pump,AT0 23,low voltage,-0.00807
+Link,urban central air heat pump,AT0 23,urban central heat,0.02879
+Link,urban central air heat pump,AT0 24,low voltage,-0.00852
+Link,urban central air heat pump,AT0 24,urban central heat,0.0294
+Link,urban central air heat pump,AT0 3,low voltage,-0.00605
+Link,urban central air heat pump,AT0 3,urban central heat,0.02071
+Link,urban central air heat pump,AT0 4,low voltage,-0.00663
+Link,urban central air heat pump,AT0 4,urban central heat,0.02303
+Link,urban central air heat pump,AT0 5,low voltage,-0.00608
+Link,urban central air heat pump,AT0 5,urban central heat,0.01929
+Link,urban central air heat pump,AT0 8,low voltage,-0.00607
+Link,urban central air heat pump,AT0 8,urban central heat,0.02125
+Link,urban central air heat pump,AT0 9,low voltage,-0.00634
+Link,urban central air heat pump,AT0 9,urban central heat,0.02243
+Link,urban central gas CHP,AT0 0,AC,0.00226
+Link,urban central gas CHP,AT0 0,urban central heat,0.00226
+Link,urban central gas CHP,AT0 1,AC,0.00221
+Link,urban central gas CHP,AT0 1,urban central heat,0.00221
+Link,urban central gas CHP,AT0 10,AC,0.00243
+Link,urban central gas CHP,AT0 10,urban central heat,0.00243
+Link,urban central gas CHP,AT0 11,AC,0.0022
+Link,urban central gas CHP,AT0 11,urban central heat,0.0022
+Link,urban central gas CHP,AT0 12,AC,0.00219
+Link,urban central gas CHP,AT0 12,urban central heat,0.00219
+Link,urban central gas CHP,AT0 13,AC,0.0022
+Link,urban central gas CHP,AT0 13,urban central heat,0.0022
+Link,urban central gas CHP,AT0 18,AC,0.00219
+Link,urban central gas CHP,AT0 18,urban central heat,0.00219
+Link,urban central gas CHP,AT0 19,AC,0.00223
+Link,urban central gas CHP,AT0 19,urban central heat,0.00223
+Link,urban central gas CHP,AT0 2,AC,0.0023
+Link,urban central gas CHP,AT0 2,urban central heat,0.0023
+Link,urban central gas CHP,AT0 20,AC,0.00221
+Link,urban central gas CHP,AT0 20,urban central heat,0.00221
+Link,urban central gas CHP,AT0 21,AC,0.00219
+Link,urban central gas CHP,AT0 21,urban central heat,0.00219
+Link,urban central gas CHP,AT0 23,AC,0.00239
+Link,urban central gas CHP,AT0 23,urban central heat,0.00239
+Link,urban central gas CHP,AT0 24,AC,0.00239
+Link,urban central gas CHP,AT0 24,urban central heat,0.00239
+Link,urban central gas CHP,AT0 3,AC,0.0022
+Link,urban central gas CHP,AT0 3,urban central heat,0.0022
+Link,urban central gas CHP,AT0 4,AC,0.00229
+Link,urban central gas CHP,AT0 4,urban central heat,0.00229
+Link,urban central gas CHP,AT0 5,AC,0.00221
+Link,urban central gas CHP,AT0 5,urban central heat,0.00221
+Link,urban central gas CHP,AT0 8,AC,0.00221
+Link,urban central gas CHP,AT0 8,urban central heat,0.00221
+Link,urban central gas CHP,AT0 9,AC,0.00222
+Link,urban central gas CHP,AT0 9,urban central heat,0.00222
+Link,urban central gas CHP,EU,co2,0.01956
+Link,urban central gas CHP,EU,gas,-0.09879
+Link,urban central gas CHP CC,AT0 0,AC,0.00212
+Link,urban central gas CHP CC,AT0 0,urban central heat,0.00239
+Link,urban central gas CHP CC,AT0 1,AC,0.00207
+Link,urban central gas CHP CC,AT0 1,urban central heat,0.00233
+Link,urban central gas CHP CC,AT0 10,AC,0.00228
+Link,urban central gas CHP CC,AT0 10,urban central heat,0.00257
+Link,urban central gas CHP CC,AT0 11,AC,0.00206
+Link,urban central gas CHP CC,AT0 11,urban central heat,0.00233
+Link,urban central gas CHP CC,AT0 12,AC,0.00207
+Link,urban central gas CHP CC,AT0 12,urban central heat,0.00233
+Link,urban central gas CHP CC,AT0 13,AC,0.00205
+Link,urban central gas CHP CC,AT0 13,urban central heat,0.00232
+Link,urban central gas CHP CC,AT0 18,AC,0.00206
+Link,urban central gas CHP CC,AT0 18,urban central heat,0.00232
+Link,urban central gas CHP CC,AT0 19,AC,0.0021
+Link,urban central gas CHP CC,AT0 19,urban central heat,0.00237
+Link,urban central gas CHP CC,AT0 2,AC,0.00214
+Link,urban central gas CHP CC,AT0 2,urban central heat,0.00242
+Link,urban central gas CHP CC,AT0 20,AC,0.00207
+Link,urban central gas CHP CC,AT0 20,urban central heat,0.00233
+Link,urban central gas CHP CC,AT0 21,AC,0.00206
+Link,urban central gas CHP CC,AT0 21,urban central heat,0.00232
+Link,urban central gas CHP CC,AT0 23,AC,0.00224
+Link,urban central gas CHP CC,AT0 23,urban central heat,0.00253
+Link,urban central gas CHP CC,AT0 24,AC,0.00224
+Link,urban central gas CHP CC,AT0 24,urban central heat,0.00252
+Link,urban central gas CHP CC,AT0 3,AC,0.00207
+Link,urban central gas CHP CC,AT0 3,urban central heat,0.00233
+Link,urban central gas CHP CC,AT0 4,AC,0.00215
+Link,urban central gas CHP CC,AT0 4,urban central heat,0.00243
+Link,urban central gas CHP CC,AT0 5,AC,0.00208
+Link,urban central gas CHP CC,AT0 5,urban central heat,0.00234
+Link,urban central gas CHP CC,AT0 8,AC,0.00207
+Link,urban central gas CHP CC,AT0 8,urban central heat,0.00233
+Link,urban central gas CHP CC,AT0 9,AC,0.00209
+Link,urban central gas CHP CC,AT0 9,urban central heat,0.00236
+Link,urban central gas CHP CC,EU,co2,0.00194
+Link,urban central gas CHP CC,EU,co2 stored,0.01745
+Link,urban central gas CHP CC,EU,gas,-0.09792
+Link,urban central gas boiler,AT0 0,urban central heat,204.94189
+Link,urban central gas boiler,AT0 1,urban central heat,0.00718
+Link,urban central gas boiler,AT0 10,urban central heat,52532.85115
+Link,urban central gas boiler,AT0 11,urban central heat,0.00719
+Link,urban central gas boiler,AT0 12,urban central heat,0.0072
+Link,urban central gas boiler,AT0 13,urban central heat,0.00719
+Link,urban central gas boiler,AT0 18,urban central heat,0.00719
+Link,urban central gas boiler,AT0 19,urban central heat,2381.32045
+Link,urban central gas boiler,AT0 2,urban central heat,13095.80567
+Link,urban central gas boiler,AT0 20,urban central heat,0.0072
+Link,urban central gas boiler,AT0 21,urban central heat,0.00719
+Link,urban central gas boiler,AT0 23,urban central heat,283622.02317
+Link,urban central gas boiler,AT0 24,urban central heat,28346.4907
+Link,urban central gas boiler,AT0 3,urban central heat,0.0072
+Link,urban central gas boiler,AT0 4,urban central heat,216.05809
+Link,urban central gas boiler,AT0 5,urban central heat,0.0072
+Link,urban central gas boiler,AT0 8,urban central heat,0.0072
+Link,urban central gas boiler,AT0 9,urban central heat,1285.58552
+Link,urban central gas boiler,EU,co2,72666.98021
+Link,urban central gas boiler,EU,gas,-367004.95053
+Link,urban central ptes heat pump,AT0 0,low voltage,-0.00523
+Link,urban central ptes heat pump,AT0 0,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 1,low voltage,-0.00546
+Link,urban central ptes heat pump,AT0 1,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 10,low voltage,-0.00472
+Link,urban central ptes heat pump,AT0 10,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 11,low voltage,-0.00545
+Link,urban central ptes heat pump,AT0 11,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 12,low voltage,-0.00547
+Link,urban central ptes heat pump,AT0 12,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 13,low voltage,-0.00544
+Link,urban central ptes heat pump,AT0 13,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 18,low voltage,-0.00544
+Link,urban central ptes heat pump,AT0 18,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 19,low voltage,-0.0053
+Link,urban central ptes heat pump,AT0 19,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 2,low voltage,-0.00521
+Link,urban central ptes heat pump,AT0 2,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 20,low voltage,-0.00542
+Link,urban central ptes heat pump,AT0 20,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 21,low voltage,-0.00544
+Link,urban central ptes heat pump,AT0 21,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 23,low voltage,-0.00488
+Link,urban central ptes heat pump,AT0 23,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 24,low voltage,-0.0048
+Link,urban central ptes heat pump,AT0 24,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 3,low voltage,-0.00545
+Link,urban central ptes heat pump,AT0 3,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 4,low voltage,-0.00511
+Link,urban central ptes heat pump,AT0 4,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 5,low voltage,-0.00547
+Link,urban central ptes heat pump,AT0 5,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 8,low voltage,-0.00546
+Link,urban central ptes heat pump,AT0 8,urban central heat,0.0
+Link,urban central ptes heat pump,AT0 9,low voltage,-0.00529
+Link,urban central ptes heat pump,AT0 9,urban central heat,0.0
+Link,urban central resistive heater,AT0 0,low voltage,-1740821.1899
+Link,urban central resistive heater,AT0 0,urban central heat,1723412.978
+Link,urban central resistive heater,AT0 1,low voltage,-11761167.993
+Link,urban central resistive heater,AT0 1,urban central heat,11643556.31307
+Link,urban central resistive heater,AT0 10,low voltage,-2106350.63794
+Link,urban central resistive heater,AT0 10,urban central heat,2085287.13156
+Link,urban central resistive heater,AT0 11,low voltage,-4092492.12133
+Link,urban central resistive heater,AT0 11,urban central heat,4051567.20012
+Link,urban central resistive heater,AT0 12,low voltage,-16862863.66028
+Link,urban central resistive heater,AT0 12,urban central heat,16694235.02368
+Link,urban central resistive heater,AT0 13,low voltage,-6174731.08858
+Link,urban central resistive heater,AT0 13,urban central heat,6112983.7777
+Link,urban central resistive heater,AT0 18,low voltage,-5211831.20649
+Link,urban central resistive heater,AT0 18,urban central heat,5159712.89443
+Link,urban central resistive heater,AT0 19,low voltage,-3640084.23939
+Link,urban central resistive heater,AT0 19,urban central heat,3603683.397
+Link,urban central resistive heater,AT0 2,low voltage,-1617349.14018
+Link,urban central resistive heater,AT0 2,urban central heat,1601175.64878
+Link,urban central resistive heater,AT0 20,low voltage,-1022772.38644
+Link,urban central resistive heater,AT0 20,urban central heat,1012544.66258
+Link,urban central resistive heater,AT0 21,low voltage,-3629034.92306
+Link,urban central resistive heater,AT0 21,urban central heat,3592744.57383
+Link,urban central resistive heater,AT0 23,low voltage,-4967696.49968
+Link,urban central resistive heater,AT0 23,urban central heat,4918019.53469
+Link,urban central resistive heater,AT0 24,low voltage,-839271.27386
+Link,urban central resistive heater,AT0 24,urban central heat,830878.56113
+Link,urban central resistive heater,AT0 3,low voltage,-5741034.61124
+Link,urban central resistive heater,AT0 3,urban central heat,5683624.26512
+Link,urban central resistive heater,AT0 4,low voltage,-840590.39526
+Link,urban central resistive heater,AT0 4,urban central heat,832184.49131
+Link,urban central resistive heater,AT0 5,low voltage,-14726857.19113
+Link,urban central resistive heater,AT0 5,urban central heat,14579588.61922
+Link,urban central resistive heater,AT0 8,low voltage,-5479402.45605
+Link,urban central resistive heater,AT0 8,urban central heat,5424608.43149
+Link,urban central resistive heater,AT0 9,low voltage,-1368643.27654
+Link,urban central resistive heater,AT0 9,urban central heat,1354956.84377
+Link,urban central solid biomass CHP,AT0 0,AC,0.00136
+Link,urban central solid biomass CHP,AT0 0,urban central heat,0.00416
+Link,urban central solid biomass CHP,AT0 1,AC,0.00128
+Link,urban central solid biomass CHP,AT0 1,urban central heat,0.00391
+Link,urban central solid biomass CHP,AT0 10,AC,0.00158
+Link,urban central solid biomass CHP,AT0 10,urban central heat,0.00484
+Link,urban central solid biomass CHP,AT0 11,AC,0.00128
+Link,urban central solid biomass CHP,AT0 11,urban central heat,0.00391
+Link,urban central solid biomass CHP,AT0 12,AC,0.00129
+Link,urban central solid biomass CHP,AT0 12,urban central heat,0.00394
+Link,urban central solid biomass CHP,AT0 13,AC,0.00133
+Link,urban central solid biomass CHP,AT0 13,urban central heat,0.00405
+Link,urban central solid biomass CHP,AT0 18,AC,0.00128
+Link,urban central solid biomass CHP,AT0 18,urban central heat,0.00391
+Link,urban central solid biomass CHP,AT0 19,AC,0.00132
+Link,urban central solid biomass CHP,AT0 19,urban central heat,0.00403
+Link,urban central solid biomass CHP,AT0 2,AC,0.00138
+Link,urban central solid biomass CHP,AT0 2,urban central heat,0.00422
+Link,urban central solid biomass CHP,AT0 20,AC,0.00132
+Link,urban central solid biomass CHP,AT0 20,urban central heat,0.00405
+Link,urban central solid biomass CHP,AT0 21,AC,0.00127
+Link,urban central solid biomass CHP,AT0 21,urban central heat,0.00387
+Link,urban central solid biomass CHP,AT0 23,AC,0.00153
+Link,urban central solid biomass CHP,AT0 23,urban central heat,0.00466
+Link,urban central solid biomass CHP,AT0 24,AC,0.00149
+Link,urban central solid biomass CHP,AT0 24,urban central heat,0.00454
+Link,urban central solid biomass CHP,AT0 3,AC,0.00132
+Link,urban central solid biomass CHP,AT0 3,urban central heat,0.00402
+Link,urban central solid biomass CHP,AT0 4,AC,0.00135
+Link,urban central solid biomass CHP,AT0 4,urban central heat,0.00411
+Link,urban central solid biomass CHP,AT0 5,AC,0.00137
+Link,urban central solid biomass CHP,AT0 5,urban central heat,0.00417
+Link,urban central solid biomass CHP,AT0 8,AC,0.00133
+Link,urban central solid biomass CHP,AT0 8,urban central heat,0.00406
+Link,urban central solid biomass CHP,AT0 9,AC,0.00131
+Link,urban central solid biomass CHP,AT0 9,urban central heat,0.00399
+Link,urban central solid biomass CHP,EU,solid biomass,-0.0903
+Link,urban central solid biomass CHP CC,AT0 0,AC,0.00093
+Link,urban central solid biomass CHP CC,AT0 0,urban central heat,0.00335
+Link,urban central solid biomass CHP CC,AT0 1,AC,0.0009
+Link,urban central solid biomass CHP CC,AT0 1,urban central heat,0.00322
+Link,urban central solid biomass CHP CC,AT0 10,AC,0.00101
+Link,urban central solid biomass CHP CC,AT0 10,urban central heat,0.00364
+Link,urban central solid biomass CHP CC,AT0 11,AC,0.0009
+Link,urban central solid biomass CHP CC,AT0 11,urban central heat,0.00322
+Link,urban central solid biomass CHP CC,AT0 12,AC,0.0009
+Link,urban central solid biomass CHP CC,AT0 12,urban central heat,0.00324
+Link,urban central solid biomass CHP CC,AT0 13,AC,0.00093
+Link,urban central solid biomass CHP CC,AT0 13,urban central heat,0.00334
+Link,urban central solid biomass CHP CC,AT0 18,AC,0.0009
+Link,urban central solid biomass CHP CC,AT0 18,urban central heat,0.00322
+Link,urban central solid biomass CHP CC,AT0 19,AC,0.00092
+Link,urban central solid biomass CHP CC,AT0 19,urban central heat,0.00329
+Link,urban central solid biomass CHP CC,AT0 2,AC,0.00094
+Link,urban central solid biomass CHP CC,AT0 2,urban central heat,0.00337
+Link,urban central solid biomass CHP CC,AT0 20,AC,0.00093
+Link,urban central solid biomass CHP CC,AT0 20,urban central heat,0.00333
+Link,urban central solid biomass CHP CC,AT0 21,AC,0.00089
+Link,urban central solid biomass CHP CC,AT0 21,urban central heat,0.0032
+Link,urban central solid biomass CHP CC,AT0 23,AC,0.00098
+Link,urban central solid biomass CHP CC,AT0 23,urban central heat,0.00352
+Link,urban central solid biomass CHP CC,AT0 24,AC,0.00097
+Link,urban central solid biomass CHP CC,AT0 24,urban central heat,0.0035
+Link,urban central solid biomass CHP CC,AT0 3,AC,0.00092
+Link,urban central solid biomass CHP CC,AT0 3,urban central heat,0.00331
+Link,urban central solid biomass CHP CC,AT0 4,AC,0.00092
+Link,urban central solid biomass CHP CC,AT0 4,urban central heat,0.0033
+Link,urban central solid biomass CHP CC,AT0 5,AC,0.00097
+Link,urban central solid biomass CHP CC,AT0 5,urban central heat,0.00347
+Link,urban central solid biomass CHP CC,AT0 8,AC,0.00093
+Link,urban central solid biomass CHP CC,AT0 8,urban central heat,0.00334
+Link,urban central solid biomass CHP CC,AT0 9,AC,0.00091
+Link,urban central solid biomass CHP CC,AT0 9,urban central heat,0.00326
+Link,urban central solid biomass CHP CC,EU,co2,-0.02406
+Link,urban central solid biomass CHP CC,EU,co2 stored,0.02406
+Link,urban central solid biomass CHP CC,EU,solid biomass,-0.07291
+Link,urban central water pits charger,AT0 0,urban central heat,-179088.23062
+Link,urban central water pits charger,AT0 0,urban central water pits,179088.23062
+Link,urban central water pits charger,AT0 1,urban central heat,-0.26442
+Link,urban central water pits charger,AT0 1,urban central water pits,0.26442
+Link,urban central water pits charger,AT0 10,urban central heat,-203986.1474
+Link,urban central water pits charger,AT0 10,urban central water pits,203986.1474
+Link,urban central water pits charger,AT0 11,urban central heat,-0.26413
+Link,urban central water pits charger,AT0 11,urban central water pits,0.26413
+Link,urban central water pits charger,AT0 12,urban central heat,-0.26151
+Link,urban central water pits charger,AT0 12,urban central water pits,0.26151
+Link,urban central water pits charger,AT0 13,urban central heat,-0.2642
+Link,urban central water pits charger,AT0 13,urban central water pits,0.2642
+Link,urban central water pits charger,AT0 18,urban central heat,-0.26353
+Link,urban central water pits charger,AT0 18,urban central water pits,0.26353
+Link,urban central water pits charger,AT0 19,urban central heat,-23.43065
+Link,urban central water pits charger,AT0 19,urban central water pits,23.43065
+Link,urban central water pits charger,AT0 2,urban central heat,-88864.74489
+Link,urban central water pits charger,AT0 2,urban central water pits,88864.74489
+Link,urban central water pits charger,AT0 20,urban central heat,-0.26404
+Link,urban central water pits charger,AT0 20,urban central water pits,0.26404
+Link,urban central water pits charger,AT0 21,urban central heat,-0.26304
+Link,urban central water pits charger,AT0 21,urban central water pits,0.26304
+Link,urban central water pits charger,AT0 23,urban central heat,-686836.20455
+Link,urban central water pits charger,AT0 23,urban central water pits,686836.20455
+Link,urban central water pits charger,AT0 24,urban central heat,-110103.74565
+Link,urban central water pits charger,AT0 24,urban central water pits,110103.74565
+Link,urban central water pits charger,AT0 3,urban central heat,-0.26243
+Link,urban central water pits charger,AT0 3,urban central water pits,0.26243
+Link,urban central water pits charger,AT0 4,urban central heat,-184690.84428
+Link,urban central water pits charger,AT0 4,urban central water pits,184690.84428
+Link,urban central water pits charger,AT0 5,urban central heat,-0.26599
+Link,urban central water pits charger,AT0 5,urban central water pits,0.26599
+Link,urban central water pits charger,AT0 8,urban central heat,-0.26289
+Link,urban central water pits charger,AT0 8,urban central water pits,0.26289
+Link,urban central water pits charger,AT0 9,urban central heat,-4466.58341
+Link,urban central water pits charger,AT0 9,urban central water pits,4466.58341
+Link,urban central water pits discharger,AT0 0,urban central heat,139581.75858
+Link,urban central water pits discharger,AT0 0,urban central water pits,-139581.75858
+Link,urban central water pits discharger,AT0 1,urban central heat,0.25938
+Link,urban central water pits discharger,AT0 1,urban central water pits,-0.25938
+Link,urban central water pits discharger,AT0 10,urban central heat,176538.4512
+Link,urban central water pits discharger,AT0 10,urban central water pits,-176538.4512
+Link,urban central water pits discharger,AT0 11,urban central heat,0.25934
+Link,urban central water pits discharger,AT0 11,urban central water pits,-0.25934
+Link,urban central water pits discharger,AT0 12,urban central heat,0.25759
+Link,urban central water pits discharger,AT0 12,urban central water pits,-0.25759
+Link,urban central water pits discharger,AT0 13,urban central heat,0.25961
+Link,urban central water pits discharger,AT0 13,urban central water pits,-0.25961
+Link,urban central water pits discharger,AT0 18,urban central heat,0.25883
+Link,urban central water pits discharger,AT0 18,urban central water pits,-0.25883
+Link,urban central water pits discharger,AT0 19,urban central heat,17.88289
+Link,urban central water pits discharger,AT0 19,urban central water pits,-17.88289
+Link,urban central water pits discharger,AT0 2,urban central heat,67329.82174
+Link,urban central water pits discharger,AT0 2,urban central water pits,-67329.82174
+Link,urban central water pits discharger,AT0 20,urban central heat,0.25988
+Link,urban central water pits discharger,AT0 20,urban central water pits,-0.25988
+Link,urban central water pits discharger,AT0 21,urban central heat,0.2582
+Link,urban central water pits discharger,AT0 21,urban central water pits,-0.2582
+Link,urban central water pits discharger,AT0 23,urban central heat,616736.54429
+Link,urban central water pits discharger,AT0 23,urban central water pits,-616736.54429
+Link,urban central water pits discharger,AT0 24,urban central heat,96347.57051
+Link,urban central water pits discharger,AT0 24,urban central water pits,-96347.57051
+Link,urban central water pits discharger,AT0 3,urban central heat,0.25814
+Link,urban central water pits discharger,AT0 3,urban central water pits,-0.25814
+Link,urban central water pits discharger,AT0 4,urban central heat,162676.15068
+Link,urban central water pits discharger,AT0 4,urban central water pits,-162676.15068
+Link,urban central water pits discharger,AT0 5,urban central heat,0.2612
+Link,urban central water pits discharger,AT0 5,urban central water pits,-0.2612
+Link,urban central water pits discharger,AT0 8,urban central heat,0.25873
+Link,urban central water pits discharger,AT0 8,urban central water pits,-0.25873
+Link,urban central water pits discharger,AT0 9,urban central heat,2476.7041
+Link,urban central water pits discharger,AT0 9,urban central water pits,-2476.7041
+Link,urban central water tanks charger,AT0 0,urban central heat,-0.2756
+Link,urban central water tanks charger,AT0 0,urban central water tanks,0.2756
+Link,urban central water tanks charger,AT0 1,urban central heat,-0.14448
+Link,urban central water tanks charger,AT0 1,urban central water tanks,0.14448
+Link,urban central water tanks charger,AT0 10,urban central heat,-0.22623
+Link,urban central water tanks charger,AT0 10,urban central water tanks,0.22623
+Link,urban central water tanks charger,AT0 11,urban central heat,-0.14434
+Link,urban central water tanks charger,AT0 11,urban central water tanks,0.14434
+Link,urban central water tanks charger,AT0 12,urban central heat,-0.14385
+Link,urban central water tanks charger,AT0 12,urban central water tanks,0.14385
+Link,urban central water tanks charger,AT0 13,urban central heat,-0.14451
+Link,urban central water tanks charger,AT0 13,urban central water tanks,0.14451
+Link,urban central water tanks charger,AT0 18,urban central heat,-0.14442
+Link,urban central water tanks charger,AT0 18,urban central water tanks,0.14442
+Link,urban central water tanks charger,AT0 19,urban central heat,-0.30581
+Link,urban central water tanks charger,AT0 19,urban central water tanks,0.30581
+Link,urban central water tanks charger,AT0 2,urban central heat,-0.28106
+Link,urban central water tanks charger,AT0 2,urban central water tanks,0.28106
+Link,urban central water tanks charger,AT0 20,urban central heat,-0.14445
+Link,urban central water tanks charger,AT0 20,urban central water tanks,0.14445
+Link,urban central water tanks charger,AT0 21,urban central heat,-0.1443
+Link,urban central water tanks charger,AT0 21,urban central water tanks,0.1443
+Link,urban central water tanks charger,AT0 23,urban central heat,-0.2666
+Link,urban central water tanks charger,AT0 23,urban central water tanks,0.2666
+Link,urban central water tanks charger,AT0 24,urban central heat,-0.22824
+Link,urban central water tanks charger,AT0 24,urban central water tanks,0.22824
+Link,urban central water tanks charger,AT0 3,urban central heat,-0.14443
+Link,urban central water tanks charger,AT0 3,urban central water tanks,0.14443
+Link,urban central water tanks charger,AT0 4,urban central heat,-0.26935
+Link,urban central water tanks charger,AT0 4,urban central water tanks,0.26935
+Link,urban central water tanks charger,AT0 5,urban central heat,-0.14567
+Link,urban central water tanks charger,AT0 5,urban central water tanks,0.14567
+Link,urban central water tanks charger,AT0 8,urban central heat,-0.14449
+Link,urban central water tanks charger,AT0 8,urban central water tanks,0.14449
+Link,urban central water tanks charger,AT0 9,urban central heat,-0.32019
+Link,urban central water tanks charger,AT0 9,urban central water tanks,0.32019
+Link,urban central water tanks discharger,AT0 0,urban central heat,0.27171
+Link,urban central water tanks discharger,AT0 0,urban central water tanks,-0.27171
+Link,urban central water tanks discharger,AT0 1,urban central heat,0.14241
+Link,urban central water tanks discharger,AT0 1,urban central water tanks,-0.14241
+Link,urban central water tanks discharger,AT0 10,urban central heat,0.22303
+Link,urban central water tanks discharger,AT0 10,urban central water tanks,-0.22303
+Link,urban central water tanks discharger,AT0 11,urban central heat,0.14228
+Link,urban central water tanks discharger,AT0 11,urban central water tanks,-0.14228
+Link,urban central water tanks discharger,AT0 12,urban central heat,0.1418
+Link,urban central water tanks discharger,AT0 12,urban central water tanks,-0.1418
+Link,urban central water tanks discharger,AT0 13,urban central heat,0.14244
+Link,urban central water tanks discharger,AT0 13,urban central water tanks,-0.14244
+Link,urban central water tanks discharger,AT0 18,urban central heat,0.14236
+Link,urban central water tanks discharger,AT0 18,urban central water tanks,-0.14236
+Link,urban central water tanks discharger,AT0 19,urban central heat,0.30141
+Link,urban central water tanks discharger,AT0 19,urban central water tanks,-0.30141
+Link,urban central water tanks discharger,AT0 2,urban central heat,0.27703
+Link,urban central water tanks discharger,AT0 2,urban central water tanks,-0.27703
+Link,urban central water tanks discharger,AT0 20,urban central heat,0.14238
+Link,urban central water tanks discharger,AT0 20,urban central water tanks,-0.14238
+Link,urban central water tanks discharger,AT0 21,urban central heat,0.14224
+Link,urban central water tanks discharger,AT0 21,urban central water tanks,-0.14224
+Link,urban central water tanks discharger,AT0 23,urban central heat,0.26286
+Link,urban central water tanks discharger,AT0 23,urban central water tanks,-0.26286
+Link,urban central water tanks discharger,AT0 24,urban central heat,0.22501
+Link,urban central water tanks discharger,AT0 24,urban central water tanks,-0.22501
+Link,urban central water tanks discharger,AT0 3,urban central heat,0.14237
+Link,urban central water tanks discharger,AT0 3,urban central water tanks,-0.14237
+Link,urban central water tanks discharger,AT0 4,urban central heat,0.26553
+Link,urban central water tanks discharger,AT0 4,urban central water tanks,-0.26553
+Link,urban central water tanks discharger,AT0 5,urban central heat,0.14359
+Link,urban central water tanks discharger,AT0 5,urban central water tanks,-0.14359
+Link,urban central water tanks discharger,AT0 8,urban central heat,0.14242
+Link,urban central water tanks discharger,AT0 8,urban central water tanks,-0.14242
+Link,urban central water tanks discharger,AT0 9,urban central heat,0.31558
+Link,urban central water tanks discharger,AT0 9,urban central water tanks,-0.31558
+Link,urban decentral air heat pump,AT0 0,low voltage,-0.00429
+Link,urban decentral air heat pump,AT0 0,urban decentral heat,0.01107
+Link,urban decentral air heat pump,AT0 1,low voltage,-0.00406
+Link,urban decentral air heat pump,AT0 1,urban decentral heat,0.00916
+Link,urban decentral air heat pump,AT0 10,low voltage,-0.00482
+Link,urban decentral air heat pump,AT0 10,urban decentral heat,0.01262
+Link,urban decentral air heat pump,AT0 11,low voltage,-0.00406
+Link,urban decentral air heat pump,AT0 11,urban decentral heat,0.00958
+Link,urban decentral air heat pump,AT0 12,low voltage,-0.00407
+Link,urban decentral air heat pump,AT0 12,urban decentral heat,0.01125
+Link,urban decentral air heat pump,AT0 13,low voltage,-0.00406
+Link,urban decentral air heat pump,AT0 13,urban decentral heat,0.01001
+Link,urban decentral air heat pump,AT0 14,low voltage,-0.00403
+Link,urban decentral air heat pump,AT0 14,urban decentral heat,0.01051
+Link,urban decentral air heat pump,AT0 15,low voltage,-0.00403
+Link,urban decentral air heat pump,AT0 15,urban decentral heat,0.01057
+Link,urban decentral air heat pump,AT0 16,low voltage,-0.00404
+Link,urban decentral air heat pump,AT0 16,urban decentral heat,0.00953
+Link,urban decentral air heat pump,AT0 17,low voltage,-0.00404
+Link,urban decentral air heat pump,AT0 17,urban decentral heat,0.01091
+Link,urban decentral air heat pump,AT0 18,low voltage,-0.00406
+Link,urban decentral air heat pump,AT0 18,urban decentral heat,0.00974
+Link,urban decentral air heat pump,AT0 19,low voltage,-0.00417
+Link,urban decentral air heat pump,AT0 19,urban decentral heat,0.01114
+Link,urban decentral air heat pump,AT0 2,low voltage,-0.00428
+Link,urban decentral air heat pump,AT0 2,urban decentral heat,0.01191
+Link,urban decentral air heat pump,AT0 20,low voltage,-0.00406
+Link,urban decentral air heat pump,AT0 20,urban decentral heat,0.01083
+Link,urban decentral air heat pump,AT0 21,low voltage,-0.00406
+Link,urban decentral air heat pump,AT0 21,urban decentral heat,0.00941
+Link,urban decentral air heat pump,AT0 22,low voltage,-0.00403
+Link,urban decentral air heat pump,AT0 22,urban decentral heat,0.01006
+Link,urban decentral air heat pump,AT0 23,low voltage,-0.00491
+Link,urban decentral air heat pump,AT0 23,urban decentral heat,0.01334
+Link,urban decentral air heat pump,AT0 24,low voltage,-0.00471
+Link,urban decentral air heat pump,AT0 24,urban decentral heat,0.01239
+Link,urban decentral air heat pump,AT0 3,low voltage,-0.00407
+Link,urban decentral air heat pump,AT0 3,urban decentral heat,0.01056
+Link,urban decentral air heat pump,AT0 4,low voltage,-0.00481
+Link,urban decentral air heat pump,AT0 4,urban decentral heat,0.01271
+Link,urban decentral air heat pump,AT0 5,low voltage,-0.00406
+Link,urban decentral air heat pump,AT0 5,urban decentral heat,0.00964
+Link,urban decentral air heat pump,AT0 6,low voltage,-0.00404
+Link,urban decentral air heat pump,AT0 6,urban decentral heat,0.01027
+Link,urban decentral air heat pump,AT0 7,low voltage,-0.00403
+Link,urban decentral air heat pump,AT0 7,urban decentral heat,0.00938
+Link,urban decentral air heat pump,AT0 8,low voltage,-0.00407
+Link,urban decentral air heat pump,AT0 8,urban decentral heat,0.0108
+Link,urban decentral air heat pump,AT0 9,low voltage,-0.00415
+Link,urban decentral air heat pump,AT0 9,urban decentral heat,0.01115
+Link,urban decentral biomass boiler,AT0 0,urban decentral heat,0.0043
+Link,urban decentral biomass boiler,AT0 1,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 10,urban decentral heat,0.005
+Link,urban decentral biomass boiler,AT0 11,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 12,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 13,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 14,urban decentral heat,0.00398
+Link,urban decentral biomass boiler,AT0 15,urban decentral heat,0.00399
+Link,urban decentral biomass boiler,AT0 16,urban decentral heat,0.00398
+Link,urban decentral biomass boiler,AT0 17,urban decentral heat,0.00398
+Link,urban decentral biomass boiler,AT0 18,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 19,urban decentral heat,0.00414
+Link,urban decentral biomass boiler,AT0 2,urban decentral heat,0.00432
+Link,urban decentral biomass boiler,AT0 20,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 21,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 22,urban decentral heat,0.00399
+Link,urban decentral biomass boiler,AT0 23,urban decentral heat,0.0052
+Link,urban decentral biomass boiler,AT0 24,urban decentral heat,0.00478
+Link,urban decentral biomass boiler,AT0 3,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 4,urban decentral heat,0.00495
+Link,urban decentral biomass boiler,AT0 5,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 6,urban decentral heat,0.00398
+Link,urban decentral biomass boiler,AT0 7,urban decentral heat,0.00398
+Link,urban decentral biomass boiler,AT0 8,urban decentral heat,0.00402
+Link,urban decentral biomass boiler,AT0 9,urban decentral heat,0.00413
+Link,urban decentral biomass boiler,EU,solid biomass,-0.12199
+Link,urban decentral gas boiler,AT0 0,urban decentral heat,0.00534
+Link,urban decentral gas boiler,AT0 1,urban decentral heat,0.00492
+Link,urban decentral gas boiler,AT0 10,urban decentral heat,0.00653
+Link,urban decentral gas boiler,AT0 11,urban decentral heat,0.00493
+Link,urban decentral gas boiler,AT0 12,urban decentral heat,0.00493
+Link,urban decentral gas boiler,AT0 13,urban decentral heat,0.00493
+Link,urban decentral gas boiler,AT0 14,urban decentral heat,0.00488
+Link,urban decentral gas boiler,AT0 15,urban decentral heat,0.00488
+Link,urban decentral gas boiler,AT0 16,urban decentral heat,0.00487
+Link,urban decentral gas boiler,AT0 17,urban decentral heat,0.00487
+Link,urban decentral gas boiler,AT0 18,urban decentral heat,0.00493
+Link,urban decentral gas boiler,AT0 19,urban decentral heat,0.0051
+Link,urban decentral gas boiler,AT0 2,urban decentral heat,0.00537
+Link,urban decentral gas boiler,AT0 20,urban decentral heat,0.00494
+Link,urban decentral gas boiler,AT0 21,urban decentral heat,0.00493
+Link,urban decentral gas boiler,AT0 22,urban decentral heat,0.00488
+Link,urban decentral gas boiler,AT0 23,urban decentral heat,0.00701
+Link,urban decentral gas boiler,AT0 24,urban decentral heat,0.00616
+Link,urban decentral gas boiler,AT0 3,urban decentral heat,0.00493
+Link,urban decentral gas boiler,AT0 4,urban decentral heat,0.00642
+Link,urban decentral gas boiler,AT0 5,urban decentral heat,0.00492
+Link,urban decentral gas boiler,AT0 6,urban decentral heat,0.00487
+Link,urban decentral gas boiler,AT0 7,urban decentral heat,0.00488
+Link,urban decentral gas boiler,AT0 8,urban decentral heat,0.00493
+Link,urban decentral gas boiler,AT0 9,urban decentral heat,0.00508
+Link,urban decentral gas boiler,EU,co2,0.02635
+Link,urban decentral gas boiler,EU,gas,-0.1331
+Link,urban decentral resistive heater,AT0 0,low voltage,-1873111.98524
+Link,urban decentral resistive heater,AT0 0,urban decentral heat,1685800.78672
+Link,urban decentral resistive heater,AT0 1,low voltage,-458674.33302
+Link,urban decentral resistive heater,AT0 1,urban decentral heat,412806.89972
+Link,urban decentral resistive heater,AT0 10,low voltage,-2557214.70514
+Link,urban decentral resistive heater,AT0 10,urban decentral heat,2301493.23462
+Link,urban decentral resistive heater,AT0 11,low voltage,-4664.49017
+Link,urban decentral resistive heater,AT0 11,urban decentral heat,4198.04115
+Link,urban decentral resistive heater,AT0 12,low voltage,-5508580.2833
+Link,urban decentral resistive heater,AT0 12,urban decentral heat,4957722.25497
+Link,urban decentral resistive heater,AT0 13,low voltage,-384877.88747
+Link,urban decentral resistive heater,AT0 13,urban decentral heat,346390.09872
+Link,urban decentral resistive heater,AT0 14,low voltage,-721920.84281
+Link,urban decentral resistive heater,AT0 14,urban decentral heat,649728.75853
+Link,urban decentral resistive heater,AT0 15,low voltage,-22265.44912
+Link,urban decentral resistive heater,AT0 15,urban decentral heat,20038.90421
+Link,urban decentral resistive heater,AT0 16,low voltage,-11264.3363
+Link,urban decentral resistive heater,AT0 16,urban decentral heat,10137.90267
+Link,urban decentral resistive heater,AT0 17,low voltage,-22265.4947
+Link,urban decentral resistive heater,AT0 17,urban decentral heat,20038.94523
+Link,urban decentral resistive heater,AT0 18,low voltage,-529730.09934
+Link,urban decentral resistive heater,AT0 18,urban decentral heat,476757.08941
+Link,urban decentral resistive heater,AT0 19,low voltage,-2683063.61614
+Link,urban decentral resistive heater,AT0 19,urban decentral heat,2414757.25453
+Link,urban decentral resistive heater,AT0 2,low voltage,-2442505.29743
+Link,urban decentral resistive heater,AT0 2,urban decentral heat,2198254.76769
+Link,urban decentral resistive heater,AT0 20,low voltage,-356084.10995
+Link,urban decentral resistive heater,AT0 20,urban decentral heat,320475.69895
+Link,urban decentral resistive heater,AT0 21,low voltage,-462933.22528
+Link,urban decentral resistive heater,AT0 21,urban decentral heat,416639.90275
+Link,urban decentral resistive heater,AT0 22,low voltage,-1848004.47103
+Link,urban decentral resistive heater,AT0 22,urban decentral heat,1663204.02393
+Link,urban decentral resistive heater,AT0 23,low voltage,-3208865.71222
+Link,urban decentral resistive heater,AT0 23,urban decentral heat,2887979.141
+Link,urban decentral resistive heater,AT0 24,low voltage,-1600327.7202
+Link,urban decentral resistive heater,AT0 24,urban decentral heat,1440294.94818
+Link,urban decentral resistive heater,AT0 3,low voltage,-1819595.04048
+Link,urban decentral resistive heater,AT0 3,urban decentral heat,1637635.53643
+Link,urban decentral resistive heater,AT0 4,low voltage,-586741.8345
+Link,urban decentral resistive heater,AT0 4,urban decentral heat,528067.65105
+Link,urban decentral resistive heater,AT0 5,low voltage,-998385.53064
+Link,urban decentral resistive heater,AT0 5,urban decentral heat,898546.97758
+Link,urban decentral resistive heater,AT0 6,low voltage,-5870277.31522
+Link,urban decentral resistive heater,AT0 6,urban decentral heat,5283249.5837
+Link,urban decentral resistive heater,AT0 7,low voltage,-4215541.62518
+Link,urban decentral resistive heater,AT0 7,urban decentral heat,3793987.46266
+Link,urban decentral resistive heater,AT0 8,low voltage,-3139488.18583
+Link,urban decentral resistive heater,AT0 8,urban decentral heat,2825539.36725
+Link,urban decentral resistive heater,AT0 9,low voltage,-1153522.85396
+Link,urban decentral resistive heater,AT0 9,urban decentral heat,1038170.56856
+Link,urban decentral water tanks charger,AT0 0,urban decentral heat,-0.51364
+Link,urban decentral water tanks charger,AT0 0,urban decentral water tanks,0.51364
+Link,urban decentral water tanks charger,AT0 1,urban decentral heat,-0.4984
+Link,urban decentral water tanks charger,AT0 1,urban decentral water tanks,0.4984
+Link,urban decentral water tanks charger,AT0 10,urban decentral heat,-0.50662
+Link,urban decentral water tanks charger,AT0 10,urban decentral water tanks,0.50662
+Link,urban decentral water tanks charger,AT0 11,urban decentral heat,-0.5004
+Link,urban decentral water tanks charger,AT0 11,urban decentral water tanks,0.5004
+Link,urban decentral water tanks charger,AT0 12,urban decentral heat,-0.50603
+Link,urban decentral water tanks charger,AT0 12,urban decentral water tanks,0.50603
+Link,urban decentral water tanks charger,AT0 13,urban decentral heat,-0.50021
+Link,urban decentral water tanks charger,AT0 13,urban decentral water tanks,0.50021
+Link,urban decentral water tanks charger,AT0 14,urban decentral heat,-0.50537
+Link,urban decentral water tanks charger,AT0 14,urban decentral water tanks,0.50537
+Link,urban decentral water tanks charger,AT0 15,urban decentral heat,-0.50062
+Link,urban decentral water tanks charger,AT0 15,urban decentral water tanks,0.50062
+Link,urban decentral water tanks charger,AT0 16,urban decentral heat,-0.49657
+Link,urban decentral water tanks charger,AT0 16,urban decentral water tanks,0.49657
+Link,urban decentral water tanks charger,AT0 17,urban decentral heat,-0.504
+Link,urban decentral water tanks charger,AT0 17,urban decentral water tanks,0.504
+Link,urban decentral water tanks charger,AT0 18,urban decentral heat,-0.49995
+Link,urban decentral water tanks charger,AT0 18,urban decentral water tanks,0.49995
+Link,urban decentral water tanks charger,AT0 19,urban decentral heat,-0.50943
+Link,urban decentral water tanks charger,AT0 19,urban decentral water tanks,0.50943
+Link,urban decentral water tanks charger,AT0 2,urban decentral heat,-0.51725
+Link,urban decentral water tanks charger,AT0 2,urban decentral water tanks,0.51725
+Link,urban decentral water tanks charger,AT0 20,urban decentral heat,-0.50741
+Link,urban decentral water tanks charger,AT0 20,urban decentral water tanks,0.50741
+Link,urban decentral water tanks charger,AT0 21,urban decentral heat,-0.49943
+Link,urban decentral water tanks charger,AT0 21,urban decentral water tanks,0.49943
+Link,urban decentral water tanks charger,AT0 22,urban decentral heat,-0.49728
+Link,urban decentral water tanks charger,AT0 22,urban decentral water tanks,0.49728
+Link,urban decentral water tanks charger,AT0 23,urban decentral heat,-0.52213
+Link,urban decentral water tanks charger,AT0 23,urban decentral water tanks,0.52213
+Link,urban decentral water tanks charger,AT0 24,urban decentral heat,-0.51104
+Link,urban decentral water tanks charger,AT0 24,urban decentral water tanks,0.51104
+Link,urban decentral water tanks charger,AT0 3,urban decentral heat,-0.50287
+Link,urban decentral water tanks charger,AT0 3,urban decentral water tanks,0.50287
+Link,urban decentral water tanks charger,AT0 4,urban decentral heat,-0.53402
+Link,urban decentral water tanks charger,AT0 4,urban decentral water tanks,0.53402
+Link,urban decentral water tanks charger,AT0 5,urban decentral heat,-0.50236
+Link,urban decentral water tanks charger,AT0 5,urban decentral water tanks,0.50236
+Link,urban decentral water tanks charger,AT0 6,urban decentral heat,-0.4983
+Link,urban decentral water tanks charger,AT0 6,urban decentral water tanks,0.4983
+Link,urban decentral water tanks charger,AT0 7,urban decentral heat,-0.49665
+Link,urban decentral water tanks charger,AT0 7,urban decentral water tanks,0.49665
+Link,urban decentral water tanks charger,AT0 8,urban decentral heat,-0.50726
+Link,urban decentral water tanks charger,AT0 8,urban decentral water tanks,0.50726
+Link,urban decentral water tanks charger,AT0 9,urban decentral heat,-0.51264
+Link,urban decentral water tanks charger,AT0 9,urban decentral water tanks,0.51264
+Link,urban decentral water tanks discharger,AT0 0,urban decentral heat,0.51258
+Link,urban decentral water tanks discharger,AT0 0,urban decentral water tanks,-0.51258
+Link,urban decentral water tanks discharger,AT0 1,urban decentral heat,0.49738
+Link,urban decentral water tanks discharger,AT0 1,urban decentral water tanks,-0.49738
+Link,urban decentral water tanks discharger,AT0 10,urban decentral heat,0.50558
+Link,urban decentral water tanks discharger,AT0 10,urban decentral water tanks,-0.50558
+Link,urban decentral water tanks discharger,AT0 11,urban decentral heat,0.49937
+Link,urban decentral water tanks discharger,AT0 11,urban decentral water tanks,-0.49937
+Link,urban decentral water tanks discharger,AT0 12,urban decentral heat,0.50498
+Link,urban decentral water tanks discharger,AT0 12,urban decentral water tanks,-0.50498
+Link,urban decentral water tanks discharger,AT0 13,urban decentral heat,0.49918
+Link,urban decentral water tanks discharger,AT0 13,urban decentral water tanks,-0.49918
+Link,urban decentral water tanks discharger,AT0 14,urban decentral heat,0.50431
+Link,urban decentral water tanks discharger,AT0 14,urban decentral water tanks,-0.50431
+Link,urban decentral water tanks discharger,AT0 15,urban decentral heat,0.49959
+Link,urban decentral water tanks discharger,AT0 15,urban decentral water tanks,-0.49959
+Link,urban decentral water tanks discharger,AT0 16,urban decentral heat,0.49556
+Link,urban decentral water tanks discharger,AT0 16,urban decentral water tanks,-0.49556
+Link,urban decentral water tanks discharger,AT0 17,urban decentral heat,0.50295
+Link,urban decentral water tanks discharger,AT0 17,urban decentral water tanks,-0.50295
+Link,urban decentral water tanks discharger,AT0 18,urban decentral heat,0.49892
+Link,urban decentral water tanks discharger,AT0 18,urban decentral water tanks,-0.49892
+Link,urban decentral water tanks discharger,AT0 19,urban decentral heat,0.50837
+Link,urban decentral water tanks discharger,AT0 19,urban decentral water tanks,-0.50837
+Link,urban decentral water tanks discharger,AT0 2,urban decentral heat,0.51617
+Link,urban decentral water tanks discharger,AT0 2,urban decentral water tanks,-0.51617
+Link,urban decentral water tanks discharger,AT0 20,urban decentral heat,0.50634
+Link,urban decentral water tanks discharger,AT0 20,urban decentral water tanks,-0.50634
+Link,urban decentral water tanks discharger,AT0 21,urban decentral heat,0.49841
+Link,urban decentral water tanks discharger,AT0 21,urban decentral water tanks,-0.49841
+Link,urban decentral water tanks discharger,AT0 22,urban decentral heat,0.49625
+Link,urban decentral water tanks discharger,AT0 22,urban decentral water tanks,-0.49625
+Link,urban decentral water tanks discharger,AT0 23,urban decentral heat,0.52104
+Link,urban decentral water tanks discharger,AT0 23,urban decentral water tanks,-0.52104
+Link,urban decentral water tanks discharger,AT0 24,urban decentral heat,0.50998
+Link,urban decentral water tanks discharger,AT0 24,urban decentral water tanks,-0.50998
+Link,urban decentral water tanks discharger,AT0 3,urban decentral heat,0.50183
+Link,urban decentral water tanks discharger,AT0 3,urban decentral water tanks,-0.50183
+Link,urban decentral water tanks discharger,AT0 4,urban decentral heat,0.5329
+Link,urban decentral water tanks discharger,AT0 4,urban decentral water tanks,-0.5329
+Link,urban decentral water tanks discharger,AT0 5,urban decentral heat,0.50132
+Link,urban decentral water tanks discharger,AT0 5,urban decentral water tanks,-0.50132
+Link,urban decentral water tanks discharger,AT0 6,urban decentral heat,0.49727
+Link,urban decentral water tanks discharger,AT0 6,urban decentral water tanks,-0.49727
+Link,urban decentral water tanks discharger,AT0 7,urban decentral heat,0.49563
+Link,urban decentral water tanks discharger,AT0 7,urban decentral water tanks,-0.49563
+Link,urban decentral water tanks discharger,AT0 8,urban decentral heat,0.50618
+Link,urban decentral water tanks discharger,AT0 8,urban decentral water tanks,-0.50618
+Link,urban decentral water tanks discharger,AT0 9,urban decentral heat,0.51157
+Link,urban decentral water tanks discharger,AT0 9,urban decentral water tanks,-0.51157
+Load,H2 for industry,AT0 0,H2,-660000.0
+Load,H2 for industry,AT0 1,H2,0.0
+Load,H2 for industry,AT0 10,H2,40000.0
+Load,H2 for industry,AT0 11,H2,0.0
+Load,H2 for industry,AT0 12,H2,0.0
+Load,H2 for industry,AT0 13,H2,0.0
+Load,H2 for industry,AT0 14,H2,0.0
+Load,H2 for industry,AT0 15,H2,0.0
+Load,H2 for industry,AT0 16,H2,0.0
+Load,H2 for industry,AT0 17,H2,0.0
+Load,H2 for industry,AT0 18,H2,0.0
+Load,H2 for industry,AT0 19,H2,0.0
+Load,H2 for industry,AT0 2,H2,0.0
+Load,H2 for industry,AT0 20,H2,0.0
+Load,H2 for industry,AT0 21,H2,0.0
+Load,H2 for industry,AT0 22,H2,0.0
+Load,H2 for industry,AT0 23,H2,10000.0
+Load,H2 for industry,AT0 24,H2,40000.0
+Load,H2 for industry,AT0 3,H2,0.0
+Load,H2 for industry,AT0 4,H2,-6400000.0
+Load,H2 for industry,AT0 5,H2,0.0
+Load,H2 for industry,AT0 6,H2,0.0
+Load,H2 for industry,AT0 7,H2,0.0
+Load,H2 for industry,AT0 8,H2,0.0
+Load,H2 for industry,AT0 9,H2,0.0
+Load,agriculture electricity,AT0 0,low voltage,-61698.77575
+Load,agriculture electricity,AT0 1,low voltage,-15372.63299
+Load,agriculture electricity,AT0 10,low voltage,-40396.3512
+Load,agriculture electricity,AT0 11,low voltage,-18039.96372
+Load,agriculture electricity,AT0 12,low voltage,-52192.92339
+Load,agriculture electricity,AT0 13,low voltage,-22909.47301
+Load,agriculture electricity,AT0 14,low voltage,-23101.545
+Load,agriculture electricity,AT0 15,low voltage,-9590.98672
+Load,agriculture electricity,AT0 16,low voltage,-13023.26098
+Load,agriculture electricity,AT0 17,low voltage,-17826.794
+Load,agriculture electricity,AT0 18,low voltage,-17623.41164
+Load,agriculture electricity,AT0 19,low voltage,-32927.4524
+Load,agriculture electricity,AT0 2,low voltage,-27769.37636
+Load,agriculture electricity,AT0 20,low voltage,-11600.38568
+Load,agriculture electricity,AT0 21,low voltage,-14395.3064
+Load,agriculture electricity,AT0 22,low voltage,-11504.36654
+Load,agriculture electricity,AT0 23,low voltage,-123379.06478
+Load,agriculture electricity,AT0 24,low voltage,-22280.70819
+Load,agriculture electricity,AT0 3,low voltage,-22103.969
+Load,agriculture electricity,AT0 4,low voltage,-33170.01383
+Load,agriculture electricity,AT0 5,low voltage,-23475.97502
+Load,agriculture electricity,AT0 6,low voltage,-20477.31617
+Load,agriculture electricity,AT0 7,low voltage,-10988.61358
+Load,agriculture electricity,AT0 8,low voltage,-46391.26149
+Load,agriculture electricity,AT0 9,low voltage,-22254.86434
+Load,agriculture heat,AT0 0,rural heat,-317772.09387
+Load,agriculture heat,AT0 1,rural heat,-79174.88985
+Load,agriculture heat,AT0 10,rural heat,-208056.52864
+Load,agriculture heat,AT0 11,rural heat,-92912.65466
+Load,agriculture heat,AT0 12,rural heat,-268813.34917
+Load,agriculture heat,AT0 13,rural heat,-117992.47421
+Load,agriculture heat,AT0 14,rural heat,-118981.71783
+Load,agriculture heat,AT0 15,rural heat,-49397.21893
+Load,agriculture heat,AT0 16,rural heat,-67074.73303
+Load,agriculture heat,AT0 17,rural heat,-91814.74977
+Load,agriculture heat,AT0 18,rural heat,-90767.25349
+Load,agriculture heat,AT0 19,rural heat,-169588.86733
+Load,agriculture heat,AT0 2,rural heat,-143022.81957
+Load,agriculture heat,AT0 20,rural heat,-59746.38561
+Load,agriculture heat,AT0 21,rural heat,-74141.28725
+Load,agriculture heat,AT0 22,rural heat,-59251.85064
+Load,agriculture heat,AT0 23,rural heat,-635448.97413
+Load,agriculture heat,AT0 24,rural heat,-114754.09694
+Load,agriculture heat,AT0 3,rural heat,-113843.82311
+Load,agriculture heat,AT0 4,rural heat,-170838.15067
+Load,agriculture heat,AT0 5,rural heat,-120910.17441
+Load,agriculture heat,AT0 6,rural heat,-105465.94411
+Load,agriculture heat,AT0 7,rural heat,-56595.52728
+Load,agriculture heat,AT0 8,rural heat,-238932.59017
+Load,agriculture heat,AT0 9,rural heat,-114620.99133
+Load,agriculture machinery oil,EU,agriculture machinery oil,-1667960.06183
+Load,electricity,AT0 0,low voltage,18515852.70228
+Load,electricity,AT0 1,low voltage,14864393.31381
+Load,electricity,AT0 10,low voltage,12283583.58627
+Load,electricity,AT0 11,low voltage,8730492.97323
+Load,electricity,AT0 12,low voltage,26669323.76132
+Load,electricity,AT0 13,low voltage,11962222.04881
+Load,electricity,AT0 14,low voltage,8188522.3116
+Load,electricity,AT0 15,low voltage,4204540.94323
+Load,electricity,AT0 16,low voltage,9737906.40693
+Load,electricity,AT0 17,low voltage,10114979.31114
+Load,electricity,AT0 18,low voltage,8542310.91921
+Load,electricity,AT0 19,low voltage,11151398.00017
+Load,electricity,AT0 2,low voltage,6692199.43349
+Load,electricity,AT0 20,low voltage,4904715.3107
+Load,electricity,AT0 21,low voltage,6392149.55105
+Load,electricity,AT0 22,low voltage,5301622.7814
+Load,electricity,AT0 23,low voltage,12076202.01688
+Load,electricity,AT0 24,low voltage,7955494.56429
+Load,electricity,AT0 3,low voltage,9587208.40392
+Load,electricity,AT0 4,low voltage,11054591.08973
+Load,electricity,AT0 5,low voltage,18380739.58669
+Load,electricity,AT0 6,low voltage,11514365.83645
+Load,electricity,AT0 7,low voltage,6446411.46387
+Load,electricity,AT0 8,low voltage,15764524.27251
+Load,electricity,AT0 9,low voltage,6416700.77663
+Load,gas for industry,EU,gas for industry,-4920000.0
+Load,industry electricity,AT0 0,low voltage,-7440000.0
+Load,industry electricity,AT0 1,low voltage,-400000.0
+Load,industry electricity,AT0 10,low voltage,-5270000.0
+Load,industry electricity,AT0 11,low voltage,-950000.0
+Load,industry electricity,AT0 12,low voltage,-1680000.0
+Load,industry electricity,AT0 13,low voltage,-1510000.0
+Load,industry electricity,AT0 14,low voltage,-1010000.0
+Load,industry electricity,AT0 15,low voltage,-490000.0
+Load,industry electricity,AT0 16,low voltage,-370000.0
+Load,industry electricity,AT0 17,low voltage,-630000.0
+Load,industry electricity,AT0 18,low voltage,-440000.0
+Load,industry electricity,AT0 19,low voltage,-2480000.0
+Load,industry electricity,AT0 2,low voltage,-750000.0
+Load,industry electricity,AT0 20,low voltage,-1410000.0
+Load,industry electricity,AT0 21,low voltage,-520000.0
+Load,industry electricity,AT0 22,low voltage,-830000.0
+Load,industry electricity,AT0 23,low voltage,-3990000.0
+Load,industry electricity,AT0 24,low voltage,-4520000.0
+Load,industry electricity,AT0 3,low voltage,-580000.0
+Load,industry electricity,AT0 4,low voltage,-7270000.0
+Load,industry electricity,AT0 5,low voltage,-720000.0
+Load,industry electricity,AT0 6,low voltage,-1450000.0
+Load,industry electricity,AT0 7,low voltage,-290000.0
+Load,industry electricity,AT0 8,low voltage,-1190000.0
+Load,industry electricity,AT0 9,low voltage,-630000.0
+Load,industry methanol,EU,industry methanol,-140000.0
+Load,kerosene for aviation,EU,kerosene for aviation,-11463834.39255
+Load,land transport EV,AT0 0,EV battery,-1620200.81219
+Load,land transport EV,AT0 1,EV battery,-412426.86831
+Load,land transport EV,AT0 10,EV battery,-1057871.88222
+Load,land transport EV,AT0 11,EV battery,-480712.38382
+Load,land transport EV,AT0 12,EV battery,-1354868.82158
+Load,land transport EV,AT0 13,EV battery,-605992.59616
+Load,land transport EV,AT0 14,EV battery,-606408.27512
+Load,land transport EV,AT0 15,EV battery,-251203.60515
+Load,land transport EV,AT0 16,EV battery,-347222.1782
+Load,land transport EV,AT0 17,EV battery,-464345.15599
+Load,land transport EV,AT0 18,EV battery,-468092.54378
+Load,land transport EV,AT0 19,EV battery,-858476.74796
+Load,land transport EV,AT0 2,EV battery,-719752.07654
+Load,land transport EV,AT0 20,EV battery,-303242.83881
+Load,land transport EV,AT0 21,EV battery,-384694.56486
+Load,land transport EV,AT0 22,EV battery,-303542.65447
+Load,land transport EV,AT0 23,EV battery,-3206693.48815
+Load,land transport EV,AT0 24,EV battery,-583020.67889
+Load,land transport EV,AT0 3,EV battery,-579872.6837
+Load,land transport EV,AT0 4,EV battery,-868319.4444
+Load,land transport EV,AT0 5,EV battery,-624782.92487
+Load,land transport EV,AT0 6,EV battery,-538805.84769
+Load,land transport EV,AT0 7,EV battery,-293616.32541
+Load,land transport EV,AT0 8,EV battery,-1213698.75951
+Load,land transport EV,AT0 9,EV battery,-580070.5496
+Load,low-temperature heat for industry,AT0 0,urban central heat,-230000.0
+Load,low-temperature heat for industry,AT0 1,urban central heat,-20000.0
+Load,low-temperature heat for industry,AT0 10,urban central heat,-190000.0
+Load,low-temperature heat for industry,AT0 11,urban central heat,-20000.0
+Load,low-temperature heat for industry,AT0 12,urban central heat,-60000.0
+Load,low-temperature heat for industry,AT0 13,urban central heat,-40000.0
+Load,low-temperature heat for industry,AT0 14,urban decentral heat,-30000.0
+Load,low-temperature heat for industry,AT0 15,urban decentral heat,-20000.0
+Load,low-temperature heat for industry,AT0 16,urban decentral heat,-10000.0
+Load,low-temperature heat for industry,AT0 17,urban decentral heat,-20000.0
+Load,low-temperature heat for industry,AT0 18,urban central heat,-20000.0
+Load,low-temperature heat for industry,AT0 19,urban central heat,-120000.0
+Load,low-temperature heat for industry,AT0 2,urban central heat,-30000.0
+Load,low-temperature heat for industry,AT0 20,urban central heat,-20000.0
+Load,low-temperature heat for industry,AT0 21,urban central heat,-20000.0
+Load,low-temperature heat for industry,AT0 22,urban decentral heat,-30000.0
+Load,low-temperature heat for industry,AT0 23,urban central heat,-150000.0
+Load,low-temperature heat for industry,AT0 24,urban central heat,-140000.0
+Load,low-temperature heat for industry,AT0 3,urban central heat,-20000.0
+Load,low-temperature heat for industry,AT0 4,urban central heat,-110000.0
+Load,low-temperature heat for industry,AT0 5,urban central heat,-30000.0
+Load,low-temperature heat for industry,AT0 6,urban decentral heat,-30000.0
+Load,low-temperature heat for industry,AT0 7,urban decentral heat,-10000.0
+Load,low-temperature heat for industry,AT0 8,urban central heat,-50000.0
+Load,low-temperature heat for industry,AT0 9,urban central heat,-20000.0
+Load,naphtha for industry,EU,naphtha for industry,-4440000.0
+Load,process emissions,EU,process emissions,3100000.0
+Load,rural heat,AT0 0,rural heat,-1769630.34975
+Load,rural heat,AT0 1,rural heat,-586664.04135
+Load,rural heat,AT0 10,rural heat,-288182.23187
+Load,rural heat,AT0 11,rural heat,-1161251.88918
+Load,rural heat,AT0 12,rural heat,-85031.17728
+Load,rural heat,AT0 13,rural heat,-1168415.56326
+Load,rural heat,AT0 14,rural heat,-1495212.27729
+Load,rural heat,AT0 15,rural heat,-620716.94816
+Load,rural heat,AT0 16,rural heat,-843359.36702
+Load,rural heat,AT0 17,rural heat,-1153534.27247
+Load,rural heat,AT0 18,rural heat,-682640.73888
+Load,rural heat,AT0 19,rural heat,-353937.75132
+Load,rural heat,AT0 2,rural heat,-253913.50505
+Load,rural heat,AT0 20,rural heat,-435413.58227
+Load,rural heat,AT0 21,rural heat,-385483.294
+Load,rural heat,AT0 22,rural heat,-744791.35669
+Load,rural heat,AT0 23,rural heat,-763061.76065
+Load,rural heat,AT0 24,rural heat,-84516.13615
+Load,rural heat,AT0 3,rural heat,-106059.2586
+Load,rural heat,AT0 4,rural heat,-891436.72721
+Load,rural heat,AT0 5,rural heat,-686795.66111
+Load,rural heat,AT0 6,rural heat,-1325609.04505
+Load,rural heat,AT0 7,rural heat,-711652.74906
+Load,rural heat,AT0 8,rural heat,-887912.90111
+Load,rural heat,AT0 9,rural heat,-683448.75069
+Load,shipping methanol,EU,shipping methanol,-436194.78261
+Load,solid biomass for industry,EU,solid biomass for industry,-27990000.0
+Load,urban central heat,AT0 0,urban central heat,-1534538.3847
+Load,urban central heat,AT0 1,urban central heat,-282222.07379
+Load,urban central heat,AT0 10,urban central heat,-1605117.92117
+Load,urban central heat,AT0 11,urban central heat,-4838.26237
+Load,urban central heat,AT0 12,urban central heat,-2271381.14309
+Load,urban central heat,AT0 13,urban central heat,-217267.92628
+Load,urban central heat,AT0 18,urban central heat,-316389.80498
+Load,urban central heat,AT0 19,urban central heat,-1225977.44812
+Load,urban central heat,AT0 2,urban central heat,-1064450.44862
+Load,urban central heat,AT0 20,urban central heat,-217565.04173
+Load,urban central heat,AT0 21,urban central heat,-377299.91201
+Load,urban central heat,AT0 23,urban central heat,-4981759.20383
+Load,urban central heat,AT0 24,urban central heat,-936672.14451
+Load,urban central heat,AT0 3,urban central heat,-914022.5064
+Load,urban central heat,AT0 4,urban central heat,-866159.41324
+Load,urban central heat,AT0 5,urban central heat,-575081.25278
+Load,urban central heat,AT0 8,urban central heat,-1458927.46691
+Load,urban central heat,AT0 9,urban central heat,-522108.63755
+Load,urban decentral heat,AT0 0,urban decentral heat,-889587.46939
+Load,urban decentral heat,AT0 1,urban decentral heat,-163606.9993
+Load,urban decentral heat,AT0 10,urban decentral heat,-930503.14271
+Load,urban decentral heat,AT0 11,urban decentral heat,-2804.78978
+Load,urban decentral heat,AT0 12,urban decentral heat,-1316742.69165
+Load,urban decentral heat,AT0 13,urban decentral heat,-125952.42103
+Load,urban decentral heat,AT0 14,urban decentral heat,0.0
+Load,urban decentral heat,AT0 15,urban decentral heat,0.0
+Load,urban decentral heat,AT0 16,urban decentral heat,0.0
+Load,urban decentral heat,AT0 17,urban decentral heat,0.0
+Load,urban decentral heat,AT0 18,urban decentral heat,-183414.3797
+Load,urban decentral heat,AT0 19,urban decentral heat,-710711.56413
+Load,urban decentral heat,AT0 2,urban decentral heat,-617072.72384
+Load,urban decentral heat,AT0 20,urban decentral heat,-126124.66187
+Load,urban decentral heat,AT0 21,urban decentral heat,-218724.58667
+Load,urban decentral heat,AT0 22,urban decentral heat,0.0
+Load,urban decentral heat,AT0 23,urban decentral heat,-2887976.35005
+Load,urban decentral heat,AT0 24,urban decentral heat,-542998.34464
+Load,urban decentral heat,AT0 3,urban decentral heat,-529868.11965
+Load,urban decentral heat,AT0 4,urban decentral heat,-502121.39898
+Load,urban decentral heat,AT0 5,urban decentral heat,-333380.43639
+Load,urban decentral heat,AT0 6,urban decentral heat,0.0
+Load,urban decentral heat,AT0 7,urban decentral heat,0.0
+Load,urban decentral heat,AT0 8,urban decentral heat,-845755.05328
+Load,urban decentral heat,AT0 9,urban decentral heat,-302671.67394
+StorageUnit,PHS,AT0 1,AC,-3.50004
+StorageUnit,PHS,AT0 11,AC,-4.02666
+StorageUnit,PHS,AT0 15,AC,-520.96364
+StorageUnit,PHS,AT0 16,AC,-2298.62041
+StorageUnit,PHS,AT0 18,AC,-184461.70019
+StorageUnit,PHS,AT0 5,AC,-4.20009
+StorageUnit,PHS,AT0 7,AC,-4.49844
+StorageUnit,hydro,AT0 0,AC,825267.45518
+StorageUnit,hydro,AT0 1,AC,4029937.99339
+StorageUnit,hydro,AT0 11,AC,218254.05697
+StorageUnit,hydro,AT0 12,AC,10072.85507
+StorageUnit,hydro,AT0 13,AC,180062.60788
+StorageUnit,hydro,AT0 15,AC,121589.29354
+StorageUnit,hydro,AT0 16,AC,1375938.96065
+StorageUnit,hydro,AT0 18,AC,403286.52541
+StorageUnit,hydro,AT0 19,AC,449124.2428
+StorageUnit,hydro,AT0 21,AC,24367.06469
+StorageUnit,hydro,AT0 22,AC,125572.70144
+StorageUnit,hydro,AT0 24,AC,26870.95865
+StorageUnit,hydro,AT0 3,AC,260954.82627
+StorageUnit,hydro,AT0 5,AC,297.38919
+StorageUnit,hydro,AT0 6,AC,480305.86042
+StorageUnit,hydro,AT0 7,AC,497724.99162
+Store,EV battery,AT0 0,EV battery,0.0
+Store,EV battery,AT0 1,EV battery,0.0
+Store,EV battery,AT0 10,EV battery,0.0
+Store,EV battery,AT0 11,EV battery,0.0
+Store,EV battery,AT0 12,EV battery,0.0
+Store,EV battery,AT0 13,EV battery,0.0
+Store,EV battery,AT0 14,EV battery,0.0
+Store,EV battery,AT0 15,EV battery,0.0
+Store,EV battery,AT0 16,EV battery,0.0
+Store,EV battery,AT0 17,EV battery,0.0
+Store,EV battery,AT0 18,EV battery,0.0
+Store,EV battery,AT0 19,EV battery,0.0
+Store,EV battery,AT0 2,EV battery,0.0
+Store,EV battery,AT0 20,EV battery,0.0
+Store,EV battery,AT0 21,EV battery,0.0
+Store,EV battery,AT0 22,EV battery,0.0
+Store,EV battery,AT0 23,EV battery,0.0
+Store,EV battery,AT0 24,EV battery,0.0
+Store,EV battery,AT0 3,EV battery,0.0
+Store,EV battery,AT0 4,EV battery,0.0
+Store,EV battery,AT0 5,EV battery,0.0
+Store,EV battery,AT0 6,EV battery,0.0
+Store,EV battery,AT0 7,EV battery,0.0
+Store,EV battery,AT0 8,EV battery,0.0
+Store,EV battery,AT0 9,EV battery,0.0
+Store,H2 Store,AT0 0,H2,0.0
+Store,H2 Store,AT0 1,H2,0.0
+Store,H2 Store,AT0 10,H2,0.0
+Store,H2 Store,AT0 11,H2,0.0
+Store,H2 Store,AT0 12,H2,0.0
+Store,H2 Store,AT0 13,H2,0.0
+Store,H2 Store,AT0 14,H2,-0.0
+Store,H2 Store,AT0 15,H2,0.0
+Store,H2 Store,AT0 16,H2,-0.0
+Store,H2 Store,AT0 17,H2,0.0
+Store,H2 Store,AT0 18,H2,0.0
+Store,H2 Store,AT0 19,H2,0.0
+Store,H2 Store,AT0 2,H2,-0.0
+Store,H2 Store,AT0 20,H2,0.0
+Store,H2 Store,AT0 21,H2,0.0
+Store,H2 Store,AT0 22,H2,-0.0
+Store,H2 Store,AT0 23,H2,-0.0
+Store,H2 Store,AT0 24,H2,-0.0
+Store,H2 Store,AT0 3,H2,-0.0
+Store,H2 Store,AT0 4,H2,0.0
+Store,H2 Store,AT0 5,H2,-0.0
+Store,H2 Store,AT0 6,H2,0.0
+Store,H2 Store,AT0 7,H2,0.0
+Store,H2 Store,AT0 8,H2,-0.0
+Store,H2 Store,AT0 9,H2,-0.0
+Store,battery,AT0 0,battery,0.0
+Store,battery,AT0 1,battery,0.0
+Store,battery,AT0 10,battery,0.0
+Store,battery,AT0 11,battery,0.0
+Store,battery,AT0 12,battery,0.0
+Store,battery,AT0 13,battery,0.0
+Store,battery,AT0 14,battery,0.0
+Store,battery,AT0 15,battery,0.0
+Store,battery,AT0 16,battery,0.0
+Store,battery,AT0 17,battery,0.0
+Store,battery,AT0 18,battery,0.0
+Store,battery,AT0 19,battery,0.0
+Store,battery,AT0 2,battery,0.0
+Store,battery,AT0 20,battery,0.0
+Store,battery,AT0 21,battery,0.0
+Store,battery,AT0 22,battery,0.0
+Store,battery,AT0 23,battery,0.0
+Store,battery,AT0 24,battery,0.0
+Store,battery,AT0 3,battery,0.0
+Store,battery,AT0 4,battery,0.0
+Store,battery,AT0 5,battery,0.0
+Store,battery,AT0 6,battery,0.0
+Store,battery,AT0 7,battery,0.0
+Store,battery,AT0 8,battery,0.0
+Store,battery,AT0 9,battery,0.0
+Store,co2,EU,co2,-8905134.69814
+Store,co2 sequestered,EU,co2 sequestered,-0.00529
+Store,co2 stored,EU,co2 stored,0.0
+Store,gas,EU,gas,0.0
+Store,home battery,AT0 0,home battery,0.0
+Store,home battery,AT0 1,home battery,0.0
+Store,home battery,AT0 10,home battery,0.0
+Store,home battery,AT0 11,home battery,0.0
+Store,home battery,AT0 12,home battery,0.0
+Store,home battery,AT0 13,home battery,0.0
+Store,home battery,AT0 14,home battery,0.0
+Store,home battery,AT0 15,home battery,0.0
+Store,home battery,AT0 16,home battery,0.0
+Store,home battery,AT0 17,home battery,0.0
+Store,home battery,AT0 18,home battery,0.0
+Store,home battery,AT0 19,home battery,0.0
+Store,home battery,AT0 2,home battery,0.0
+Store,home battery,AT0 20,home battery,0.0
+Store,home battery,AT0 21,home battery,0.0
+Store,home battery,AT0 22,home battery,0.0
+Store,home battery,AT0 23,home battery,0.0
+Store,home battery,AT0 24,home battery,0.0
+Store,home battery,AT0 3,home battery,0.0
+Store,home battery,AT0 4,home battery,0.0
+Store,home battery,AT0 5,home battery,0.0
+Store,home battery,AT0 6,home battery,0.0
+Store,home battery,AT0 7,home battery,0.0
+Store,home battery,AT0 8,home battery,0.0
+Store,home battery,AT0 9,home battery,0.0
+Store,methanol,EU,methanol,0.0
+Store,non-sequestered HVC,EU,non-sequestered HVC,3778778.68534
+Store,oil,EU,oil,0.0
+Store,rural water tanks,AT0 0,rural water tanks,-0.00107
+Store,rural water tanks,AT0 1,rural water tanks,-0.00103
+Store,rural water tanks,AT0 10,rural water tanks,-0.00105
+Store,rural water tanks,AT0 11,rural water tanks,-0.00103
+Store,rural water tanks,AT0 12,rural water tanks,-0.00107
+Store,rural water tanks,AT0 13,rural water tanks,-0.00104
+Store,rural water tanks,AT0 14,rural water tanks,-0.00106
+Store,rural water tanks,AT0 15,rural water tanks,-0.00104
+Store,rural water tanks,AT0 16,rural water tanks,-0.00103
+Store,rural water tanks,AT0 17,rural water tanks,-0.00106
+Store,rural water tanks,AT0 18,rural water tanks,-0.00104
+Store,rural water tanks,AT0 19,rural water tanks,-0.00107
+Store,rural water tanks,AT0 2,rural water tanks,-0.00109
+Store,rural water tanks,AT0 20,rural water tanks,-0.00107
+Store,rural water tanks,AT0 21,rural water tanks,-0.00103
+Store,rural water tanks,AT0 22,rural water tanks,-0.00104
+Store,rural water tanks,AT0 23,rural water tanks,-0.00107
+Store,rural water tanks,AT0 24,rural water tanks,-0.00107
+Store,rural water tanks,AT0 3,rural water tanks,-0.00105
+Store,rural water tanks,AT0 4,rural water tanks,-0.00112
+Store,rural water tanks,AT0 5,rural water tanks,-0.00105
+Store,rural water tanks,AT0 6,rural water tanks,-0.00103
+Store,rural water tanks,AT0 7,rural water tanks,-0.00103
+Store,rural water tanks,AT0 8,rural water tanks,-0.00108
+Store,rural water tanks,AT0 9,rural water tanks,-0.00107
+Store,urban central water pits,AT0 0,urban central water pits,-39506.47204
+Store,urban central water pits,AT0 1,urban central water pits,-0.00504
+Store,urban central water pits,AT0 10,urban central water pits,-27447.6962
+Store,urban central water pits,AT0 11,urban central water pits,-0.00479
+Store,urban central water pits,AT0 12,urban central water pits,-0.00392
+Store,urban central water pits,AT0 13,urban central water pits,-0.00459
+Store,urban central water pits,AT0 18,urban central water pits,-0.0047
+Store,urban central water pits,AT0 19,urban central water pits,-5.54776
+Store,urban central water pits,AT0 2,urban central water pits,-21534.92315
+Store,urban central water pits,AT0 20,urban central water pits,-0.00416
+Store,urban central water pits,AT0 21,urban central water pits,-0.00484
+Store,urban central water pits,AT0 23,urban central water pits,-70099.66026
+Store,urban central water pits,AT0 24,urban central water pits,-13756.17515
+Store,urban central water pits,AT0 3,urban central water pits,-0.00429
+Store,urban central water pits,AT0 4,urban central water pits,-22014.6936
+Store,urban central water pits,AT0 5,urban central water pits,-0.00479
+Store,urban central water pits,AT0 8,urban central water pits,-0.00416
+Store,urban central water pits,AT0 9,urban central water pits,-1989.87932
+Store,urban central water tanks,AT0 0,urban central water tanks,-0.00389
+Store,urban central water tanks,AT0 1,urban central water tanks,-0.00206
+Store,urban central water tanks,AT0 10,urban central water tanks,-0.0032
+Store,urban central water tanks,AT0 11,urban central water tanks,-0.00206
+Store,urban central water tanks,AT0 12,urban central water tanks,-0.00205
+Store,urban central water tanks,AT0 13,urban central water tanks,-0.00206
+Store,urban central water tanks,AT0 18,urban central water tanks,-0.00206
+Store,urban central water tanks,AT0 19,urban central water tanks,-0.0044
+Store,urban central water tanks,AT0 2,urban central water tanks,-0.00404
+Store,urban central water tanks,AT0 20,urban central water tanks,-0.00207
+Store,urban central water tanks,AT0 21,urban central water tanks,-0.00206
+Store,urban central water tanks,AT0 23,urban central water tanks,-0.00374
+Store,urban central water tanks,AT0 24,urban central water tanks,-0.00323
+Store,urban central water tanks,AT0 3,urban central water tanks,-0.00206
+Store,urban central water tanks,AT0 4,urban central water tanks,-0.00382
+Store,urban central water tanks,AT0 5,urban central water tanks,-0.00208
+Store,urban central water tanks,AT0 8,urban central water tanks,-0.00207
+Store,urban central water tanks,AT0 9,urban central water tanks,-0.00462
+Store,urban decentral water tanks,AT0 0,urban decentral water tanks,-0.00106
+Store,urban decentral water tanks,AT0 1,urban decentral water tanks,-0.00102
+Store,urban decentral water tanks,AT0 10,urban decentral water tanks,-0.00104
+Store,urban decentral water tanks,AT0 11,urban decentral water tanks,-0.00102
+Store,urban decentral water tanks,AT0 12,urban decentral water tanks,-0.00106
+Store,urban decentral water tanks,AT0 13,urban decentral water tanks,-0.00103
+Store,urban decentral water tanks,AT0 14,urban decentral water tanks,-0.00106
+Store,urban decentral water tanks,AT0 15,urban decentral water tanks,-0.00104
+Store,urban decentral water tanks,AT0 16,urban decentral water tanks,-0.00101
+Store,urban decentral water tanks,AT0 17,urban decentral water tanks,-0.00105
+Store,urban decentral water tanks,AT0 18,urban decentral water tanks,-0.00103
+Store,urban decentral water tanks,AT0 19,urban decentral water tanks,-0.00106
+Store,urban decentral water tanks,AT0 2,urban decentral water tanks,-0.00108
+Store,urban decentral water tanks,AT0 20,urban decentral water tanks,-0.00107
+Store,urban decentral water tanks,AT0 21,urban decentral water tanks,-0.00102
+Store,urban decentral water tanks,AT0 22,urban decentral water tanks,-0.00103
+Store,urban decentral water tanks,AT0 23,urban decentral water tanks,-0.00108
+Store,urban decentral water tanks,AT0 24,urban decentral water tanks,-0.00106
+Store,urban decentral water tanks,AT0 3,urban decentral water tanks,-0.00104
+Store,urban decentral water tanks,AT0 4,urban decentral water tanks,-0.00112
+Store,urban decentral water tanks,AT0 5,urban decentral water tanks,-0.00104
+Store,urban decentral water tanks,AT0 6,urban decentral water tanks,-0.00103
+Store,urban decentral water tanks,AT0 7,urban decentral water tanks,-0.00102
+Store,urban decentral water tanks,AT0 8,urban decentral water tanks,-0.00107
+Store,urban decentral water tanks,AT0 9,urban decentral water tanks,-0.00107

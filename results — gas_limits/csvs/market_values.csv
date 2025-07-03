@@ -1,0 +1,24 @@
+cluster,25
+opt,
+planning_horizon,2050
+carrier,
+AC,0.0632177777278369
+DAC,-inf
+H2 Electrolysis,-inf
+H2 Fuel Cell,0.25
+H2 pipeline,-inf
+OCGT,0.2
+PHS,0.0849869677429615
+battery charger,-inf
+battery discharger,0.1861471861471861
+electricity distribution grid,-3.3311702430580907
+hydro,0.1320702234853557
+methanolisation,-inf
+onwind,2.2712920402506884
+ror,0.4097591096448949
+solar,0.67220416235982
+solar-hsat,0.125
+urban central gas CHP,0.3333333333333333
+urban central gas CHP CC,0.3333333333333333
+urban central solid biomass CHP,0.5
+urban central solid biomass CHP CC,0.0

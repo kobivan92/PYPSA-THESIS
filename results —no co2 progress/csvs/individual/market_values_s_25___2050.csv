@@ -1,0 +1,16 @@
+carrier,0
+H2 Electrolysis,-inf
+H2 pipeline,-inf
+battery charger,-inf
+methanolisation,-inf
+electricity distribution grid,-3.23771729576577
+H2 Fuel Cell,0.0
+OCGT,0.0
+solar-hsat,0.0
+AC,0.068190414004949
+PHS,0.08626275046226053
+hydro,0.15759198842375036
+battery discharger,0.18181818181818182
+ror,0.32496651720252845
+solar,0.6759090826106801
+onwind,2.270319759122449

@@ -16,11 +16,25 @@ import numpy as np
 import pandas as pd
 import pypsa
 from tqdm import tqdm
+import plotly.graph_objects as go
 
 from scripts._helpers import configure_logging, get_snapshots, set_scenario_config
 
 logger = logging.getLogger(__name__)
 
+# Add this mapping at the top of the file
+MPL_TO_HEX = {
+    'k': '#000000', 'b': '#1f77b4', 'g': '#2ca02c', 'r': '#d62728', 'c': '#17becf',
+    'm': '#e377c2', 'y': '#ff7f0e', 'w': '#ffffff'
+}
+
+def mpl_to_plotly_color(color):
+    if color in MPL_TO_HEX:
+        return MPL_TO_HEX[color]
+    if color and color.startswith('#'):
+        return color
+    # fallback to default
+    return '#888888'
 
 def plot_stacked_area_steplike(
     ax: plt.Axes, df: pd.DataFrame, colors: dict | pd.Series = {}
@@ -145,6 +159,35 @@ def plot_energy_balance_timeseries(
     fn = f"ts-balance-{ylabel.replace(' ', '_')}-{resample}.pdf"
     plt.savefig(f"{directory}/{fn}")
     plt.close()
+
+    # --- Plotly Output ---
+    html_fn = fn.replace('.pdf', '.html')
+    if df.empty:
+        with open(f"{directory}/{html_fn}", 'w') as f:
+            f.write("<html><body><h2>No data to plot</h2></body></html>")
+        return
+    fig_plotly = go.Figure()
+    for col in df.columns:
+        fig_plotly.add_trace(
+            go.Scatter(
+                name=col,
+                x=[str(i) for i in df.index],
+                y=df[col],
+                stackgroup='one',
+                mode='lines',
+                line=dict(width=0.5),
+                fillcolor=mpl_to_plotly_color(colors.get(col, None))
+            )
+        )
+    fig_plotly.update_layout(
+        title=f"{ylabel} balance [{unit}]",
+        xaxis_title="Time",
+        yaxis_title=f"{ylabel} balance [{unit}]",
+        legend_title="Technology",
+        height=500,
+        width=1000,
+    )
+    fig_plotly.write_html(f"{directory}/{html_fn}")
 
 
 def process_carrier(group_item, balance, months, colors, config, output_dir):

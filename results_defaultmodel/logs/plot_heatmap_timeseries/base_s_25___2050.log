@@ -1,0 +1,15 @@
+WARNING:pypsa.network.io:Importing network from PyPSA version v0.0.0 while current version is v0.35.0. Read the release notes at https://pypsa.readthedocs.io/en/latest/release_notes.html to prepare your network for import.
+INFO:pypsa.network.io:Imported network 'Unnamed Network' has buses, carriers, generators, global_constraints, lines, links, loads, storage_units, stores
+INFO:__main__:Plotting utilisation rate heatmap time series for Fischer-Tropsch
+INFO:__main__:Plotting utilisation rate heatmap time series for H2 Electrolysis
+INFO:__main__:Plotting utilisation rate heatmap time series for PHS
+INFO:__main__:Plotting utilisation rate heatmap time series for hydro
+INFO:__main__:Plotting utilisation rate heatmap time series for solar
+INFO:__main__:Plotting marginal prices heatmap time series for AC
+INFO:__main__:Plotting marginal prices heatmap time series for H2
+INFO:__main__:Plotting marginal prices heatmap time series for co2 stored
+INFO:__main__:Plotting marginal prices heatmap time series for gas
+INFO:__main__:Plotting marginal prices heatmap time series for methanol
+INFO:__main__:Plotting marginal prices heatmap time series for oil
+INFO:__main__:Plotting marginal prices heatmap time series for urban central heat
+INFO:__main__:Plotting SOC heatmap time series for gas

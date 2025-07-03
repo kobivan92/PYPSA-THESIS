@@ -19,7 +19,7 @@ run:
   prefix: ""
   name: ""
   scenarios:
-    enable: false
+    enable: true
     file: config/scenarios.yaml
   disable_progressbar: false
   shared_resources:
@@ -35,9 +35,7 @@ foresight: overnight
 # Wildcard docs in https://pypsa-eur.readthedocs.io/en/latest/wildcards.html
 scenario:
   clusters:
-  - 39
-  - 128
-  - 256
+  - 25
   opts:
   - ''
   sector_opts:
@@ -49,7 +47,7 @@ scenario:
   - 2050
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#countries
-countries: ['AL', 'AT', 'BA', 'BE', 'BG', 'CH', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'ME', 'MK', 'NL', 'NO', 'PL', 'PT', 'RO', 'RS', 'SE', 'SI', 'SK', 'XK']
+countries: ['AT']
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#snapshots
 snapshots:
@@ -69,12 +67,12 @@ enable:
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#co2-budget
 co2_budget:
   2020: 0.720 # average emissions of 2019 to 2021 relative to 1990, CO2 excl LULUCF, EEA data, European Environment Agency. (2023a). Annual European Union greenhouse gas inventory 1990–2021 and inventory report 2023 - CRF Table. https://unfccc.int/documents/627830
-  2025: 0.648 # With additional measures (WAM) projection, CO2 excl LULUCF, European Environment Agency. (2023e). Member States’ greenhouse gas (GHG) emission projections 2023. https://www.eea.europa.eu/en/datahub/datahubitem-view/4b8d94a4-aed7-4e67-a54c-0623a50f48e8
+  2025: 0.648 # With additional measures (WAM) projection, CO2 excl LULUCF, European Environment Agency. (2023e). Member States' greenhouse gas (GHG) emission projections 2023. https://www.eea.europa.eu/en/datahub/datahubitem-view/4b8d94a4-aed7-4e67-a54c-0623a50f48e8
   2030: 0.450 # 55% reduction by 2030 (Ff55)
   2035: 0.250
   2040: 0.100 # 90% by 2040
   2045: 0.050
-  2050: 0.000 # climate-neutral by 2050
+  2050: 0.720 # climate-neutral by 2050
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#electricity
 electricity:
@@ -98,7 +96,7 @@ electricity:
     H2: 168
 
   extendable_carriers:
-    Generator: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, offwind-float, OCGT, CCGT]
+    Generator: [solar, solar-hsat, onwind, OCGT, CCGT]
     StorageUnit: [] # battery, H2
     Store: [battery, H2]
     Link: [] # H2 pipeline
@@ -108,7 +106,7 @@ electricity:
   everywhere_powerplants: []
 
   conventional_carriers: [nuclear, oil, OCGT, CCGT, coal, lignite, geothermal, biomass]
-  renewable_carriers: [solar, solar-hsat, onwind, offwind-ac, offwind-dc, offwind-float, hydro]
+  renewable_carriers: [solar, solar-hsat, onwind, hydro]
 
   estimate_renewable_capacities:
     enable: true
@@ -116,7 +114,7 @@ electricity:
     year: 2020
     expansion_limit: false
     technology_mapping:
-      Offshore: offwind-ac
+      # Offshore: offwind-ac
       Onshore: onwind
       PV: solar
 
@@ -168,6 +166,7 @@ renewable:
     excluder_resolution: 100
     clip_p_max_pu: 1.e-2
   offwind-ac:
+    enable: false
     cutout: default
     resource:
       method: wind
@@ -175,7 +174,7 @@ renewable:
       smooth: false
       add_cutout_windspeed: true
     resource_classes: 1
-    capacity_per_sqkm: 2
+    capacity_per_sqkm: 0
     correction_factor: 0.8855
     corine: [44, 255]
     luisa: false # [0, 5230]
@@ -187,6 +186,7 @@ renewable:
     clip_p_max_pu: 1.e-2
     landfall_length: 10
   offwind-dc:
+    enable: false
     cutout: default
     resource:
       method: wind
@@ -194,7 +194,7 @@ renewable:
       smooth: false
       add_cutout_windspeed: true
     resource_classes: 1
-    capacity_per_sqkm: 2
+    capacity_per_sqkm: 0
     correction_factor: 0.8855
     corine: [44, 255]
     luisa: false # [0, 5230]
@@ -206,6 +206,7 @@ renewable:
     clip_p_max_pu: 1.e-2
     landfall_length: 10
   offwind-float:
+    enable: false
     cutout: default
     resource:
       method: wind
@@ -214,7 +215,7 @@ renewable:
       add_cutout_windspeed: true
     resource_classes: 1
     # ScholzPhd Tab 4.3.1: 10MW/km^2
-    capacity_per_sqkm: 2
+    capacity_per_sqkm: 0
     correction_factor: 0.8855
     # proxy for wake losses
     # from 10.1016/j.energy.2018.08.153
@@ -361,9 +362,6 @@ pypsa_eur:
   - DC
   Generator:
   - onwind
-  - offwind-ac
-  - offwind-dc
-  - offwind-float
   - solar-hsat
   - solar
   - ror
@@ -684,8 +682,8 @@ sector:
   cc_fraction: 0.9
   hydrogen_underground_storage: true
   hydrogen_underground_storage_locations:
-    # - onshore  # more than 50 km from sea
-  - nearshore    # within 50 km of sea
+    - onshore  # more than 50 km from sea
+ #- nearshore    # within 50 km of sea
     # - offshore
   methanol:
     regional_methanol_demand: false
@@ -891,22 +889,10 @@ costs:
     "CO2 intensity": 0
     "discount rate": 0.07
   overwrites: {}
-  marginal_cost:
-    solar: 0.01
-    onwind: 0.015
-    offwind: 0.015
-    hydro: 0.
-    H2: 0.
-    electrolysis: 0.
-    fuel cell: 0.
-    battery: 0.
-    battery inverter: 0.
-    home battery storage: 0
-    water tank charger: 0.03
-    central water pit charger: 0.025
+  
   emission_prices:
     enable: false
-    co2: 0.
+    co2: 30.0
     co2_monthly_prices: false
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#clustering
@@ -936,8 +922,8 @@ clustering:
       ramp_limit_up: max
       ramp_limit_down: max
   temporal:
-    resolution_elec: false
-    resolution_sector: false
+    resolution_elec: 12h
+    resolution_sector: 12h
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#adjustments
 adjustments:
@@ -1078,3 +1064,4 @@ solving:
   mem_mb: 30000 #memory in MB; 20 GB enough for 50+B+I+H2; 100 GB for 181+B+I+H2
   memory_logging_frequency: 30 # in seconds
   runtime: 6h #runtime in humanfriendly style https://humanfriendly.readthedocs.io/en/latest/
+
