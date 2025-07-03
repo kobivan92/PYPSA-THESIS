@@ -17,7 +17,7 @@ remote:
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#run
 run:
   prefix: ""
-  name: ""
+  name: "all"
   scenarios:
     enable: true
     file: config/scenarios.yaml
